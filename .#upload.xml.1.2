@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="feature_upload" name="build" basedir=".">
+	<target name="feature_upload">
+		<scp todir="navajo@source.dexels.com:/var/www/html/eclipse/3rdparty">
+			<fileset dir="export">
+				<include name="**/*"/>
+			</fileset>
+		</scp>
+	</target>
+</project>

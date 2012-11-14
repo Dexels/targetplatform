@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.6"?>
 
-<target name="Export platform" sequenceNumber="194">
+<target name="Export platform" sequenceNumber="199">
 <locations>
 <location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/derby" type="Directory"/>
 <location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/ops4j" type="Directory"/>
@@ -27,5 +27,6 @@
 <location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/bouncycastle" type="Directory"/>
 <location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/aries" type="Directory"/>
 <location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/karaf" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/httpclient" type="Directory"/>
 </locations>
 </target>
