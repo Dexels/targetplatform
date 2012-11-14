@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.6"?>
+
+<target name="Export platform" sequenceNumber="194">
+<locations>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/derby" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/ops4j" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/logback-ext" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/mongodb" type="Directory"/>
+<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/sling" type="Directory"/>
+<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/core" type="Directory"/>
+<location path="${eclipse_home}" type="Profile"/>
+<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/vaadin" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/pax-swissbox" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/pax-jdbc" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/tools" type="Directory"/>
+<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/felix_httpservice" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/pax-url" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/jogamp" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/felix" type="Directory"/>
+<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/enterprise" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/wrap" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/pax-web" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/postgres" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/jackson" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/camel" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/bouncycastle" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/aries" type="Directory"/>
+<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/karaf" type="Directory"/>
+</locations>
+</target>

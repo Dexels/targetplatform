@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="feature_export" name="build">
+	<target name="feature_export">
+		<pde.exportFeatures destination="/Users/frank/Desktop/swingosgi" exportSource="false" exportType="directory" features="com.dexels.navajo.core.feature,com.dexels.navajo.tipi.css.feature,com.dexels.navajo.tipi.feature,com.dexels.navajo.tipi.flickr.feature,com.dexels.navajo.tipi.jabber.feature,com.dexels.navajo.tipi.mail.feature,com.dexels.navajo.tipi.rss.feature,com.dexels.navajo.tipi.ruby.feature,com.dexels.navajo.tipi.swing.charting.feature,com.dexels.navajo.tipi.swing.cobra.feature,com.dexels.navajo.tipi.swing.docking.feature,com.dexels.navajo.tipi.swing.editor.feature,com.dexels.navajo.tipi.swing.feature,com.dexels.navajo.tipi.swing.geo.feature,com.dexels.navajo.tipi.swing.mig.feature,com.dexels.navajo.tipi.swing.rich.feature,com.dexels.navajo.tipi.swing.substance.feature,com.dexels.navajo.tipi.swing.svg.feature,com.dexels.navajo.tipi.vaadin.feature,com.dexels.osgi.equinox.feature" useJARFormat="true"/>
+	</target>
+</project>

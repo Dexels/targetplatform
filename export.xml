@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="feature_export" name="build">
+	<target name="feature_export">
+		<mkdir dir="export"/>
+		<pde.exportFeatures destination="./export"    exportSource="false"  exportType="p2" features="com.dexels.thirdparty.feature" exporttype="p2" allowbinarycycles="true" usejarformat="true" >
+			
+		</pde.exportFeatures>
+		<eclipse.refreshLocal resource="com.dexels.thirdparty.feature/export"/>
+	</target>
+</project>
