@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.3.14.qualifier"
+      version="1.4.12.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -21,13 +21,13 @@
          id="com.jogamp.jogl"
          download-size="0"
          install-size="0"
-         version="0.0.0"/>
+         version="2.0.0.b365"/>
 
    <plugin
          id="com.jogamp.jogl-macosx-universal"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="2.0.0.b365"
          fragment="true"
          unpack="false"/>
 
@@ -35,70 +35,70 @@
          id="org.apache.felix.bundlerepository"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.6.6"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.configadmin"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.6.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.dependencymanager"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="3.0.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.dependencymanager.compat"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="3.0.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.dependencymanager.runtime"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="3.0.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.dependencymanager.shell"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="3.0.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.eventadmin"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.2.14"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.fileinstall"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="3.2.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.framework"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="4.0.2"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.framework.security"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="2.0.1"
          fragment="true"
          unpack="false"/>
 
@@ -106,209 +106,958 @@
          id="org.apache.felix.gogo.command"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="0.12.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.gogo.runtime"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="0.10.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.gogo.shell"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="0.10.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.http.api"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="2.2.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.http.base"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="2.2.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.http.bridge"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="2.2.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.http.bundle"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="2.2.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.http.jetty"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="2.2.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.http.proxy"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="2.2.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.http.whiteboard"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="2.2.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.log"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.0.1"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.metatype"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.0.4"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.prefs"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.0.4"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.scr"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.6.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.servicediagnostics.plugin"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="0.1.1"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.shell"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.4.3"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.shell.remote"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.1.2"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.shell.tui"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.4.1"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.webconsole"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="3.1.8"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.webconsole.plugins.event"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.0.2"
          unpack="false"/>
 
    <plugin
          id="org.apache.felix.webconsole.plugins.memoryusage"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.0.2"
          unpack="false"/>
 
    <plugin
          id="com.oracle.jdbc.driver"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="11.2.31"
          unpack="false"/>
 
    <plugin
          id="org.apache.commons.dbcp"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.4.0"
          unpack="false"/>
 
    <plugin
          id="org.apache.commons.pool"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.4.0.v20081016-1000"
          unpack="false"/>
 
    <plugin
          id="org.h2"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.3.162"
          unpack="false"/>
 
    <plugin
          id="org.h2.jdbc.service"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.0.0.201109021249"
          unpack="false"/>
 
    <plugin
          id="org.junitlegacy"
          download-size="0"
          install-size="0"
-         version="0.0.0"/>
+         version="3.8.2"/>
 
    <plugin
          id="com.mysql.jdbc"
          download-size="0"
          install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.jgroups"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
+         version="5.1.18"
          unpack="false"/>
 
    <plugin
          id="org.kjkoster.zapcat"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.2.0.201109021502"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.configmanager"
+         download-size="0"
+         install-size="0"
+         version="0.2.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.tika.core"
+         download-size="0"
+         install-size="0"
+         version="1.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.tika.parsers"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="slf4j.api"
+         download-size="0"
+         install-size="0"
+         version="1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="slf4j.simple"
+         download-size="0"
+         install-size="0"
+         version="1.6.1"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.osgi.service.obr"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="javax.jcr"
+         download-size="0"
+         install-size="0"
+         version="2.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.deployment.rp.autoconf"
+         download-size="0"
+         install-size="0"
+         version="0.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.igniterealtime.smack"
+         download-size="0"
+         install-size="0"
+         version="3.2.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.igniterealtime.smackx"
+         download-size="0"
+         install-size="0"
+         version="3.2.2"
+         unpack="false"/>
+
+   <plugin
+         id="com.jcraft.jzlib"
+         download-size="0"
+         install-size="0"
+         version="1.1.1.v201205102305"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.jdbc"
+         download-size="0"
+         install-size="0"
+         version="0.2.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.jdbc.derby"
+         download-size="0"
+         install-size="0"
+         version="0.2.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.jdbc.h2"
+         download-size="0"
+         install-size="0"
+         version="0.2.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.jdbc.mysql"
+         download-size="0"
+         install-size="0"
+         version="0.2.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.url.cache"
+         download-size="0"
+         install-size="0"
+         version="1.4.0.RC1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.url.classpath"
+         download-size="0"
+         install-size="0"
+         version="1.4.0.RC1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.url.commons"
+         download-size="0"
+         install-size="0"
+         version="1.4.0.RC1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.url.dir"
+         download-size="0"
+         install-size="0"
+         version="1.4.0.RC1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.url.link"
+         download-size="0"
+         install-size="0"
+         version="1.4.0.RC1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.url.mvn"
+         download-size="0"
+         install-size="0"
+         version="1.4.0.RC1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.url.obr"
+         download-size="0"
+         install-size="0"
+         version="1.4.0.RC1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.url.reference"
+         download-size="0"
+         install-size="0"
+         version="1.4.0.RC1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.url.war"
+         download-size="0"
+         install-size="0"
+         version="1.4.0.RC1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.url.wrap"
+         download-size="0"
+         install-size="0"
+         version="1.4.0.RC1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.swissbox.converter"
+         download-size="0"
+         install-size="0"
+         version="1.5.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.swissbox.core"
+         download-size="0"
+         install-size="0"
+         version="1.5.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.swissbox.extender"
+         download-size="0"
+         install-size="0"
+         version="1.5.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.swissbox.framework"
+         download-size="0"
+         install-size="0"
+         version="1.5.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.swissbox.lifecycle"
+         download-size="0"
+         install-size="0"
+         version="1.5.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.swissbox.optional.jcl"
+         download-size="0"
+         install-size="0"
+         version="1.5.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.swissbox.pax-swissbox-bnd"
+         download-size="0"
+         install-size="0"
+         version="1.5.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.swissbox.property"
+         download-size="0"
+         install-size="0"
+         version="1.5.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.swissbox.tracker"
+         download-size="0"
+         install-size="0"
+         version="1.5.1"
+         unpack="false"/>
+
+   <plugin
+         id="derby"
+         download-size="0"
+         install-size="0"
+         version="10.9.1000000.1344872"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.base.io"
+         download-size="0"
+         install-size="0"
+         version="1.3.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.base.util.property"
+         download-size="0"
+         install-size="0"
+         version="1.3.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.base.net"
+         download-size="0"
+         install-size="0"
+         version="1.3.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.base.spi"
+         download-size="0"
+         install-size="0"
+         version="1.3.0"
+         unpack="false"/>
+
+   <plugin
+         id="biz.aQute.bndlib"
+         download-size="0"
+         install-size="0"
+         version="1.50.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.base.monitors"
+         download-size="0"
+         install-size="0"
+         version="1.4.0"
+         unpack="false"/>
+
+   <plugin
+         id="rssutils.3rdpartywrap"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edtftpj.3rdpartywrap"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="tidy.3rdpartywrap"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="wsdl4j.3rdpartywrap"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.base.lang"
+         download-size="0"
+         install-size="0"
+         version="1.4.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.jdbc.postgresql"
+         download-size="0"
+         install-size="0"
+         version="0.2.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.url.assembly"
+         download-size="0"
+         install-size="0"
+         version="1.4.0.RC1"
+         unpack="false"/>
+
+   <plugin
+         id="org.postgresql.jdbc4"
+         download-size="0"
+         install-size="0"
+         version="9.1.901"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.pdfbox.fontbox"
+         download-size="0"
+         install-size="0"
+         version="1.7.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.pdfbox"
+         download-size="0"
+         install-size="0"
+         version="1.7.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.mongodb.mongo-java-driver"
+         download-size="0"
+         install-size="0"
+         version="2.9.3.RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-ahc"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-blueprint"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-context"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-core"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-core-osgi"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-crypto"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-csv"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-eclipse"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-eventadmin"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="bcmail"
+         download-size="0"
+         install-size="0"
+         version="1.47.0"
+         unpack="false"/>
+
+   <plugin
+         id="bcpg"
+         download-size="0"
+         install-size="0"
+         version="1.47.0"
+         unpack="false"/>
+
+   <plugin
+         id="bcpkix"
+         download-size="0"
+         install-size="0"
+         version="1.47.0"
+         unpack="false"/>
+
+   <plugin
+         id="bcprov"
+         download-size="0"
+         install-size="0"
+         version="1.47.0"
+         unpack="false"/>
+
+   <plugin
+         id="bcprov-ext"
+         download-size="0"
+         install-size="0"
+         version="1.47.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.pdfbox.jempbox"
+         download-size="0"
+         install-size="0"
+         version="1.7.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.ning.async-http-client"
+         download-size="0"
+         install-size="0"
+         version="1.7.4"
+         unpack="false"/>
+
+   <plugin
+         id="com.springsource.javax.jms"
+         download-size="0"
+         install-size="0"
+         version="1.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.blueprint.api"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.blueprint.cm"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.blueprint.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.jmx.api"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.jmx.blueprint.api"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.jmx.blueprint.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.jmx.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.proxy.api"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.proxy.impl"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.util"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="bayeux-api"
+         download-size="0"
+         install-size="0"
+         version="2.5.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang"
+         download-size="0"
+         install-size="0"
+         version="2.4.0.v201005080502"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.commons-io"
+         download-size="0"
+         install-size="0"
+         version="1.4.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.codec"
+         download-size="0"
+         install-size="0"
+         version="1.6.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.commons-csv"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.r706900_3"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-ftp"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-http"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-http4"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-jdbc"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-jetty"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.net"
+         download-size="0"
+         install-size="0"
+         version="3.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.vaadin"
+         download-size="0"
+         install-size="0"
+         version="6.8.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.httpclient"
+         download-size="0"
+         install-size="0"
+         version="3.1.0.v201012070820"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.httpclient"
+         download-size="0"
+         install-size="0"
+         version="4.1.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.httpcore"
+         download-size="0"
+         install-size="0"
+         version="4.1.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.logging"
+         download-size="0"
+         install-size="0"
+         version="1.1.1.v201101211721"
+         unpack="false"/>
+
+   <plugin
+         id="aQute.xray.plugin"
+         download-size="0"
+         install-size="0"
+         version="1.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-stream"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-mail"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-mongodb"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="javax.mail"
+         download-size="0"
+         install-size="0"
+         version="1.4.0.v201005080615"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-jackson"
+         download-size="0"
+         install-size="0"
+         version="2.10.2"
+         unpack="false"/>
+
+   <plugin
+         id="jackson-mapper-lgpl"
+         download-size="0"
+         install-size="0"
+         version="1.9.11"
+         unpack="false"/>
+
+   <plugin
+         id="jackson-core-lgpl"
+         download-size="0"
+         install-size="0"
+         version="1.9.11"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.geronimo-javamail_1.4_provider"
+         download-size="0"
+         install-size="0"
+         version="1.8.0.r755222_1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.specs.activation-api-1.1"
+         download-size="0"
+         install-size="0"
+         version="1.5.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.javax.mail"
+         download-size="0"
+         install-size="0"
+         version="1.4.1.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.ant"
+         download-size="0"
+         install-size="0"
+         version="1.8.2.v20110505-1300"/>
+
+   <plugin
+         id="org.apache.geronimo.specs.geronimo-javamail_1.4_spec"
+         download-size="0"
+         install-size="0"
+         version="1.7.1"
          unpack="false"/>
 
    <plugin
@@ -319,351 +1068,7 @@
          unpack="false"/>
 
    <plugin
-         id="org.ops4j.pax.configmanager"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.tika.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.tika.parsers"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="slf4j.api"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="slf4j.simple"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="org.osgi.service.obr"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="javax.jcr"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.felix.deployment.rp.autoconf"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.igniterealtime.smack"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.igniterealtime.smackx"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.jcraft.jzlib"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="osgi.cmpn"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.jdbc"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.jdbc.derby"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.jdbc.h2"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.jdbc.mysql"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.url.cache"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.url.classpath"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.url.commons"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.url.dir"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.url.link"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.url.mvn"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.url.obr"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.url.reference"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.url.war"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.url.wrap"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.swissbox.converter"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.swissbox.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.swissbox.extender"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.swissbox.framework"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.swissbox.lifecycle"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.swissbox.optional.jcl"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.swissbox.pax-swissbox-bnd"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.swissbox.property"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.swissbox.tracker"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="derby"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.base.io"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.base.util.property"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.base.net"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.base.spi"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="biz.aQute.bndlib"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.base.monitors"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="rssutils.3rdpartywrap"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="edtftpj.3rdpartywrap"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="tidy.3rdpartywrap"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="wsdl4j.3rdpartywrap"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.base.lang"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.jdbc.postgresql"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.url.assembly"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.web.pax-web-extender-war"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -691,20 +1096,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.ops4j.pax.web.pax-web-jsp"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.web.pax-web-jsp"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.ops4j.pax.web.pax-web-spi"
          download-size="0"
          install-size="0"
@@ -712,336 +1103,49 @@
          unpack="false"/>
 
    <plugin
-         id="org.postgresql.jdbc4"
+         id="org.glassfish.javax.jms"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="jackson-core-lgpl"
+         id="org.ops4j.pax.web.pax-web-jsp"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.apache.pdfbox.fontbox"
+         id="org.ops4j.pax.web.pax-web-api"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.apache.pdfbox"
+         id="org.ops4j.pax.web.pax-web-extender-war"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.mongodb.mongo-java-driver"
+         id="org.apache.karaf.deployer.blueprint"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.apache.camel.camel-ahc"
+         id="org.jgroups"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.apache.camel.camel-blueprint"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.camel.camel-context"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.camel.camel-core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.camel.camel-core-osgi"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.camel.camel-crypto"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.camel.camel-csv"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.camel.camel-eclipse"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.camel.camel-eventadmin"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="bcmail"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="bcpg"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="bcpkix"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="bcprov"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="bcprov-ext"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.pdfbox.jempbox"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.ning.async-http-client"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.springsource.javax.jms"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.blueprint.api"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.blueprint.cm"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.blueprint.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.jmx.api"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.jmx.blueprint.api"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.jmx.blueprint.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.jmx.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.proxy.api"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.proxy.impl"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.util"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="bayeux-api"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.commons.lang"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.servicemix.bundles.commons-io"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.commons.codec"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.servicemix.bundles.commons-csv"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.camel.camel-ftp"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.camel.camel-http"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.camel.camel-http4"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.camel.camel-jdbc"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.camel.camel-jetty"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.commons.net"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.vaadin"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.commons.httpclient"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.httpcomponents.httpclient"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.httpcomponents.httpcore"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.commons.logging"
+         id="org.eclipse.jdt.core.compiler.batch"
          download-size="0"
          install-size="0"
          version="0.0.0"
