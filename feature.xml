@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.4.12.qualifier"
+      version="1.4.14.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -229,21 +229,7 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.felix.webconsole"
-         download-size="0"
-         install-size="0"
-         version="3.1.8"
-         unpack="false"/>
-
-   <plugin
          id="org.apache.felix.webconsole.plugins.event"
-         download-size="0"
-         install-size="0"
-         version="1.0.2"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.felix.webconsole.plugins.memoryusage"
          download-size="0"
          install-size="0"
          version="1.0.2"
@@ -1146,6 +1132,69 @@
 
    <plugin
          id="org.eclipse.jdt.core.compiler.batch"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.deploymentadmin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.webconsole"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.webconsole.plugins.ds"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.webconsole.plugins.memoryusage"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.webconsole.plugins.obr"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.webconsole.plugins.packageadmin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.webconsole.plugins.upnp"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.springsource.org.json"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.springsource.org.apache.commons.io"
          download-size="0"
          install-size="0"
          version="0.0.0"

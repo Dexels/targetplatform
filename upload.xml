@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="feature_upload" name="build" basedir=".">
 	<target name="feature_upload">
-		<scp verbose="TRUE" todir="navajo@source.dexels.com:/var/www/html/eclipse/3rdparty" keyfile="${user.home}/.ssh/id_rsa">
+		<scp verbose="TRUE" todir="navajo@source.dexels.com:/var/www/html/eclipse/3rdparty_1.4.14/" keyfile="${user.home}/.ssh/id_rsa">
 			<fileset dir="export">
 				<include name="**/*"/>
 			</fileset>
