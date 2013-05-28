@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.5.2.qualifier"
+      version="1.5.3.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1096,20 +1096,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.ops4j.pax.web.pax-web-extender-war"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.karaf.deployer.blueprint"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.eclipse.jdt.core.compiler.batch"
          download-size="0"
          install-size="0"
@@ -1208,13 +1194,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.servicemix.bundles.lucene"
-         download-size="0"
-         install-size="0"
-         version="3.6.0.1"
-         unpack="false"/>
-
-   <plugin
          id="org.apache.tika.bundle"
          download-size="0"
          install-size="0"
@@ -1258,6 +1237,20 @@
 
    <plugin
          id="groovy-all"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.lucene"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.base"
          download-size="0"
          install-size="0"
          version="0.0.0"
