@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.5.4.qualifier"
+      version="1.5.6.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1301,6 +1301,62 @@
 
    <plugin
          id="org.apache.karaf.jaas.boot"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.access"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.classic"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.resolver"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.compress"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.scala-lang.scala-compiler"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.scala-lang.scala-library"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.scala-lang.scala-reflect"
          download-size="0"
          install-size="0"
          version="0.0.0"
