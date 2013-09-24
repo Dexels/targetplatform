@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.5.6.qualifier"
+      version="1.6.1.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1357,6 +1357,13 @@
 
    <plugin
          id="org.scala-lang.scala-reflect"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.web.pax-web-deployer"
          download-size="0"
          install-size="0"
          version="0.0.0"
