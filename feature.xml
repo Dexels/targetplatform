@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.7.0.qualifier"
+      version="1.7.1.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1166,13 +1166,6 @@
          unpack="false"/>
 
    <plugin
-         id="com.hazelcast"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.ops4j.pax.web.pax-web-runtime"
          download-size="0"
          install-size="0"
@@ -1378,6 +1371,13 @@
 
    <plugin
          id="javaewah"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.hazelcast"
          download-size="0"
          install-size="0"
          version="0.0.0"
