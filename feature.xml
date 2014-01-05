@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.7.1.qualifier"
+      version="1.7.4.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1026,13 +1026,6 @@
          version="0.0.0"/>
 
    <plugin
-         id="org.apache.geronimo.specs.geronimo-javamail_1.4_spec"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="osgi.enterprise"
          download-size="0"
          install-size="0"
@@ -1378,6 +1371,76 @@
 
    <plugin
          id="com.hazelcast"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.oltu.oauth2.authzserver"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.oltu.oauth2.client"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.oltu.oauth2.common"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.oltu.oauth2.dynamicreg.client"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.oltu.oauth2.dynamicreg.common"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.oltu.oauth2.dynamicreg.server"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.oltu.oauth2.httpclient4"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.oltu.oauth2.resourceserver"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.oltu.oauth2.resourceserver-filter"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.codehaus.jettison.jettison"
          download-size="0"
          install-size="0"
          version="0.0.0"
