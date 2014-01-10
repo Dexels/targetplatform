@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.7.4.qualifier"
+      version="1.8.0.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -880,13 +880,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.camel.camel-http4"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.apache.camel.camel-jdbc"
          download-size="0"
          install-size="0"
@@ -964,21 +957,7 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.camel.camel-mongodb"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="javax.mail"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.camel.camel-jackson"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1441,6 +1420,55 @@
 
    <plugin
          id="org.codehaus.jettison.jettison"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.karaf.jaas.modules"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.karaf.jaas.config"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.james.protocols.api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.james.protocols.impl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.james.protocols.smtp"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="apache-mailet-2.4"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.netty"
          download-size="0"
          install-size="0"
          version="0.0.0"
