@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="feature_upload" name="build" basedir=".">
-	<property name="feature_version" value="1.8.7"/>
+	<property name="feature_version" value="1.8.31"/>
 	<property name="user" value="navajo"/>
 	<property name="host" value="repo.dexels.com"/>
 	<property name="old" value="source.dexels.com"/>
@@ -10,7 +10,7 @@
 	<property name="dest_old" value="${user}@${oldhost}:/var/www/html/eclipse/3rdparty_${feature_version}/"/>
 	<target name="feature_upload">
 		<sshexec host="${host}" username="${user}" keyfile="${user.home}/.ssh/id_rsa" command="mkdir -p /var/www/html/repo/eclipse/3rdparty_${feature_version}/"/>
-		<scp verbose="TRUE" todir="${dest}"  keyfile="${user.home}/.ssh/id_rsa">
+		<scp  verbose="TRUE" todir="${dest}"  keyfile="${user.home}/.ssh/id_rsa">
 			<fileset dir="export">
 				<include name="**/*"/>
 			</fileset>
