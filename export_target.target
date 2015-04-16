@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="770">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="818">
 <locations>
 <location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/vaadin" type="Directory"/>
 <location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/sling" type="Directory"/>
@@ -70,7 +70,6 @@
 <plugin id="com.dexels.repository.api"/>
 <plugin id="com.dexels.repository.file"/>
 <plugin id="com.dexels.repository.git"/>
-<plugin id="com.dexels.unix.socket"/>
 <plugin id="com.google.guava" version="18.0.0"/>
 <plugin id="com.google.inject"/>
 <plugin id="com.hazelcast"/>
@@ -174,7 +173,6 @@
 <plugin id="org.apache.camel.camel-jaxb"/>
 <plugin id="org.apache.camel.camel-jcr"/>
 <plugin id="org.apache.camel.camel-jdbc"/>
-<plugin id="org.apache.camel.camel-jetty"/>
 <plugin id="org.apache.camel.camel-jibx"/>
 <plugin id="org.apache.camel.camel-jing"/>
 <plugin id="org.apache.camel.camel-jms"/>
@@ -276,8 +274,8 @@
 <plugin id="org.apache.felix.dependencymanager.shell"/>
 <plugin id="org.apache.felix.deployment.rp.autoconf"/>
 <plugin id="org.apache.felix.deploymentadmin"/>
-<plugin id="org.apache.felix.eventadmin"/>
-<plugin id="org.apache.felix.fileinstall"/>
+<plugin id="org.apache.felix.eventadmin" version="1.4.2"/>
+<plugin id="org.apache.felix.fileinstall" version="3.5.0"/>
 <plugin id="org.apache.felix.framework"/>
 <plugin id="org.apache.felix.framework.security"/>
 <plugin id="org.apache.felix.gogo.command" version="0.12.0"/>
@@ -300,8 +298,8 @@
 <plugin id="org.apache.felix.shell"/>
 <plugin id="org.apache.felix.shell.remote"/>
 <plugin id="org.apache.felix.shell.tui"/>
-<plugin id="org.apache.felix.webconsole" version="4.2.2.all"/>
 <plugin id="org.apache.felix.webconsole" version="4.2.2"/>
+<plugin id="org.apache.felix.webconsole" version="4.2.8.all"/>
 <plugin id="org.apache.felix.webconsole.plugins.ds"/>
 <plugin id="org.apache.felix.webconsole.plugins.event"/>
 <plugin id="org.apache.felix.webconsole.plugins.memoryusage"/>
@@ -363,10 +361,10 @@
 <plugin id="org.apache.servicemix.bundles.xalan"/>
 <plugin id="org.apache.servicemix.bundles.xerces"/>
 <plugin id="org.apache.servicemix.bundles.xmlresolver"/>
-<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.3.0"/>
-<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.5.0"/>
 <plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.2.0"/>
 <plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.4.0"/>
+<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.3.0"/>
+<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.5.0"/>
 <plugin id="org.apache.sling.api"/>
 <plugin id="org.apache.sling.jcr.api"/>
 <plugin id="org.apache.sling.jcr.base"/>
@@ -422,6 +420,8 @@
 <plugin id="org.eclipse.equinox.preferences"/>
 <plugin id="org.eclipse.equinox.region"/>
 <plugin id="org.eclipse.jdt.core.compiler.batch" version="3.10.0.v20140604-1726"/>
+<plugin id="org.eclipse.jetty.proxy"/>
+<plugin id="org.eclipse.jetty.servlets"/>
 <plugin id="org.eclipse.jgit" version="3.6.0.201411121045-m1"/>
 <plugin id="org.eclipse.osgi"/>
 <plugin id="org.eclipse.osgi.services"/>
@@ -478,16 +478,16 @@
 <plugin id="org.ops4j.pax.url.reference"/>
 <plugin id="org.ops4j.pax.url.war"/>
 <plugin id="org.ops4j.pax.url.wrap"/>
-<plugin id="org.ops4j.pax.web.pax-web-api"/>
-<plugin id="org.ops4j.pax.web.pax-web-deployer"/>
-<plugin id="org.ops4j.pax.web.pax-web-extender-war"/>
-<plugin id="org.ops4j.pax.web.pax-web-extender-whiteboard"/>
-<plugin id="org.ops4j.pax.web.pax-web-jetty"/>
-<plugin id="org.ops4j.pax.web.pax-web-jetty-bundle"/>
-<plugin id="org.ops4j.pax.web.pax-web-jsp"/>
-<plugin id="org.ops4j.pax.web.pax-web-runtime"/>
-<plugin id="org.ops4j.pax.web.pax-web-spi"/>
-<plugin id="org.ops4j.pax.web.pax-web-tomcat"/>
+<plugin id="org.ops4j.pax.web.pax-web-api" version="3.1.3"/>
+<plugin id="org.ops4j.pax.web.pax-web-deployer" version="3.1.3"/>
+<plugin id="org.ops4j.pax.web.pax-web-extender-war" version="3.1.3"/>
+<plugin id="org.ops4j.pax.web.pax-web-extender-whiteboard" version="3.1.3"/>
+<plugin id="org.ops4j.pax.web.pax-web-jetty" version="3.1.3"/>
+<plugin id="org.ops4j.pax.web.pax-web-jetty-bundle" version="3.1.3"/>
+<plugin id="org.ops4j.pax.web.pax-web-jsp" version="3.1.3"/>
+<plugin id="org.ops4j.pax.web.pax-web-runtime" version="3.1.3"/>
+<plugin id="org.ops4j.pax.web.pax-web-spi" version="3.1.3"/>
+<plugin id="org.ops4j.pax.web.pax-web-tomcat" version="3.1.3"/>
 <plugin id="org.osgi.service.component.annotations"/>
 <plugin id="org.osgi.service.obr"/>
 <plugin id="org.postgresql.jdbc3" version="9.1.901"/>
