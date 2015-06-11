@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.35.qualifier"
+      version="1.9.45.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1252,13 +1252,6 @@
          unpack="false"/>
 
    <plugin
-         id="com.hazelcast"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.codehaus.jettison.jettison"
          download-size="0"
          install-size="0"
@@ -1840,6 +1833,27 @@
 
    <plugin
          id="com.dexels.hazelcast"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.log4j.httpappender"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.log4j.server"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.hazelcast.all"
          download-size="0"
          install-size="0"
          version="0.0.0"
