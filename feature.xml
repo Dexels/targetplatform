@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.52.qualifier"
+      version="1.9.61.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1853,7 +1853,49 @@
          unpack="false"/>
 
    <plugin
-         id="com.hazelcast.all"
+         id="org.apache.servicemix.bundles.saaj-impl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.specs.saaj-api-1.3"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.jvnet.mimepull"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.jvnet.staxex.stax-ex"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.hazelcast"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sun.dummy"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.monitor.rackermon"
          download-size="0"
          install-size="0"
          version="0.0.0"
