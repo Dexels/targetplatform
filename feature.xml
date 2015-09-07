@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.64.qualifier"
+      version="1.9.65.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1902,7 +1902,7 @@
          unpack="false"/>
 
    <plugin
-         id="com.dexels.configurationstore.consul"
+         id="com.dexels.sharedconfigstore"
          download-size="0"
          install-size="0"
          version="0.0.0"
