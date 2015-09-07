@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="847">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="871">
 <locations>
-<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/vaadin" type="Directory"/>
-<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/sling" type="Directory"/>
-<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/netty" type="Directory"/>
-<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/oltu" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/jackson" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/pax-jdbc" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/pax-swissbox" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/logback" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/jogamp" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/httpclient" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/scala" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/groovy" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/osgi" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/wrap" type="Directory"/>
-<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/jgit" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/cluster" type="Directory"/>
-<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/restlet_dependency" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/tools" type="Directory"/>
-<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/dexels.repository" type="Directory"/>
-<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/core" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/ops4j" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/pax-url" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/apachecxf" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/ecj" type="Directory"/>
-<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/james" type="Directory"/>
-<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/felix_httpservice" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/postgres" type="Directory"/>
-<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/other" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/karaf" type="Directory"/>
-<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/enterprise" type="Directory"/>
-<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/google" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/felix" type="Directory"/>
+<location path="${project_loc}/lib/vaadin" type="Directory"/>
+<location path="${project_loc}/lib/sling" type="Directory"/>
+<location path="${project_loc}/lib/netty" type="Directory"/>
+<location path="${project_loc}/lib/oltu" type="Directory"/>
+<location path="${project_loc}/lib/jackson" type="Directory"/>
+<location path="${project_loc}/lib/pax-jdbc" type="Directory"/>
+<location path="${project_loc}/lib/pax-swissbox" type="Directory"/>
+<location path="${project_loc}/lib/logback" type="Directory"/>
+<location path="${project_loc}/lib/jogamp" type="Directory"/>
+<location path="${project_loc}/lib/httpclient" type="Directory"/>
+<location path="${project_loc}/lib/scala" type="Directory"/>
+<location path="${project_loc}/lib/groovy" type="Directory"/>
+<location path="${project_loc}/lib/osgi" type="Directory"/>
+<location path="${project_loc}/lib/wrap" type="Directory"/>
+<location path="${project_loc}/lib/jgit" type="Directory"/>
+<location path="${project_loc}/lib/cluster" type="Directory"/>
+<location path="${project_loc}/lib/restlet_dependency" type="Directory"/>
+<location path="${project_loc}/lib/tools" type="Directory"/>
+<location path="${project_loc}/lib/dexels.repository" type="Directory"/>
+<location path="${project_loc}/lib/core" type="Directory"/>
+<location path="${project_loc}/lib/ops4j" type="Directory"/>
+<location path="${project_loc}/lib/pax-url" type="Directory"/>
+<location path="${project_loc}/lib/apachecxf" type="Directory"/>
+<location path="${project_loc}/lib/ecj" type="Directory"/>
+<location path="${project_loc}/lib/james" type="Directory"/>
+<location path="${project_loc}/lib/felix_httpservice" type="Directory"/>
+<location path="${project_loc}/lib/postgres" type="Directory"/>
+<location path="${project_loc}/lib/other" type="Directory"/>
+<location path="${project_loc}/lib/karaf" type="Directory"/>
+<location path="${project_loc}/lib/enterprise" type="Directory"/>
+<location path="${project_loc}/lib/google" type="Directory"/>
+<location path="${project_loc}/lib/felix" type="Directory"/>
 <location path="${eclipse_home}" type="Profile"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/lucene" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/batik" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/pax-web" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/activemq" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/aries" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/mongodb" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/camel" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/derby" type="Directory"/>
-<location path="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/lib/bouncycastle" type="Directory"/>
-<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/pax-logging" type="Directory"/>
-<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/ant" type="Directory"/>
-<location path="${workspace_loc}/com.dexels.thirdparty.feature/lib/saaj" type="Directory"/>
+<location path="${project_loc}/lib/lucene" type="Directory"/>
+<location path="${project_loc}/lib/batik" type="Directory"/>
+<location path="${project_loc}/lib/pax-web" type="Directory"/>
+<location path="${project_loc}/lib/activemq" type="Directory"/>
+<location path="${project_loc}/lib/aries" type="Directory"/>
+<location path="${project_loc}/lib/mongodb" type="Directory"/>
+<location path="${project_loc}/lib/camel" type="Directory"/>
+<location path="${project_loc}/lib/derby" type="Directory"/>
+<location path="${project_loc}/lib/bouncycastle" type="Directory"/>
+<location path="${project_loc}/lib/pax-logging" type="Directory"/>
+<location path="${project_loc}/lib/ant" type="Directory"/>
+<location path="${project_loc}/lib/saaj" type="Directory"/>
 </locations>
 <includeBundles>
 <plugin id="aQute.xray.plugin"/>
@@ -61,7 +61,6 @@
 <plugin id="com.dexels.appstore.ant"/>
 <plugin id="com.dexels.appstore.core"/>
 <plugin id="com.dexels.appstore.server"/>
-<plugin id="com.dexels.configurationstore.consul"/>
 <plugin id="com.dexels.hazelcast"/>
 <plugin id="com.dexels.karaf.featuresync"/>
 <plugin id="com.dexels.log4j.httpappender"/>
@@ -72,15 +71,16 @@
 <plugin id="com.dexels.oauth.impl"/>
 <plugin id="com.dexels.oauth.web"/>
 <plugin id="com.dexels.osgi.bundlesync"/>
-<plugin id="com.dexels.repository.api"/>
+<plugin id="com.dexels.repository.api" version="7.0.0.201508191417"/>
 <plugin id="com.dexels.repository.file"/>
 <plugin id="com.dexels.repository.git"/>
+<plugin id="com.dexels.sharedconfigstore"/>
 <plugin id="com.google.guava" version="18.0.0"/>
-<plugin id="com.google.inject"/>
+<plugin id="com.google.inject" version="3.0.0.v201312141243"/>
 <plugin id="com.hazelcast"/>
 <plugin id="com.ibm.icu"/>
 <plugin id="com.jcraft.jsch"/>
-<plugin id="com.jcraft.jzlib"/>
+<plugin id="com.jcraft.jzlib" version="1.1.1.v201205102305"/>
 <plugin id="com.jogamp.jogl"/>
 <plugin id="com.jogamp.jogl-linux-amd64"/>
 <plugin id="com.jogamp.jogl-linux-i586"/>
@@ -101,9 +101,9 @@
 <plugin id="edtftpj.3rdpartywrap"/>
 <plugin id="groovy-all"/>
 <plugin id="ical4j.3rdpartywrap"/>
-<plugin id="jackson-core-lgpl" version="1.2.1"/>
 <plugin id="jackson-core-lgpl" version="1.9.11"/>
-<plugin id="jackson-mapper-lgpl"/>
+<plugin id="jackson-core-lgpl" version="1.2.1"/>
+<plugin id="jackson-mapper-lgpl" version="1.9.11"/>
 <plugin id="javaewah" version="0.7.9.v201401101600"/>
 <plugin id="javax.activation"/>
 <plugin id="javax.inject"/>
@@ -367,10 +367,10 @@
 <plugin id="org.apache.servicemix.bundles.xalan"/>
 <plugin id="org.apache.servicemix.bundles.xerces"/>
 <plugin id="org.apache.servicemix.bundles.xmlresolver"/>
+<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.3.0"/>
+<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.5.0"/>
 <plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.4.0"/>
 <plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.2.0"/>
-<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.5.0"/>
-<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.3.0"/>
 <plugin id="org.apache.servicemix.specs.saaj-api-1.3"/>
 <plugin id="org.apache.sling.api"/>
 <plugin id="org.apache.sling.jcr.api"/>
@@ -409,7 +409,6 @@
 <plugin id="org.eclipse.core.externaltools"/>
 <plugin id="org.eclipse.core.filebuffers"/>
 <plugin id="org.eclipse.core.filesystem"/>
-<plugin id="org.eclipse.core.filesystem.macosx"/>
 <plugin id="org.eclipse.core.jobs"/>
 <plugin id="org.eclipse.core.net"/>
 <plugin id="org.eclipse.core.resources"/>
@@ -516,7 +515,7 @@
 <plugin id="osgi.enterprise"/>
 <plugin id="rssutils.3rdpartywrap"/>
 <plugin id="saaj.3rdpartywrap"/>
-<plugin id="slf4j.api"/>
+<plugin id="slf4j.api" version="1.7.5"/>
 <plugin id="slf4j.simple"/>
 <plugin id="stax2-api"/>
 <plugin id="tidy.3rdpartywrap"/>
