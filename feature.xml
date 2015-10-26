@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.68.qualifier"
+      version="1.9.69.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -875,6 +875,13 @@
 
    <plugin
          id="org.apache.httpcomponents.httpcore"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.httpasyncclient"
          download-size="0"
          install-size="0"
          version="0.0.0"
