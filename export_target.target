@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="895">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="899">
 <locations>
 <location path="${project_loc}/lib/vaadin" type="Directory"/>
 <location path="${project_loc}/lib/sling" type="Directory"/>
@@ -71,7 +71,7 @@
 <plugin id="com.dexels.oauth.impl"/>
 <plugin id="com.dexels.oauth.web"/>
 <plugin id="com.dexels.osgi.bundlesync"/>
-<plugin id="com.dexels.repository.api" version="7.0.0.201508191417"/>
+<plugin id="com.dexels.repository.api"/>
 <plugin id="com.dexels.repository.file"/>
 <plugin id="com.dexels.repository.git"/>
 <plugin id="com.dexels.sharedconfigstore"/>
@@ -81,7 +81,7 @@
 <plugin id="com.hazelcast"/>
 <plugin id="com.ibm.icu"/>
 <plugin id="com.jcraft.jsch"/>
-<plugin id="com.jcraft.jzlib" version="1.1.1.v201205102305"/>
+<plugin id="com.jcraft.jzlib"/>
 <plugin id="com.jogamp.jogl"/>
 <plugin id="com.jogamp.jogl-linux-amd64"/>
 <plugin id="com.jogamp.jogl-linux-i586"/>
@@ -103,9 +103,9 @@
 <plugin id="edtftpj.3rdpartywrap"/>
 <plugin id="groovy-all"/>
 <plugin id="ical4j.3rdpartywrap"/>
-<plugin id="jackson-core-lgpl" version="1.9.11"/>
 <plugin id="jackson-core-lgpl" version="1.2.1"/>
-<plugin id="jackson-mapper-lgpl" version="1.9.11"/>
+<plugin id="jackson-core-lgpl" version="1.9.11"/>
+<plugin id="jackson-mapper-lgpl"/>
 <plugin id="javaewah" version="0.7.9.v201401101600"/>
 <plugin id="javax.activation"/>
 <plugin id="javax.inject"/>
@@ -314,7 +314,7 @@
 <plugin id="org.apache.felix.webconsole.plugins.packageadmin"/>
 <plugin id="org.apache.felix.webconsole.plugins.scriptconsole"/>
 <plugin id="org.apache.felix.webconsole.plugins.upnp"/>
-<plugin id="org.apache.httpcomponents.httpasyncclient"/>
+<plugin id="org.apache.httpcomponents.httpasyncclient" version="4.2.0.alpha1-SNAPSHOT"/>
 <plugin id="org.apache.httpcomponents.httpclient" version="4.4.1"/>
 <plugin id="org.apache.httpcomponents.httpcore" version="4.4.3"/>
 <plugin id="org.apache.jackrabbit.jackrabbit-api"/>
@@ -421,7 +421,6 @@
 <plugin id="org.eclipse.core.runtime.compatibility"/>
 <plugin id="org.eclipse.core.runtime.compatibility.registry"/>
 <plugin id="org.eclipse.core.variables"/>
-<plugin id="org.eclipse.cvs"/>
 <plugin id="org.eclipse.debug.core"/>
 <plugin id="org.eclipse.debug.ui"/>
 <plugin id="org.eclipse.draw2d"/>
@@ -520,7 +519,7 @@
 <plugin id="osgi.enterprise"/>
 <plugin id="rssutils.3rdpartywrap"/>
 <plugin id="saaj.3rdpartywrap"/>
-<plugin id="slf4j.api" version="1.7.5"/>
+<plugin id="slf4j.api"/>
 <plugin id="slf4j.simple"/>
 <plugin id="stax2-api"/>
 <plugin id="tidy.3rdpartywrap"/>
