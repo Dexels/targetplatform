@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.70.qualifier"
+      version="1.9.72.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1463,27 +1463,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.oltu.commons.encodedtoken"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.oltu.commons.json"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.oltu.jose.jws"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="javax.ws.rs.jsr311-api"
          download-size="0"
          install-size="0"
@@ -1819,20 +1798,6 @@
          unpack="false"/>
 
    <plugin
-         id="com.dexels.repository.git"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.dexels.appstore.server"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="com.dexels.hazelcast"
          download-size="0"
          install-size="0"
@@ -1904,6 +1869,55 @@
 
    <plugin
          id="com.dexels.sharedconfigstore"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-annotations"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-databind"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit.http.server"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.repository.git"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.appstore.server"
          download-size="0"
          install-size="0"
          version="0.0.0"
