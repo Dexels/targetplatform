@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="908">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="916">
 <locations>
 <location path="${project_loc}/lib/vaadin" type="Directory"/>
 <location path="${project_loc}/lib/sling" type="Directory"/>
@@ -62,12 +62,14 @@
 <plugin id="com.dexels.appstore.ant"/>
 <plugin id="com.dexels.appstore.core"/>
 <plugin id="com.dexels.appstore.server"/>
+<plugin id="com.dexels.consul.repositoryloader"/>
 <plugin id="com.dexels.hazelcast"/>
 <plugin id="com.dexels.karaf.featuresync"/>
 <plugin id="com.dexels.log4j.httpappender"/>
 <plugin id="com.dexels.log4j.server"/>
 <plugin id="com.dexels.logback.redis"/>
 <plugin id="com.dexels.monitor.rackermon"/>
+<plugin id="com.dexels.mqtt.impl"/>
 <plugin id="com.dexels.oauth.api"/>
 <plugin id="com.dexels.oauth.impl"/>
 <plugin id="com.dexels.oauth.web"/>
@@ -75,13 +77,14 @@
 <plugin id="com.dexels.repository.api"/>
 <plugin id="com.dexels.repository.file"/>
 <plugin id="com.dexels.repository.git"/>
+<plugin id="com.dexels.repository.git.api"/>
 <plugin id="com.dexels.sharedconfigstore"/>
 <plugin id="com.fasterxml.jackson.core.jackson-annotations"/>
 <plugin id="com.fasterxml.jackson.core.jackson-core"/>
 <plugin id="com.fasterxml.jackson.core.jackson-databind"/>
 <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"/>
-<plugin id="com.google.guava" version="18.0.0"/>
 <plugin id="com.google.guava" version="15.0.0.v201403281430"/>
+<plugin id="com.google.guava" version="18.0.0"/>
 <plugin id="com.google.inject"/>
 <plugin id="com.hazelcast"/>
 <plugin id="com.ibm.icu"/>
