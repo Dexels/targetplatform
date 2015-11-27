@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.74.qualifier"
+      version="1.9.75.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1503,19 +1503,6 @@
          install-size="0"
          version="0.0.0"/>
 
-   <plugin
-         id="org.scala-lang.modules.scala-parser-combinators"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.scala-lang.modules.scala-swing"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
 
    <plugin
          id="org.scala-lang.modules.scala-xml"
