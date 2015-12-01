@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.75.qualifier"
+      version="1.9.76.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1503,7 +1503,6 @@
          install-size="0"
          version="0.0.0"/>
 
-
    <plugin
          id="org.scala-lang.modules.scala-xml"
          download-size="0"
@@ -1912,6 +1911,20 @@
 
    <plugin
          id="com.dexels.repository.git.api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.typesafe.akka.actor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.typesafe.config"
          download-size="0"
          install-size="0"
          version="0.0.0"

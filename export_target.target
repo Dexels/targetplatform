@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="924">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="932">
 <locations>
 <location path="${project_loc}/lib/vaadin" type="Directory"/>
 <location path="${project_loc}/lib/sling" type="Directory"/>
@@ -104,6 +104,8 @@
 <plugin id="com.springsource.org.apache.commons.io"/>
 <plugin id="com.springsource.org.json"/>
 <plugin id="com.sun.dummy"/>
+<plugin id="com.typesafe.akka.actor"/>
+<plugin id="com.typesafe.config"/>
 <plugin id="com.vaadin" version="6.8.14"/>
 <plugin id="cometd-java-server"/>
 <plugin id="derby"/>
@@ -312,8 +314,8 @@
 <plugin id="org.apache.felix.shell"/>
 <plugin id="org.apache.felix.shell.remote"/>
 <plugin id="org.apache.felix.shell.tui"/>
-<plugin id="org.apache.felix.webconsole" version="4.2.2"/>
 <plugin id="org.apache.felix.webconsole" version="4.2.8.all"/>
+<plugin id="org.apache.felix.webconsole" version="4.2.2"/>
 <plugin id="org.apache.felix.webconsole.plugins.ds"/>
 <plugin id="org.apache.felix.webconsole.plugins.event"/>
 <plugin id="org.apache.felix.webconsole.plugins.memoryusage"/>
@@ -379,10 +381,10 @@
 <plugin id="org.apache.servicemix.bundles.xalan"/>
 <plugin id="org.apache.servicemix.bundles.xerces"/>
 <plugin id="org.apache.servicemix.bundles.xmlresolver"/>
-<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.4.0"/>
 <plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.2.0"/>
-<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.3.0"/>
+<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.4.0"/>
 <plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.5.0"/>
+<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.3.0"/>
 <plugin id="org.apache.servicemix.specs.saaj-api-1.3"/>
 <plugin id="org.apache.sling.api"/>
 <plugin id="org.apache.sling.jcr.api"/>
@@ -469,8 +471,8 @@
 <plugin id="org.ops4j.base.net"/>
 <plugin id="org.ops4j.base.spi"/>
 <plugin id="org.ops4j.base.util.property"/>
-<plugin id="org.ops4j.pax.configmanager" version="0.2.2"/>
 <plugin id="org.ops4j.pax.configmanager" version="1.0.0"/>
+<plugin id="org.ops4j.pax.configmanager" version="0.2.2"/>
 <plugin id="org.ops4j.pax.jdbc"/>
 <plugin id="org.ops4j.pax.jdbc.derby"/>
 <plugin id="org.ops4j.pax.jdbc.h2"/>
