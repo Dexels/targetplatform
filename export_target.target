@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="932">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="940">
 <locations>
 <location path="${project_loc}/lib/vaadin" type="Directory"/>
 <location path="${project_loc}/lib/sling" type="Directory"/>
@@ -83,9 +83,9 @@
 <plugin id="com.fasterxml.jackson.core.jackson-core"/>
 <plugin id="com.fasterxml.jackson.core.jackson-databind"/>
 <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"/>
-<plugin id="com.google.guava" version="15.0.0.v201403281430"/>
 <plugin id="com.google.guava" version="18.0.0"/>
-<plugin id="com.google.inject" version="3.0.0.v201312141243"/>
+<plugin id="com.google.guava" version="15.0.0.v201403281430"/>
+<plugin id="com.google.inject"/>
 <plugin id="com.hazelcast"/>
 <plugin id="com.ibm.icu"/>
 <plugin id="com.jcraft.jsch"/>
@@ -351,18 +351,6 @@
 <plugin id="org.apache.karaf.shell.table"/>
 <plugin id="org.apache.log4j" version="1.2.15.v201012070815"/>
 <plugin id="org.apache.mina.core"/>
-<plugin id="org.apache.oltu.commons.encodedtoken"/>
-<plugin id="org.apache.oltu.commons.json"/>
-<plugin id="org.apache.oltu.jose.jws"/>
-<plugin id="org.apache.oltu.oauth2.authzserver"/>
-<plugin id="org.apache.oltu.oauth2.client"/>
-<plugin id="org.apache.oltu.oauth2.common"/>
-<plugin id="org.apache.oltu.oauth2.dynamicreg.client"/>
-<plugin id="org.apache.oltu.oauth2.dynamicreg.common"/>
-<plugin id="org.apache.oltu.oauth2.dynamicreg.server"/>
-<plugin id="org.apache.oltu.oauth2.httpclient4"/>
-<plugin id="org.apache.oltu.oauth2.resourceserver"/>
-<plugin id="org.apache.oltu.oauth2.resourceserver-filter"/>
 <plugin id="org.apache.pdfbox"/>
 <plugin id="org.apache.pdfbox.fontbox"/>
 <plugin id="org.apache.pdfbox.jempbox"/>
@@ -381,10 +369,10 @@
 <plugin id="org.apache.servicemix.bundles.xalan"/>
 <plugin id="org.apache.servicemix.bundles.xerces"/>
 <plugin id="org.apache.servicemix.bundles.xmlresolver"/>
-<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.2.0"/>
-<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.4.0"/>
 <plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.5.0"/>
 <plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.3.0"/>
+<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.2.0"/>
+<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.4.0"/>
 <plugin id="org.apache.servicemix.specs.saaj-api-1.3"/>
 <plugin id="org.apache.sling.api"/>
 <plugin id="org.apache.sling.jcr.api"/>
