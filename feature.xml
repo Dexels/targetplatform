@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.77.qualifier"
+      version="1.9.81.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -986,13 +986,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.ops4j.pax.web.pax-web-jetty-bundle"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.ops4j.pax.web.pax-web-spi"
          download-size="0"
          install-size="0"
@@ -1232,13 +1225,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.ops4j.pax.web.pax-web-deployer"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.apache.felix.inventory"
          download-size="0"
          install-size="0"
@@ -1338,13 +1324,6 @@
 
    <plugin
          id="org.apache.james.protocols.netty"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.web.pax-web-extender-war"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1918,6 +1897,27 @@
 
    <plugin
          id="io.reactivex.rxjava"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.aalto-xml"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="stax2-api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.web.pax-web-jetty-bundle"
          download-size="0"
          install-size="0"
          version="0.0.0"
