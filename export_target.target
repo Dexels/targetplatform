@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="966">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="990">
 <locations>
 <location path="${project_loc}/lib/osgi" type="Directory"/>
 <location path="${project_loc}/lib/logback" type="Directory"/>
@@ -11,6 +11,7 @@
 <location path="${project_loc}/lib/ops4j" type="Directory"/>
 <location path="${project_loc}/lib/wrap" type="Directory"/>
 <location path="${project_loc}/lib/ecj" type="Directory"/>
+<location path="${project_loc}/lib/rxnetty" type="Directory"/>
 <location path="${project_loc}/lib/enterprise" type="Directory"/>
 <location path="${project_loc}/lib/lucene" type="Directory"/>
 <location path="${project_loc}/lib/vaadin" type="Directory"/>
@@ -28,6 +29,7 @@
 <location path="${project_loc}/lib/httpclient" type="Directory"/>
 <location path="${project_loc}/lib/karaf" type="Directory"/>
 <location path="${project_loc}/lib/aries" type="Directory"/>
+<location path="${project_loc}/lib/reactive" type="Directory"/>
 <location path="${project_loc}/lib/jackson2" type="Directory"/>
 <location path="${project_loc}/lib/ant" type="Directory"/>
 <location path="${project_loc}/lib/derby" type="Directory"/>
@@ -46,7 +48,6 @@
 <location path="${project_loc}/lib/dexels.repository" type="Directory"/>
 <location path="${project_loc}/lib/cluster" type="Directory"/>
 <location path="${project_loc}/lib/pax-logging" type="Directory"/>
-<location path="${project_loc}/lib/reactive" type="Directory"/>
 </locations>
 <includeBundles>
 <plugin id="aQute.xray.plugin"/>
@@ -84,8 +85,8 @@
 <plugin id="com.fasterxml.jackson.core.jackson-core"/>
 <plugin id="com.fasterxml.jackson.core.jackson-databind"/>
 <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"/>
-<plugin id="com.google.guava" version="15.0.0.v201403281430"/>
 <plugin id="com.google.guava" version="18.0.0"/>
+<plugin id="com.google.guava" version="15.0.0.v201403281430"/>
 <plugin id="com.google.inject"/>
 <plugin id="com.hazelcast"/>
 <plugin id="com.ibm.icu"/>
