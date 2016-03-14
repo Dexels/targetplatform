@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.85.qualifier"
+      version="1.9.87.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1973,14 +1973,21 @@
          unpack="false"/>
 
    <plugin
-         id="io.reactivex.rxnetty-common"
+         id="io.netty.resolver"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="io.reactivex.rxnetty-http"
+         id="io.netty.transport-native-epoll"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.netty"
          download-size="0"
          install-size="0"
          version="0.0.0"
