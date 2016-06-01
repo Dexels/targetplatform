@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1006">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1047">
 <locations>
 <location path="${project_loc}/lib/osgi" type="Directory"/>
 <location path="${project_loc}/lib/logback" type="Directory"/>
+<location path="${project_loc}/lib/kafka" type="Directory"/>
 <location path="${project_loc}/lib/camel" type="Directory"/>
 <location path="${project_loc}/lib/postgres" type="Directory"/>
 <location path="${project_loc}/lib/activemq" type="Directory"/>
 <location path="${project_loc}/lib/mongodb" type="Directory"/>
-<location path="${project_loc}/lib/groovy" type="Directory"/>
 <location path="${project_loc}/lib/ops4j" type="Directory"/>
 <location path="${project_loc}/lib/wrap" type="Directory"/>
 <location path="${project_loc}/lib/ecj" type="Directory"/>
@@ -18,7 +18,6 @@
 <location path="${project_loc}/lib/scala" type="Directory"/>
 <location path="${project_loc}/lib/james" type="Directory"/>
 <location path="${project_loc}/lib/pax-web" type="Directory"/>
-<location path="${project_loc}/lib/felix_httpservice" type="Directory"/>
 <location path="${project_loc}/lib/felix" type="Directory"/>
 <location path="${project_loc}/lib/jackson" type="Directory"/>
 <location path="${project_loc}/lib/batik" type="Directory"/>
@@ -27,7 +26,6 @@
 <location path="${project_loc}/lib/pax-jdbc" type="Directory"/>
 <location path="${project_loc}/lib/jgit" type="Directory"/>
 <location path="${project_loc}/lib/httpclient" type="Directory"/>
-<location path="${project_loc}/lib/karaf" type="Directory"/>
 <location path="${project_loc}/lib/aries" type="Directory"/>
 <location path="${project_loc}/lib/reactive" type="Directory"/>
 <location path="${project_loc}/lib/jackson2" type="Directory"/>
@@ -36,7 +34,6 @@
 <location path="${project_loc}/lib/google" type="Directory"/>
 <location path="${eclipse_home}" type="Profile"/>
 <location path="${project_loc}/lib/sling" type="Directory"/>
-<location path="${project_loc}/lib/jogamp" type="Directory"/>
 <location path="${project_loc}/lib/pax-url" type="Directory"/>
 <location path="${project_loc}/lib/netty" type="Directory"/>
 <location path="${project_loc}/lib/pax-swissbox" type="Directory"/>
@@ -50,7 +47,6 @@
 <location path="${project_loc}/lib/pax-logging" type="Directory"/>
 </locations>
 <includeBundles>
-<plugin id="aQute.xray.plugin"/>
 <plugin id="apache-mailet-2.4"/>
 <plugin id="bayeux-api"/>
 <plugin id="bcmail"/>
@@ -65,6 +61,9 @@
 <plugin id="com.dexels.appstore.server"/>
 <plugin id="com.dexels.consul.repositoryloader"/>
 <plugin id="com.dexels.hazelcast"/>
+<plugin id="com.dexels.kafka.api"/>
+<plugin id="com.dexels.kafka.impl"/>
+<plugin id="com.dexels.kafka.test"/>
 <plugin id="com.dexels.karaf.featuresync"/>
 <plugin id="com.dexels.log4j.httpappender"/>
 <plugin id="com.dexels.log4j.server"/>
@@ -79,25 +78,20 @@
 <plugin id="com.dexels.repository.file"/>
 <plugin id="com.dexels.repository.git"/>
 <plugin id="com.dexels.repository.git.api"/>
+<plugin id="com.dexels.resourcebundle"/>
 <plugin id="com.dexels.sharedconfigstore"/>
 <plugin id="com.fasterxml.aalto-xml"/>
 <plugin id="com.fasterxml.jackson.core.jackson-annotations"/>
 <plugin id="com.fasterxml.jackson.core.jackson-core"/>
 <plugin id="com.fasterxml.jackson.core.jackson-databind"/>
 <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"/>
-<plugin id="com.google.guava" version="18.0.0"/>
 <plugin id="com.google.guava" version="15.0.0.v201403281430"/>
+<plugin id="com.google.guava" version="18.0.0"/>
 <plugin id="com.google.inject"/>
 <plugin id="com.hazelcast"/>
 <plugin id="com.ibm.icu"/>
 <plugin id="com.jcraft.jsch"/>
 <plugin id="com.jcraft.jzlib"/>
-<plugin id="com.jogamp.jogl"/>
-<plugin id="com.jogamp.jogl-linux-amd64"/>
-<plugin id="com.jogamp.jogl-linux-i586"/>
-<plugin id="com.jogamp.jogl-macosx-universal"/>
-<plugin id="com.jogamp.jogl-windows-amd64"/>
-<plugin id="com.jogamp.jogl-windows-i586"/>
 <plugin id="com.mysql.jdbc"/>
 <plugin id="com.ning.async-http-client"/>
 <plugin id="com.oracle.jdbc.driver"/>
@@ -113,7 +107,6 @@
 <plugin id="derby"/>
 <plugin id="dnsjava"/>
 <plugin id="edtftpj.3rdpartywrap"/>
-<plugin id="groovy-all"/>
 <plugin id="ical4j.3rdpartywrap"/>
 <plugin id="io.netty.buffer"/>
 <plugin id="io.netty.codec"/>
@@ -140,15 +133,10 @@
 <plugin id="javax.ws.rs.javax.ws.rs-api"/>
 <plugin id="javax.xml"/>
 <plugin id="javax.xml.stream"/>
-<plugin id="jline" version="2.12.0"/>
 <plugin id="org.apache.activemq.activemq-console"/>
 <plugin id="org.apache.activemq.activemq-core"/>
 <plugin id="org.apache.activemq.activemq-jaas"/>
 <plugin id="org.apache.activemq.activemq-web"/>
-<plugin id="org.apache.aries.blueprint.api"/>
-<plugin id="org.apache.aries.blueprint.cm"/>
-<plugin id="org.apache.aries.blueprint.core"/>
-<plugin id="org.apache.aries.blueprint.core.compatibility"/>
 <plugin id="org.apache.aries.jmx.api"/>
 <plugin id="org.apache.aries.jmx.blueprint.api"/>
 <plugin id="org.apache.aries.jmx.blueprint.core"/>
@@ -158,124 +146,6 @@
 <plugin id="org.apache.aries.proxy.impl"/>
 <plugin id="org.apache.aries.quiesce.api"/>
 <plugin id="org.apache.aries.util"/>
-<plugin id="org.apache.camel.camel-ahc"/>
-<plugin id="org.apache.camel.camel-amqp"/>
-<plugin id="org.apache.camel.camel-bean-validator"/>
-<plugin id="org.apache.camel.camel-beanio"/>
-<plugin id="org.apache.camel.camel-blueprint"/>
-<plugin id="org.apache.camel.camel-cache"/>
-<plugin id="org.apache.camel.camel-cdi"/>
-<plugin id="org.apache.camel.camel-cometd"/>
-<plugin id="org.apache.camel.camel-context"/>
-<plugin id="org.apache.camel.camel-core"/>
-<plugin id="org.apache.camel.camel-core-osgi"/>
-<plugin id="org.apache.camel.camel-crypto"/>
-<plugin id="org.apache.camel.camel-csv"/>
-<plugin id="org.apache.camel.camel-cxf"/>
-<plugin id="org.apache.camel.camel-cxf-transport"/>
-<plugin id="org.apache.camel.camel-dns"/>
-<plugin id="org.apache.camel.camel-dozer"/>
-<plugin id="org.apache.camel.camel-eclipse"/>
-<plugin id="org.apache.camel.camel-ejb"/>
-<plugin id="org.apache.camel.camel-eventadmin"/>
-<plugin id="org.apache.camel.camel-exec"/>
-<plugin id="org.apache.camel.camel-flatpack"/>
-<plugin id="org.apache.camel.camel-fop"/>
-<plugin id="org.apache.camel.camel-freemarker"/>
-<plugin id="org.apache.camel.camel-ftp"/>
-<plugin id="org.apache.camel.camel-gae"/>
-<plugin id="org.apache.camel.camel-groovy"/>
-<plugin id="org.apache.camel.camel-gson"/>
-<plugin id="org.apache.camel.camel-guava-eventbus"/>
-<plugin id="org.apache.camel.camel-guice"/>
-<plugin id="org.apache.camel.camel-hawtdb"/>
-<plugin id="org.apache.camel.camel-hazelcast"/>
-<plugin id="org.apache.camel.camel-hbase"/>
-<plugin id="org.apache.camel.camel-hdfs"/>
-<plugin id="org.apache.camel.camel-hl7"/>
-<plugin id="org.apache.camel.camel-http"/>
-<plugin id="org.apache.camel.camel-http4"/>
-<plugin id="org.apache.camel.camel-ibatis"/>
-<plugin id="org.apache.camel.camel-irc"/>
-<plugin id="org.apache.camel.camel-jackson"/>
-<plugin id="org.apache.camel.camel-jasypt"/>
-<plugin id="org.apache.camel.camel-javaspace"/>
-<plugin id="org.apache.camel.camel-jaxb"/>
-<plugin id="org.apache.camel.camel-jcr"/>
-<plugin id="org.apache.camel.camel-jdbc"/>
-<plugin id="org.apache.camel.camel-jibx"/>
-<plugin id="org.apache.camel.camel-jing"/>
-<plugin id="org.apache.camel.camel-jms"/>
-<plugin id="org.apache.camel.camel-jmx"/>
-<plugin id="org.apache.camel.camel-josql"/>
-<plugin id="org.apache.camel.camel-jpa"/>
-<plugin id="org.apache.camel.camel-jsch"/>
-<plugin id="org.apache.camel.camel-jt400"/>
-<plugin id="org.apache.camel.camel-juel"/>
-<plugin id="org.apache.camel.camel-jxpath"/>
-<plugin id="org.apache.camel.camel-kestrel"/>
-<plugin id="org.apache.camel.camel-krati"/>
-<plugin id="org.apache.camel.camel-ldap"/>
-<plugin id="org.apache.camel.camel-leveldb"/>
-<plugin id="org.apache.camel.camel-lucene"/>
-<plugin id="org.apache.camel.camel-mail"/>
-<plugin id="org.apache.camel.camel-mina"/>
-<plugin id="org.apache.camel.camel-mina2"/>
-<plugin id="org.apache.camel.camel-mongodb"/>
-<plugin id="org.apache.camel.camel-mqtt"/>
-<plugin id="org.apache.camel.camel-msv"/>
-<plugin id="org.apache.camel.camel-mvel"/>
-<plugin id="org.apache.camel.camel-mybatis"/>
-<plugin id="org.apache.camel.camel-nagios"/>
-<plugin id="org.apache.camel.camel-netty"/>
-<plugin id="org.apache.camel.camel-ognl"/>
-<plugin id="org.apache.camel.camel-paxlogging"/>
-<plugin id="org.apache.camel.camel-printer"/>
-<plugin id="org.apache.camel.camel-protobuf"/>
-<plugin id="org.apache.camel.camel-quartz"/>
-<plugin id="org.apache.camel.camel-quickfix"/>
-<plugin id="org.apache.camel.camel-restlet"/>
-<plugin id="org.apache.camel.camel-rmi"/>
-<plugin id="org.apache.camel.camel-routebox"/>
-<plugin id="org.apache.camel.camel-rss"/>
-<plugin id="org.apache.camel.camel-ruby"/>
-<plugin id="org.apache.camel.camel-saxon"/>
-<plugin id="org.apache.camel.camel-scala"/>
-<plugin id="org.apache.camel.camel-script"/>
-<plugin id="org.apache.camel.camel-servlet"/>
-<plugin id="org.apache.camel.camel-shiro"/>
-<plugin id="org.apache.camel.camel-sip"/>
-<plugin id="org.apache.camel.camel-smpp"/>
-<plugin id="org.apache.camel.camel-snmp"/>
-<plugin id="org.apache.camel.camel-soap"/>
-<plugin id="org.apache.camel.camel-solr"/>
-<plugin id="org.apache.camel.camel-spring"/>
-<plugin id="org.apache.camel.camel-spring-batch"/>
-<plugin id="org.apache.camel.camel-spring-integration"/>
-<plugin id="org.apache.camel.camel-spring-javaconfig"/>
-<plugin id="org.apache.camel.camel-spring-security"/>
-<plugin id="org.apache.camel.camel-spring-ws"/>
-<plugin id="org.apache.camel.camel-sql"/>
-<plugin id="org.apache.camel.camel-ssh"/>
-<plugin id="org.apache.camel.camel-stax"/>
-<plugin id="org.apache.camel.camel-stream"/>
-<plugin id="org.apache.camel.camel-stringtemplate"/>
-<plugin id="org.apache.camel.camel-syslog"/>
-<plugin id="org.apache.camel.camel-tagsoup"/>
-<plugin id="org.apache.camel.camel-test"/>
-<plugin id="org.apache.camel.camel-test-blueprint"/>
-<plugin id="org.apache.camel.camel-test-spring"/>
-<plugin id="org.apache.camel.camel-testng"/>
-<plugin id="org.apache.camel.camel-twitter"/>
-<plugin id="org.apache.camel.camel-velocity"/>
-<plugin id="org.apache.camel.camel-websocket"/>
-<plugin id="org.apache.camel.camel-xmlbeans"/>
-<plugin id="org.apache.camel.camel-xmljson"/>
-<plugin id="org.apache.camel.camel-xmlsecurity"/>
-<plugin id="org.apache.camel.camel-xmpp"/>
-<plugin id="org.apache.camel.camel-xstream"/>
-<plugin id="org.apache.camel.camel-zookeeper"/>
-<plugin id="org.apache.camel.karaf.camel-karaf-commands"/>
 <plugin id="org.apache.commons.beanutils"/>
 <plugin id="org.apache.commons.codec" version="1.10.0"/>
 <plugin id="org.apache.commons.collections" version="3.2.1"/>
@@ -297,39 +167,24 @@
 <plugin id="org.apache.cxf.cxf-rt-transports-http"/>
 <plugin id="org.apache.felix.bundlerepository"/>
 <plugin id="org.apache.felix.configadmin"/>
-<plugin id="org.apache.felix.coordinator"/>
-<plugin id="org.apache.felix.dependencymanager"/>
-<plugin id="org.apache.felix.dependencymanager.compat"/>
-<plugin id="org.apache.felix.dependencymanager.runtime"/>
-<plugin id="org.apache.felix.dependencymanager.shell"/>
-<plugin id="org.apache.felix.deployment.rp.autoconf"/>
-<plugin id="org.apache.felix.deploymentadmin"/>
-<plugin id="org.apache.felix.eventadmin" version="1.4.2"/>
-<plugin id="org.apache.felix.fileinstall" version="3.5.0"/>
+<plugin id="org.apache.felix.eventadmin"/>
+<plugin id="org.apache.felix.fileinstall"/>
 <plugin id="org.apache.felix.framework"/>
 <plugin id="org.apache.felix.framework.security"/>
-<plugin id="org.apache.felix.gogo.command" version="0.12.0"/>
+<plugin id="org.apache.felix.gogo.command" version="0.16.0"/>
 <plugin id="org.apache.felix.gogo.runtime" version="0.10.0.v201209301036"/>
-<plugin id="org.apache.felix.gogo.shell" version="0.10.0.v201212101605"/>
-<plugin id="org.apache.felix.http.api"/>
-<plugin id="org.apache.felix.http.base"/>
-<plugin id="org.apache.felix.http.bridge"/>
-<plugin id="org.apache.felix.http.bundle"/>
-<plugin id="org.apache.felix.http.jetty"/>
-<plugin id="org.apache.felix.http.proxy"/>
-<plugin id="org.apache.felix.http.whiteboard"/>
+<plugin id="org.apache.felix.gogo.shell" version="0.12.0"/>
 <plugin id="org.apache.felix.inventory"/>
 <plugin id="org.apache.felix.log"/>
 <plugin id="org.apache.felix.metatype"/>
 <plugin id="org.apache.felix.prefs"/>
 <plugin id="org.apache.felix.resolver"/>
-<plugin id="org.apache.felix.scr" version="1.8.2"/>
+<plugin id="org.apache.felix.scr"/>
 <plugin id="org.apache.felix.servicediagnostics.plugin"/>
 <plugin id="org.apache.felix.shell"/>
 <plugin id="org.apache.felix.shell.remote"/>
 <plugin id="org.apache.felix.shell.tui"/>
-<plugin id="org.apache.felix.webconsole" version="4.2.8.all"/>
-<plugin id="org.apache.felix.webconsole" version="4.2.2"/>
+<plugin id="org.apache.felix.webconsole"/>
 <plugin id="org.apache.felix.webconsole.plugins.ds"/>
 <plugin id="org.apache.felix.webconsole.plugins.event"/>
 <plugin id="org.apache.felix.webconsole.plugins.memoryusage"/>
@@ -340,31 +195,10 @@
 <plugin id="org.apache.httpcomponents.httpasyncclient" version="4.2.0.alpha1-SNAPSHOT"/>
 <plugin id="org.apache.httpcomponents.httpclient" version="4.4.1"/>
 <plugin id="org.apache.httpcomponents.httpcore" version="4.4.3"/>
-<plugin id="org.apache.jackrabbit.jackrabbit-api"/>
-<plugin id="org.apache.jackrabbit.jackrabbit-bundle"/>
-<plugin id="org.apache.jackrabbit.jackrabbit-jcr-commons"/>
-<plugin id="org.apache.jackrabbit.jackrabbit-jcr-rmi"/>
-<plugin id="org.apache.jackrabbit.jackrabbit-spi"/>
-<plugin id="org.apache.jackrabbit.jackrabbit-spi-commons"/>
 <plugin id="org.apache.james.protocols.api"/>
 <plugin id="org.apache.james.protocols.netty"/>
 <plugin id="org.apache.james.protocols.smtp"/>
-<plugin id="org.apache.karaf.deployer.blueprint"/>
-<plugin id="org.apache.karaf.features.core"/>
-<plugin id="org.apache.karaf.jaas.boot"/>
-<plugin id="org.apache.karaf.jaas.command"/>
-<plugin id="org.apache.karaf.jaas.config"/>
-<plugin id="org.apache.karaf.jaas.modules"/>
-<plugin id="org.apache.karaf.log.command"/>
-<plugin id="org.apache.karaf.log.core"/>
-<plugin id="org.apache.karaf.region.core"/>
-<plugin id="org.apache.karaf.region.persist"/>
-<plugin id="org.apache.karaf.shell.commands"/>
-<plugin id="org.apache.karaf.shell.console"/>
-<plugin id="org.apache.karaf.shell.ssh"/>
-<plugin id="org.apache.karaf.shell.table"/>
 <plugin id="org.apache.log4j" version="1.2.15.v201012070815"/>
-<plugin id="org.apache.mina.core"/>
 <plugin id="org.apache.pdfbox"/>
 <plugin id="org.apache.pdfbox.fontbox"/>
 <plugin id="org.apache.pdfbox.jempbox"/>
@@ -378,25 +212,15 @@
 <plugin id="org.apache.servicemix.bundles.javax.mail"/>
 <plugin id="org.apache.servicemix.bundles.jsch"/>
 <plugin id="org.apache.servicemix.bundles.junit"/>
+<plugin id="org.apache.servicemix.bundles.kafka-clients"/>
+<plugin id="org.apache.servicemix.bundles.kafka_2.10"/>
 <plugin id="org.apache.servicemix.bundles.lucene"/>
 <plugin id="org.apache.servicemix.bundles.saaj-impl"/>
 <plugin id="org.apache.servicemix.bundles.xalan"/>
 <plugin id="org.apache.servicemix.bundles.xerces"/>
 <plugin id="org.apache.servicemix.bundles.xmlresolver"/>
-<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.2.0"/>
 <plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.5.0"/>
-<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.3.0"/>
-<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="1.4.0"/>
 <plugin id="org.apache.servicemix.specs.saaj-api-1.3"/>
-<plugin id="org.apache.sling.api"/>
-<plugin id="org.apache.sling.jcr.api"/>
-<plugin id="org.apache.sling.jcr.base"/>
-<plugin id="org.apache.sling.jcr.davex"/>
-<plugin id="org.apache.sling.jcr.jackrabbit.accessmanager"/>
-<plugin id="org.apache.sling.jcr.jackrabbit.server"/>
-<plugin id="org.apache.sling.jcr.jackrabbit.usermanager"/>
-<plugin id="org.apache.sling.jcr.webdav"/>
-<plugin id="org.apache.sshd.core"/>
 <plugin id="org.apache.tika.bundle" version="1.3.0"/>
 <plugin id="org.apache.tika.core"/>
 <plugin id="org.apache.tika.parsers"/>
@@ -436,28 +260,20 @@
 <plugin id="org.eclipse.draw2d"/>
 <plugin id="org.eclipse.equinox.common"/>
 <plugin id="org.eclipse.equinox.event"/>
-<plugin id="org.eclipse.equinox.http.servlet"/>
 <plugin id="org.eclipse.equinox.preferences"/>
-<plugin id="org.eclipse.equinox.region"/>
 <plugin id="org.eclipse.jdt.core.compiler.batch" version="3.10.0.v20140604-1726"/>
-<plugin id="org.eclipse.jetty.proxy"/>
-<plugin id="org.eclipse.jetty.servlets"/>
 <plugin id="org.eclipse.jgit" version="4.1.0.201509280440-r"/>
 <plugin id="org.eclipse.jgit.http.server"/>
 <plugin id="org.eclipse.osgi"/>
 <plugin id="org.eclipse.osgi.services"/>
 <plugin id="org.freemarker.freemarker"/>
-<plugin id="org.fusesource.jansi"/>
 <plugin id="org.glassfish.javax.jms"/>
 <plugin id="org.h2"/>
-<plugin id="org.h2.jdbc.service"/>
 <plugin id="org.hamcrest.core"/>
 <plugin id="org.igniterealtime.smack"/>
 <plugin id="org.igniterealtime.smackx"/>
 <plugin id="org.jboss.netty"/>
 <plugin id="org.jdom"/>
-<plugin id="org.jgroups"/>
-<plugin id="org.jledit.core"/>
 <plugin id="org.jvnet.mimepull"/>
 <plugin id="org.jvnet.staxex.stax-ex"/>
 <plugin id="org.kjkoster.zapcat"/>
