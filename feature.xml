@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.102.qualifier"
+      version="1.9.106.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -538,35 +538,7 @@
          unpack="false"/>
 
    <plugin
-         id="com.ning.async-http-client"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.springsource.javax.jms"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.apache.aries.jmx.api"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.jmx.blueprint.api"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.jmx.blueprint.core"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -601,13 +573,6 @@
          unpack="false"/>
 
    <plugin
-         id="bayeux-api"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.apache.commons.lang"
          download-size="0"
          install-size="0"
@@ -615,21 +580,7 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.servicemix.bundles.commons-io"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.apache.commons.codec"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.servicemix.bundles.commons-csv"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -706,27 +657,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.servicemix.bundles.geronimo-javamail_1.4_provider"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.servicemix.specs.activation-api-1.1"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.servicemix.bundles.javax.mail"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="osgi.enterprise"
          download-size="0"
          install-size="0"
@@ -756,13 +686,6 @@
 
    <plugin
          id="org.ops4j.pax.web.pax-web-spi"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.glassfish.javax.jms"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1645,6 +1568,27 @@
 
    <plugin
          id="com.dexels.pubsub.api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.geronimo-javamail_1.4_provider"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.javax.mail"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.specs.activation-api-1.1"
          download-size="0"
          install-size="0"
          version="0.0.0"
