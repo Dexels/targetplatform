@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.106.qualifier"
+      version="1.9.108.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -223,41 +223,6 @@
          unpack="false"/>
 
    <plugin
-         id="com.jcraft.jzlib"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.jdbc"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.jdbc.derby"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.jdbc.h2"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.jdbc.mysql"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.ops4j.pax.url.cache"
          download-size="0"
          install-size="0"
@@ -321,13 +286,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.ops4j.pax.swissbox.converter"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.ops4j.pax.swissbox.core"
          download-size="0"
          install-size="0"
@@ -371,13 +329,6 @@
 
    <plugin
          id="org.ops4j.pax.swissbox.tracker"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="derby"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -448,13 +399,6 @@
 
    <plugin
          id="org.ops4j.base.lang"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.jdbc.postgresql"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -657,20 +601,6 @@
          unpack="false"/>
 
    <plugin
-         id="osgi.enterprise"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="osgi.cmpn"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.ops4j.pax.web.pax-web-extender-whiteboard"
          download-size="0"
          install-size="0"
@@ -686,13 +616,6 @@
 
    <plugin
          id="org.ops4j.pax.web.pax-web-spi"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.web.pax-web-jsp"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -909,13 +832,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.servicemix.bundles.jsch"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="com.jcraft.jsch"
          download-size="0"
          install-size="0"
@@ -1071,13 +987,6 @@
 
    <plugin
          id="org.apache.servicemix.bundles.aopalliance"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.jgit"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1329,13 +1238,6 @@
          unpack="false"/>
 
    <plugin
-         id="com.dexels.monitor.rackermon"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="com.dexels.sharedconfigstore"
          download-size="0"
          install-size="0"
@@ -1365,13 +1267,6 @@
 
    <plugin
          id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.jgit.http.server"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1589,6 +1484,62 @@
 
    <plugin
          id="org.apache.servicemix.specs.activation-api-1.1"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="io.netty.codec-http2"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="io.netty.resolver-dns"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="io.netty.codec-dns"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="javax.servlet.jsp-api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.mqtt.impl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.jzlib"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="javax.el-api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.paho.client.mqttv3"
          download-size="0"
          install-size="0"
          version="0.0.0"

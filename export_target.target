@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1103">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1173">
 <locations>
 <location path="${project_loc}/lib/osgi" type="Directory"/>
 <location path="${project_loc}/lib/logback" type="Directory"/>
@@ -21,14 +21,12 @@
 <location path="${project_loc}/lib/batik" type="Directory"/>
 <location path="${project_loc}/lib/core" type="Directory"/>
 <location path="${project_loc}/lib/apachecxf" type="Directory"/>
-<location path="${project_loc}/lib/pax-jdbc" type="Directory"/>
 <location path="${project_loc}/lib/jgit" type="Directory"/>
 <location path="${project_loc}/lib/httpclient" type="Directory"/>
 <location path="${project_loc}/lib/aries" type="Directory"/>
 <location path="${project_loc}/lib/reactive" type="Directory"/>
 <location path="${project_loc}/lib/jackson2" type="Directory"/>
 <location path="${project_loc}/lib/ant" type="Directory"/>
-<location path="${project_loc}/lib/derby" type="Directory"/>
 <location path="${project_loc}/lib/google" type="Directory"/>
 <location path="${eclipse_home}" type="Profile"/>
 <location path="${project_loc}/lib/pax-url" type="Directory"/>
@@ -36,13 +34,13 @@
 <location path="${project_loc}/lib/pax-swissbox" type="Directory"/>
 <location path="${project_loc}/lib/saaj" type="Directory"/>
 <location path="${project_loc}/lib/bouncycastle" type="Directory"/>
+<location path="${project_loc}/lib/mail" type="Directory"/>
 <location path="${project_loc}/lib/restlet_dependency" type="Directory"/>
 <location path="${project_loc}/lib/tools" type="Directory"/>
 <location path="${project_loc}/lib/other" type="Directory"/>
 <location path="${project_loc}/lib/dexels.repository" type="Directory"/>
 <location path="${project_loc}/lib/cluster" type="Directory"/>
 <location path="${project_loc}/lib/pax-logging" type="Directory"/>
-<location path="${project_loc}/lib/mail" type="Directory"/>
 </locations>
 <includeBundles>
 <plugin id="apache-mailet-2.4"/>
@@ -56,6 +54,7 @@
 <plugin id="com.dexels.appstore.ant"/>
 <plugin id="com.dexels.appstore.core"/>
 <plugin id="com.dexels.appstore.server"/>
+<plugin id="com.dexels.appstore.websocket"/>
 <plugin id="com.dexels.consul.repositoryloader"/>
 <plugin id="com.dexels.hazelcast"/>
 <plugin id="com.dexels.kafka.impl"/>
@@ -84,13 +83,12 @@
 <plugin id="com.fasterxml.jackson.core.jackson-core"/>
 <plugin id="com.fasterxml.jackson.core.jackson-databind"/>
 <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"/>
-<plugin id="com.google.guava" version="18.0.0"/>
 <plugin id="com.google.guava" version="15.0.0.v201403281430"/>
-<plugin id="com.google.inject"/>
+<plugin id="com.google.guava" version="18.0.0"/>
+<plugin id="com.google.inject" version="3.0.0.v201312141243"/>
 <plugin id="com.hazelcast"/>
 <plugin id="com.ibm.icu"/>
 <plugin id="com.jcraft.jsch"/>
-<plugin id="com.jcraft.jzlib"/>
 <plugin id="com.mysql.jdbc"/>
 <plugin id="com.oracle.jdbc.driver"/>
 <plugin id="com.springsource.javax.transaction"/>
@@ -100,13 +98,14 @@
 <plugin id="com.typesafe.akka.actor"/>
 <plugin id="com.typesafe.config"/>
 <plugin id="com.vaadin"/>
-<plugin id="derby"/>
 <plugin id="dnsjava"/>
 <plugin id="edtftpj.3rdpartywrap"/>
 <plugin id="ical4j.3rdpartywrap"/>
 <plugin id="io.netty.buffer"/>
 <plugin id="io.netty.codec"/>
+<plugin id="io.netty.codec-dns"/>
 <plugin id="io.netty.codec-http"/>
+<plugin id="io.netty.codec-http2"/>
 <plugin id="io.netty.common"/>
 <plugin id="io.netty.handler"/>
 <plugin id="io.netty.resolver"/>
@@ -121,30 +120,33 @@
 <plugin id="jackson-mapper-lgpl"/>
 <plugin id="javaewah" version="0.7.9.v201401101600"/>
 <plugin id="javax.activation"/>
+<plugin id="javax.el"/>
+<plugin id="javax.el-api"/>
 <plugin id="javax.inject"/>
 <plugin id="javax.mail" version="1.4.0.v201005080615"/>
 <plugin id="javax.servlet"/>
 <plugin id="javax.servlet.jsp"/>
+<plugin id="javax.servlet.jsp-api"/>
 <plugin id="javax.ws.rs.javax.ws.rs-api"/>
 <plugin id="javax.xml"/>
 <plugin id="javax.xml.stream"/>
 <plugin id="org.apache.aries.jmx"/>
-<plugin id="org.apache.aries.jmx.api" version="1.1.5"/>
-<plugin id="org.apache.aries.jmx.core" version="1.1.6"/>
-<plugin id="org.apache.aries.jmx.whiteboard" version="1.1.5"/>
-<plugin id="org.apache.aries.proxy.api" version="1.0.1"/>
+<plugin id="org.apache.aries.jmx.api"/>
+<plugin id="org.apache.aries.jmx.core"/>
+<plugin id="org.apache.aries.jmx.whiteboard"/>
+<plugin id="org.apache.aries.proxy.api"/>
 <plugin id="org.apache.aries.proxy.impl"/>
 <plugin id="org.apache.aries.quiesce.api"/>
 <plugin id="org.apache.aries.util"/>
 <plugin id="org.apache.commons.beanutils"/>
 <plugin id="org.apache.commons.codec" version="1.10.0"/>
-<plugin id="org.apache.commons.collections" version="3.2.1"/>
+<plugin id="org.apache.commons.collections"/>
 <plugin id="org.apache.commons.compress" version="1.9.0"/>
 <plugin id="org.apache.commons.dbcp"/>
 <plugin id="org.apache.commons.email"/>
 <plugin id="org.apache.commons.fileupload"/>
 <plugin id="org.apache.commons.httpclient"/>
-<plugin id="org.apache.commons.io" version="2.4.0"/>
+<plugin id="org.apache.commons.io" version="2.5.0"/>
 <plugin id="org.apache.commons.lang"/>
 <plugin id="org.apache.commons.logging" version="1.1.1.v201101211721"/>
 <plugin id="org.apache.commons.net" version="3.3.0"/>
@@ -199,8 +201,8 @@
 <plugin id="org.apache.servicemix.bundles.bcel"/>
 <plugin id="org.apache.servicemix.bundles.geronimo-javamail_1.4_provider"/>
 <plugin id="org.apache.servicemix.bundles.javax.mail"/>
-<plugin id="org.apache.servicemix.bundles.jsch"/>
 <plugin id="org.apache.servicemix.bundles.junit"/>
+<plugin id="org.apache.servicemix.bundles.jzlib"/>
 <plugin id="org.apache.servicemix.bundles.kafka-clients"/>
 <plugin id="org.apache.servicemix.bundles.lucene"/>
 <plugin id="org.apache.servicemix.bundles.saaj-impl"/>
@@ -250,10 +252,11 @@
 <plugin id="org.eclipse.equinox.event"/>
 <plugin id="org.eclipse.equinox.preferences"/>
 <plugin id="org.eclipse.jdt.core.compiler.batch" version="3.10.0.v20140604-1726"/>
-<plugin id="org.eclipse.jgit" version="4.1.0.201509280440-r"/>
+<plugin id="org.eclipse.jgit" version="4.3.1.201605051710-r"/>
 <plugin id="org.eclipse.jgit.http.server"/>
 <plugin id="org.eclipse.osgi"/>
 <plugin id="org.eclipse.osgi.services"/>
+<plugin id="org.eclipse.paho.client.mqttv3"/>
 <plugin id="org.freemarker.freemarker"/>
 <plugin id="org.h2"/>
 <plugin id="org.hamcrest.core"/>
@@ -277,11 +280,6 @@
 <plugin id="org.ops4j.base.util.property"/>
 <plugin id="org.ops4j.pax.configmanager" version="1.0.0"/>
 <plugin id="org.ops4j.pax.configmanager" version="0.2.2"/>
-<plugin id="org.ops4j.pax.jdbc"/>
-<plugin id="org.ops4j.pax.jdbc.derby"/>
-<plugin id="org.ops4j.pax.jdbc.h2"/>
-<plugin id="org.ops4j.pax.jdbc.mysql"/>
-<plugin id="org.ops4j.pax.jdbc.postgresql"/>
 <plugin id="org.ops4j.pax.logging.pax-logging-api"/>
 <plugin id="org.ops4j.pax.logging.pax-logging-service"/>
 <plugin id="org.ops4j.pax.swissbox.bnd"/>
@@ -308,7 +306,6 @@
 <plugin id="org.ops4j.pax.web.pax-web-extender-whiteboard"/>
 <plugin id="org.ops4j.pax.web.pax-web-jetty"/>
 <plugin id="org.ops4j.pax.web.pax-web-jetty-bundle"/>
-<plugin id="org.ops4j.pax.web.pax-web-jsp"/>
 <plugin id="org.ops4j.pax.web.pax-web-runtime"/>
 <plugin id="org.ops4j.pax.web.pax-web-spi"/>
 <plugin id="org.osgi.service.component.annotations"/>
@@ -323,9 +320,6 @@
 <plugin id="org.scala-lang.scala-library"/>
 <plugin id="org.scala-lang.scala-reflect"/>
 <plugin id="org.w3c.dom.svg" version="1.1.0.v201011041433"/>
-<plugin id="osgi.cmpn"/>
-<plugin id="osgi.core"/>
-<plugin id="osgi.enterprise"/>
 <plugin id="rssutils.3rdpartywrap"/>
 <plugin id="saaj.3rdpartywrap"/>
 <plugin id="slf4j.api"/>
@@ -335,4 +329,5 @@
 <plugin id="woodstox-core-asl"/>
 <plugin id="wsdl4j.3rdpartywrap"/>
 </includeBundles>
+<targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 </target>
