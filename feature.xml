@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.122.qualifier"
+      version="1.9.125.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -160,13 +160,6 @@
 
    <plugin
          id="com.mysql.jdbc"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.kjkoster.zapcat"
          download-size="0"
          install-size="0"
          version="0.0.0"

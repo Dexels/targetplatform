@@ -267,7 +267,6 @@
 <plugin id="org.jdom"/>
 <plugin id="org.jvnet.mimepull"/>
 <plugin id="org.jvnet.staxex.stax-ex"/>
-<plugin id="org.kjkoster.zapcat"/>
 <plugin id="org.mongodb.mongo-java-driver"/>
 <plugin id="org.objectweb.asm" version="5.0.3"/>
 <plugin id="org.objectweb.asm.commons"/>
@@ -279,8 +278,8 @@
 <plugin id="org.ops4j.base.net"/>
 <plugin id="org.ops4j.base.spi"/>
 <plugin id="org.ops4j.base.util.property"/>
-<plugin id="org.ops4j.pax.configmanager" version="1.0.0"/>
 <plugin id="org.ops4j.pax.configmanager" version="0.2.2"/>
+<plugin id="org.ops4j.pax.configmanager" version="1.0.0"/>
 <plugin id="org.ops4j.pax.logging.pax-logging-api"/>
 <plugin id="org.ops4j.pax.logging.pax-logging-service"/>
 <plugin id="org.ops4j.pax.swissbox.bnd"/>
