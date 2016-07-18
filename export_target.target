@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1173">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1181">
 <locations>
 <location path="${project_loc}/lib/osgi" type="Directory"/>
 <location path="${project_loc}/lib/logback" type="Directory"/>
@@ -70,7 +70,7 @@
 <plugin id="com.dexels.oauth.web"/>
 <plugin id="com.dexels.osgi.bundlesync"/>
 <plugin id="com.dexels.pubsub.api"/>
-<plugin id="com.dexels.repository.api"/>
+<plugin id="com.dexels.repository.api" version="10.0.2.201607041440"/>
 <plugin id="com.dexels.repository.file"/>
 <plugin id="com.dexels.repository.git"/>
 <plugin id="com.dexels.repository.git.api"/>
@@ -83,8 +83,8 @@
 <plugin id="com.fasterxml.jackson.core.jackson-core"/>
 <plugin id="com.fasterxml.jackson.core.jackson-databind"/>
 <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"/>
-<plugin id="com.google.guava" version="15.0.0.v201403281430"/>
 <plugin id="com.google.guava" version="18.0.0"/>
+<plugin id="com.google.guava" version="15.0.0.v201403281430"/>
 <plugin id="com.google.inject" version="3.0.0.v201312141243"/>
 <plugin id="com.hazelcast"/>
 <plugin id="com.ibm.icu"/>
@@ -116,8 +116,8 @@
 <plugin id="io.reactivex.rxjava-joins"/>
 <plugin id="io.reactivex.rxjava-string"/>
 <plugin id="io.reactivex.rxnetty" version="0.5.1"/>
-<plugin id="jackson-core-lgpl"/>
-<plugin id="jackson-mapper-lgpl"/>
+<plugin id="jackson-core-lgpl" version="1.9.11"/>
+<plugin id="jackson-mapper-lgpl" version="1.9.11"/>
 <plugin id="javaewah" version="0.7.9.v201401101600"/>
 <plugin id="javax.activation"/>
 <plugin id="javax.el"/>
@@ -149,6 +149,7 @@
 <plugin id="org.apache.commons.io" version="2.5.0"/>
 <plugin id="org.apache.commons.lang"/>
 <plugin id="org.apache.commons.logging" version="1.1.1.v201101211721"/>
+<plugin id="org.apache.commons.logging" version="1.2.0"/>
 <plugin id="org.apache.commons.net" version="3.3.0"/>
 <plugin id="org.apache.commons.pool" version="1.6.0"/>
 <plugin id="org.apache.cxf.cxf-api"/>
