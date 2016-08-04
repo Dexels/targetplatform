@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.131.qualifier"
+      version="1.9.133.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1519,6 +1519,27 @@
 
    <plugin
          id="org.mongodb.driver-async"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.replication.api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.replication.impl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.replication.mongo"
          download-size="0"
          install-size="0"
          version="0.0.0"
