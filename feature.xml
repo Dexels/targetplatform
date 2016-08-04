@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.129.qualifier"
+      version="1.9.131.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1385,21 +1385,7 @@
          unpack="false"/>
 
    <plugin
-         id="io.reactivex.rxnetty"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="io.netty.resolver"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="io.netty.transport-native-epoll"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1484,20 +1470,6 @@
 
    <plugin
          id="io.netty.codec-http2"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="io.netty.resolver-dns"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="io.netty.codec-dns"
          download-size="0"
          install-size="0"
          version="0.0.0"

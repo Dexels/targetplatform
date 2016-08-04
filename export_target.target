@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1189">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1193">
 <locations>
 <location path="${project_loc}/lib/osgi" type="Directory"/>
 <location path="${project_loc}/lib/logback" type="Directory"/>
@@ -103,7 +103,6 @@
 <plugin id="ical4j.3rdpartywrap"/>
 <plugin id="io.netty.buffer"/>
 <plugin id="io.netty.codec"/>
-<plugin id="io.netty.codec-dns"/>
 <plugin id="io.netty.codec-http"/>
 <plugin id="io.netty.codec-http2"/>
 <plugin id="io.netty.common"/>
@@ -111,11 +110,14 @@
 <plugin id="io.netty.resolver"/>
 <plugin id="io.netty.resolver-dns"/>
 <plugin id="io.netty.transport"/>
-<plugin id="io.netty.transport-native-epoll"/>
 <plugin id="io.reactivex.rxjava"/>
 <plugin id="io.reactivex.rxjava-joins"/>
 <plugin id="io.reactivex.rxjava-string"/>
-<plugin id="io.reactivex.rxnetty" version="0.5.1"/>
+<plugin id="io.reactivex.rxnetty-common"/>
+<plugin id="io.reactivex.rxnetty-http"/>
+<plugin id="io.reactivex.rxnetty-spectator-http"/>
+<plugin id="io.reactivex.rxnetty-spectator-tcp"/>
+<plugin id="io.reactivex.rxnetty-tcp"/>
 <plugin id="jackson-core-lgpl"/>
 <plugin id="jackson-mapper-lgpl"/>
 <plugin id="javaewah" version="0.7.9.v201401101600"/>
