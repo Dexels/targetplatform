@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.146.qualifier"
+      version="1.9.147.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1617,6 +1617,27 @@
 
    <plugin
          id="io.netty.transport-native-epoll"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="redis.clients.jedis"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.pool2"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.index.api"
          download-size="0"
          install-size="0"
          version="0.0.0"
