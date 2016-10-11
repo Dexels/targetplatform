@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1235">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1255">
 <locations>
 <location path="${project_loc}/lib/osgi" type="Directory"/>
 <location path="${project_loc}/lib/logback" type="Directory"/>
@@ -51,6 +51,7 @@
 <plugin id="bcprov-ext"/>
 <plugin id="ch.qos.logback.classic" version="1.1.2"/>
 <plugin id="ch.qos.logback.core" version="1.1.2"/>
+<plugin id="com.101tec.zkclient"/>
 <plugin id="com.dexels.appstore.ant"/>
 <plugin id="com.dexels.appstore.core"/>
 <plugin id="com.dexels.appstore.server"/>
@@ -59,7 +60,6 @@
 <plugin id="com.dexels.hazelcast"/>
 <plugin id="com.dexels.index.api"/>
 <plugin id="com.dexels.kafka.impl"/>
-<plugin id="com.dexels.kafka.test"/>
 <plugin id="com.dexels.karaf.featuresync"/>
 <plugin id="com.dexels.log4j.httpappender"/>
 <plugin id="com.dexels.log4j.server"/>
@@ -153,8 +153,8 @@
 <plugin id="org.apache.commons.httpclient"/>
 <plugin id="org.apache.commons.io" version="2.5.0"/>
 <plugin id="org.apache.commons.lang"/>
-<plugin id="org.apache.commons.logging" version="1.2.0"/>
 <plugin id="org.apache.commons.logging" version="1.1.1.v201101211721"/>
+<plugin id="org.apache.commons.logging" version="1.2.0"/>
 <plugin id="org.apache.commons.net" version="3.3.0"/>
 <plugin id="org.apache.commons.pool" version="1.6.0"/>
 <plugin id="org.apache.commons.pool2"/>
@@ -210,7 +210,6 @@
 <plugin id="org.apache.servicemix.bundles.javax.mail"/>
 <plugin id="org.apache.servicemix.bundles.junit"/>
 <plugin id="org.apache.servicemix.bundles.jzlib"/>
-<plugin id="org.apache.servicemix.bundles.kafka-clients"/>
 <plugin id="org.apache.servicemix.bundles.lucene"/>
 <plugin id="org.apache.servicemix.bundles.saaj-impl"/>
 <plugin id="org.apache.servicemix.bundles.xalan"/>
@@ -339,6 +338,7 @@
 <plugin id="org.scala-lang.scala-reflect"/>
 <plugin id="org.w3c.dom.svg" version="1.1.0.v201011041433"/>
 <plugin id="redis.clients.jedis"/>
+<plugin id="rocksdb.osgi"/>
 <plugin id="rssutils.3rdpartywrap"/>
 <plugin id="saaj.3rdpartywrap"/>
 <plugin id="slf4j.api"/>

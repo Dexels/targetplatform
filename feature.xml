@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.152.qualifier"
+      version="1.9.158.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1399,13 +1399,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.servicemix.bundles.kafka-clients"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="com.dexels.kafka.impl"
          download-size="0"
          install-size="0"
@@ -1638,6 +1631,13 @@
 
    <plugin
          id="com.dexels.index.api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="rocksdb.osgi"
          download-size="0"
          install-size="0"
          version="0.0.0"
