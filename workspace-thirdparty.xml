@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="feature_export" name="build">
 	<target name="feature_export">
-		<pde.exportFeatures destination="/Users/frank/Documents/workspace-thirdparty/com.dexels.everywear.thirdparty/export.everywear" exportSource="false" exportType="directory" features="com.dexels.everywear.thirdparty" qualifier="RELEASE" useJARFormat="true"/>
+		<pde.exportFeatures destination="/Users/frank/Documents/workspace-thirdparty/com.dexels.thirdparty.feature/export" exportSource="false" exportType="directory" features="com.dexels.thirdparty.feature" qualifier="RELEASE" useJARFormat="true"/>
 	</target>
 </project>
