@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="feature_upload" name="build" basedir=".">
-	<property name="feature_version" value="1.9.172"/>
+	<property name="feature_version" value="1.9.174"/>
 	<property name="user" value="navajo"/>
 	<property name="host" value="repo.dexels.com"/>
 	
