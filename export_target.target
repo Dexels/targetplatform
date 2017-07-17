@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1301">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1317">
 <locations>
 <location path="${project_loc}/lib/osgi" type="Directory"/>
 <location path="${project_loc}/lib/logback" type="Directory"/>
@@ -62,7 +62,6 @@
 <plugin id="com.dexels.hazelcast"/>
 <plugin id="com.dexels.index.api"/>
 <plugin id="com.dexels.kafka.impl"/>
-<plugin id="com.dexels.kafka.streams"/>
 <plugin id="com.dexels.karaf.featuresync"/>
 <plugin id="com.dexels.log4j.httpappender"/>
 <plugin id="com.dexels.log4j.server"/>
@@ -76,6 +75,8 @@
 <plugin id="com.dexels.pubsub.api"/>
 <plugin id="com.dexels.replication.api"/>
 <plugin id="com.dexels.replication.impl"/>
+<plugin id="com.dexels.replication.impl.json"/>
+<plugin id="com.dexels.replication.impl.protobuf"/>
 <plugin id="com.dexels.repository.api"/>
 <plugin id="com.dexels.repository.file"/>
 <plugin id="com.dexels.repository.git"/>
@@ -96,6 +97,7 @@
 <plugin id="com.google.guava" version="18.0.0"/>
 <plugin id="com.google.guava" version="15.0.0.v201403281430"/>
 <plugin id="com.google.inject" version="3.0.0.v201312141243"/>
+<plugin id="com.google.protobuf"/>
 <plugin id="com.hazelcast" version="3.7.2"/>
 <plugin id="com.ibm.icu"/>
 <plugin id="com.jcraft.jsch"/>
@@ -352,8 +354,8 @@
 <plugin id="saaj.3rdpartywrap"/>
 <plugin id="slf4j.api"/>
 <plugin id="slf4j.simple"/>
-<plugin id="stax2-api" version="3.1.4"/>
 <plugin id="stax2-api" version="4.0.0"/>
+<plugin id="stax2-api" version="3.1.4"/>
 <plugin id="tidy.3rdpartywrap"/>
 <plugin id="woodstox-core-asl"/>
 <plugin id="wsdl4j.3rdpartywrap"/>
