@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1317">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1331">
 <locations>
 <location path="${project_loc}/lib/osgi" type="Directory"/>
 <location path="${project_loc}/lib/logback" type="Directory"/>
@@ -40,9 +40,9 @@
 <location path="${project_loc}/lib/dexels.repository" type="Directory"/>
 <location path="${project_loc}/lib/cluster" type="Directory"/>
 <location path="${project_loc}/lib/pax-logging" type="Directory"/>
-<location path="${project_loc}/lib/pax-web-6" type="Directory"/>
 <location path="${project_loc}/lib/openstreetmap" type="Directory"/>
 <location path="${project_loc}/lib/pi4j" type="Directory"/>
+<location path="${project_loc}/lib/pax-web-6" type="Directory"/>
 </locations>
 <includeBundles>
 <plugin id="apache-mailet-2.4"/>
@@ -349,13 +349,12 @@
 <plugin id="pi4j-core"/>
 <plugin id="pi4j-service"/>
 <plugin id="redis.clients.jedis"/>
-<plugin id="rocksdb.osgi"/>
 <plugin id="rssutils.3rdpartywrap"/>
 <plugin id="saaj.3rdpartywrap"/>
 <plugin id="slf4j.api"/>
 <plugin id="slf4j.simple"/>
-<plugin id="stax2-api" version="4.0.0"/>
 <plugin id="stax2-api" version="3.1.4"/>
+<plugin id="stax2-api" version="4.0.0"/>
 <plugin id="tidy.3rdpartywrap"/>
 <plugin id="woodstox-core-asl"/>
 <plugin id="wsdl4j.3rdpartywrap"/>

@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.191.qualifier"
+      version="1.9.197.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -588,13 +588,6 @@
 
    <plugin
          id="org.ops4j.pax.web.pax-web-extender-whiteboard"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.web.pax-web-jetty"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1595,13 +1588,6 @@
          unpack="false"/>
 
    <plugin
-         id="rocksdb.osgi"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.scala-lang.modules.scala-async"
          download-size="0"
          install-size="0"
@@ -1687,6 +1673,13 @@
 
    <plugin
          id="com.google.protobuf"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.ops4j.pax.web.pax-web-jetty"
          download-size="0"
          install-size="0"
          version="0.0.0"
