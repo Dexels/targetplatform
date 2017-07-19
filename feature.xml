@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.9.198.qualifier"
+      version="1.10.1.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -46,14 +46,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.felix.framework.security"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
          id="org.apache.felix.gogo.command"
          download-size="0"
          install-size="0"
@@ -62,13 +54,6 @@
 
    <plugin
          id="org.apache.felix.gogo.runtime"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.felix.gogo.shell"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -217,13 +202,6 @@
 
    <plugin
          id="org.ops4j.pax.url.classpath"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.url.dir"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -573,20 +551,6 @@
          unpack="false"/>
 
    <plugin
-         id="jackson-mapper-lgpl"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="jackson-core-lgpl"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.ops4j.pax.web.pax-web-extender-whiteboard"
          download-size="0"
          install-size="0"
@@ -763,13 +727,6 @@
 
    <plugin
          id="org.apache.felix.inventory"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="javaewah"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1680,6 +1637,20 @@
 
    <plugin
          id="org.ops4j.pax.web.pax-web-jetty"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.googlecode.javaewah.JavaEWAH"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="woodstox-core-asl"
          download-size="0"
          install-size="0"
          version="0.0.0"
