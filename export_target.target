@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1347">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1371">
 <locations>
 <location path="${project_loc}/lib/osgi" type="Directory"/>
 <location path="${project_loc}/lib/logback" type="Directory"/>
@@ -16,7 +16,6 @@
 <location path="${project_loc}/lib/scala" type="Directory"/>
 <location path="${project_loc}/lib/james" type="Directory"/>
 <location path="${project_loc}/lib/felix" type="Directory"/>
-<location path="${project_loc}/lib/jackson" type="Directory"/>
 <location path="${project_loc}/lib/batik" type="Directory"/>
 <location path="${project_loc}/lib/core" type="Directory"/>
 <location path="${project_loc}/lib/apachecxf" type="Directory"/>
@@ -24,7 +23,8 @@
 <location path="${project_loc}/lib/httpclient" type="Directory"/>
 <location path="${project_loc}/lib/aries" type="Directory"/>
 <location path="${project_loc}/lib/reactive" type="Directory"/>
-<location path="${project_loc}/lib/jackson2" type="Directory"/>
+<location path="${project_loc}/lib/openstreetmap" type="Directory"/>
+<location path="${project_loc}/lib/pi4j" type="Directory"/>
 <location path="${project_loc}/lib/ant" type="Directory"/>
 <location path="${project_loc}/lib/google" type="Directory"/>
 <location path="${eclipse_home}" type="Profile"/>
@@ -40,9 +40,8 @@
 <location path="${project_loc}/lib/dexels.repository" type="Directory"/>
 <location path="${project_loc}/lib/cluster" type="Directory"/>
 <location path="${project_loc}/lib/pax-logging" type="Directory"/>
-<location path="${project_loc}/lib/openstreetmap" type="Directory"/>
-<location path="${project_loc}/lib/pi4j" type="Directory"/>
-<location path="${project_loc}/lib/pax-web-6" type="Directory"/>
+<location path="${project_loc}/lib/jackson2" type="Directory"/>
+<location path="${project_loc}/lib/pax-web-6-release" type="Directory"/>
 </locations>
 <includeBundles>
 <plugin id="apache-mailet-2.4"/>
@@ -124,6 +123,7 @@
 <plugin id="io.reactivex.rxjava"/>
 <plugin id="io.reactivex.rxjava-joins"/>
 <plugin id="io.reactivex.rxjava-string"/>
+<plugin id="io.reactivex.rxjava2.rxjava"/>
 <plugin id="io.reactivex.rxnetty-common"/>
 <plugin id="io.reactivex.rxnetty-http"/>
 <plugin id="io.reactivex.rxnetty-spectator-http"/>
@@ -158,8 +158,8 @@
 <plugin id="org.apache.commons.httpclient"/>
 <plugin id="org.apache.commons.io" version="2.5.0"/>
 <plugin id="org.apache.commons.lang"/>
-<plugin id="org.apache.commons.logging" version="1.1.1.v201101211721"/>
 <plugin id="org.apache.commons.logging" version="1.2.0"/>
+<plugin id="org.apache.commons.logging" version="1.1.1.v201101211721"/>
 <plugin id="org.apache.commons.net" version="3.3.0"/>
 <plugin id="org.apache.commons.pool" version="1.6.0"/>
 <plugin id="org.apache.commons.pool2"/>
@@ -197,7 +197,7 @@
 <plugin id="org.apache.geronimo.specs.geronimo-javamail_1.4_spec"/>
 <plugin id="org.apache.httpcomponents.httpasyncclient"/>
 <plugin id="org.apache.httpcomponents.httpclient" version="4.5.3"/>
-<plugin id="org.apache.httpcomponents.httpcore"/>
+<plugin id="org.apache.httpcomponents.httpcore" version="4.4.6"/>
 <plugin id="org.apache.james.protocols.api"/>
 <plugin id="org.apache.james.protocols.netty"/>
 <plugin id="org.apache.james.protocols.smtp"/>
@@ -272,6 +272,7 @@
 <plugin id="org.eclipse.jetty.webapp"/>
 <plugin id="org.eclipse.jetty.xml"/>
 <plugin id="org.eclipse.jgit" version="4.8.0.201706111038-r"/>
+<plugin id="org.eclipse.jgit.http.apache"/>
 <plugin id="org.eclipse.jgit.http.server"/>
 <plugin id="org.eclipse.osgi"/>
 <plugin id="org.eclipse.osgi.services"/>
@@ -332,6 +333,7 @@
 <plugin id="org.osgi.service.obr"/>
 <plugin id="org.postgresql.jdbc3" version="9.1.901"/>
 <plugin id="org.postgresql.jdbc4" version="9.1.901"/>
+<plugin id="org.reactivestreams.reactive-streams"/>
 <plugin id="org.scala-lang.modules.scala-async"/>
 <plugin id="org.scala-lang.modules.scala-xml"/>
 <plugin id="org.scala-lang.scala-compiler"/>
@@ -346,8 +348,8 @@
 <plugin id="saaj.3rdpartywrap"/>
 <plugin id="slf4j.api"/>
 <plugin id="slf4j.simple"/>
-<plugin id="stax2-api" version="3.1.4"/>
 <plugin id="stax2-api" version="4.0.0"/>
+<plugin id="stax2-api" version="3.1.4"/>
 <plugin id="tidy.3rdpartywrap"/>
 <plugin id="woodstox-core-asl"/>
 <plugin id="wsdl4j.3rdpartywrap"/>
