@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1371">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1379">
 <locations>
 <location path="${project_loc}/lib/osgi" type="Directory"/>
 <location path="${project_loc}/lib/logback" type="Directory"/>
@@ -91,6 +91,7 @@
 <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"/>
 <plugin id="com.fasterxml.jackson.module.jackson-module-jaxb-annotations"/>
 <plugin id="com.fasterxml.woodstox.woodstox-core"/>
+<plugin id="com.github.akarnokd.rxjava2-interop"/>
 <plugin id="com.google.gson" version="2.2.4.v201311231704"/>
 <plugin id="com.google.guava" version="20.0.0"/>
 <plugin id="com.google.inject" version="3.0.0.v201312141243"/>
@@ -158,8 +159,8 @@
 <plugin id="org.apache.commons.httpclient"/>
 <plugin id="org.apache.commons.io" version="2.5.0"/>
 <plugin id="org.apache.commons.lang"/>
-<plugin id="org.apache.commons.logging" version="1.2.0"/>
 <plugin id="org.apache.commons.logging" version="1.1.1.v201101211721"/>
+<plugin id="org.apache.commons.logging" version="1.2.0"/>
 <plugin id="org.apache.commons.net" version="3.3.0"/>
 <plugin id="org.apache.commons.pool" version="1.6.0"/>
 <plugin id="org.apache.commons.pool2"/>
@@ -176,6 +177,7 @@
 <plugin id="org.apache.felix.framework"/>
 <plugin id="org.apache.felix.gogo.command" version="1.0.2"/>
 <plugin id="org.apache.felix.gogo.runtime" version="1.0.6"/>
+<plugin id="org.apache.felix.gogo.shell" version="1.0.0"/>
 <plugin id="org.apache.felix.inventory"/>
 <plugin id="org.apache.felix.log"/>
 <plugin id="org.apache.felix.metatype"/>
@@ -287,7 +289,7 @@
 <plugin id="org.jvnet.mimepull"/>
 <plugin id="org.jvnet.staxex.stax-ex"/>
 <plugin id="org.mongodb.driver-async"/>
-<plugin id="org.mongodb.driver-rx"/>
+<plugin id="org.mongodb.driver-reactivestreams"/>
 <plugin id="org.mongodb.mongo-java-driver"/>
 <plugin id="org.objectweb.asm" version="5.0.3"/>
 <plugin id="org.objectweb.asm.commons"/>
