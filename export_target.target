@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1379">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1387">
 <locations>
 <location path="${project_loc}/lib/osgi" type="Directory"/>
 <location path="${project_loc}/lib/logback" type="Directory"/>
@@ -127,8 +127,6 @@
 <plugin id="io.reactivex.rxjava2.rxjava"/>
 <plugin id="io.reactivex.rxnetty-common"/>
 <plugin id="io.reactivex.rxnetty-http"/>
-<plugin id="io.reactivex.rxnetty-spectator-http"/>
-<plugin id="io.reactivex.rxnetty-spectator-tcp"/>
 <plugin id="io.reactivex.rxnetty-tcp"/>
 <plugin id="javax.activation"/>
 <plugin id="javax.el"/>
@@ -159,8 +157,8 @@
 <plugin id="org.apache.commons.httpclient"/>
 <plugin id="org.apache.commons.io" version="2.5.0"/>
 <plugin id="org.apache.commons.lang"/>
-<plugin id="org.apache.commons.logging" version="1.1.1.v201101211721"/>
 <plugin id="org.apache.commons.logging" version="1.2.0"/>
+<plugin id="org.apache.commons.logging" version="1.1.1.v201101211721"/>
 <plugin id="org.apache.commons.net" version="3.3.0"/>
 <plugin id="org.apache.commons.pool" version="1.6.0"/>
 <plugin id="org.apache.commons.pool2"/>
@@ -285,6 +283,7 @@
 <plugin id="org.igniterealtime.smack"/>
 <plugin id="org.igniterealtime.smackx"/>
 <plugin id="org.jboss.netty"/>
+<plugin id="org.jctools.core"/>
 <plugin id="org.jdom"/>
 <plugin id="org.jvnet.mimepull"/>
 <plugin id="org.jvnet.staxex.stax-ex"/>
@@ -350,8 +349,8 @@
 <plugin id="saaj.3rdpartywrap"/>
 <plugin id="slf4j.api"/>
 <plugin id="slf4j.simple"/>
-<plugin id="stax2-api" version="4.0.0"/>
 <plugin id="stax2-api" version="3.1.4"/>
+<plugin id="stax2-api" version="4.0.0"/>
 <plugin id="tidy.3rdpartywrap"/>
 <plugin id="woodstox-core-asl"/>
 <plugin id="wsdl4j.3rdpartywrap"/>

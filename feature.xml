@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.10.13.qualifier"
+      version="1.10.16.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1665,6 +1665,20 @@
 
    <plugin
          id="org.mongodb.driver-reactivestreams"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.github.akarnokd.rxjava2-interop"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.jctools.core"
          download-size="0"
          install-size="0"
          version="0.0.0"
