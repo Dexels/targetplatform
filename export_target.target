@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1387">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1391">
 <locations>
 <location path="${project_loc}/lib/osgi" type="Directory"/>
 <location path="${project_loc}/lib/logback" type="Directory"/>
@@ -71,7 +71,7 @@
 <plugin id="com.dexels.oauth.web"/>
 <plugin id="com.dexels.osgi.bundlesync"/>
 <plugin id="com.dexels.pubsub.api"/>
-<plugin id="com.dexels.replication.api"/>
+<plugin id="com.dexels.replication.api" version="9.1.0.201709150845"/>
 <plugin id="com.dexels.replication.impl"/>
 <plugin id="com.dexels.replication.impl.json"/>
 <plugin id="com.dexels.replication.impl.protobuf"/>
@@ -157,8 +157,8 @@
 <plugin id="org.apache.commons.httpclient"/>
 <plugin id="org.apache.commons.io" version="2.5.0"/>
 <plugin id="org.apache.commons.lang"/>
-<plugin id="org.apache.commons.logging" version="1.2.0"/>
 <plugin id="org.apache.commons.logging" version="1.1.1.v201101211721"/>
+<plugin id="org.apache.commons.logging" version="1.2.0"/>
 <plugin id="org.apache.commons.net" version="3.3.0"/>
 <plugin id="org.apache.commons.pool" version="1.6.0"/>
 <plugin id="org.apache.commons.pool2"/>
@@ -287,9 +287,9 @@
 <plugin id="org.jdom"/>
 <plugin id="org.jvnet.mimepull"/>
 <plugin id="org.jvnet.staxex.stax-ex"/>
-<plugin id="org.mongodb.driver-async"/>
+<plugin id="org.mongodb.driver-async" version="3.6.0.SNAPSHOT"/>
 <plugin id="org.mongodb.driver-reactivestreams"/>
-<plugin id="org.mongodb.mongo-java-driver"/>
+<plugin id="org.mongodb.mongo-java-driver" version="3.6.0.SNAPSHOT"/>
 <plugin id="org.objectweb.asm" version="5.0.3"/>
 <plugin id="org.objectweb.asm.commons"/>
 <plugin id="org.objectweb.asm.tree" version="5.0.3"/>
@@ -301,8 +301,8 @@
 <plugin id="org.ops4j.base.net"/>
 <plugin id="org.ops4j.base.spi"/>
 <plugin id="org.ops4j.base.util.property"/>
-<plugin id="org.ops4j.pax.configmanager" version="1.0.0"/>
 <plugin id="org.ops4j.pax.configmanager" version="0.2.2"/>
+<plugin id="org.ops4j.pax.configmanager" version="1.0.0"/>
 <plugin id="org.ops4j.pax.logging.pax-logging-api"/>
 <plugin id="org.ops4j.pax.logging.pax-logging-service"/>
 <plugin id="org.ops4j.pax.swissbox.bnd"/>
@@ -335,7 +335,6 @@
 <plugin id="org.postgresql.jdbc3" version="9.1.901"/>
 <plugin id="org.postgresql.jdbc4" version="9.1.901"/>
 <plugin id="org.reactivestreams.reactive-streams"/>
-<plugin id="org.scala-lang.modules.scala-async"/>
 <plugin id="org.scala-lang.modules.scala-xml"/>
 <plugin id="org.scala-lang.scala-compiler"/>
 <plugin id="org.scala-lang.scala-library"/>

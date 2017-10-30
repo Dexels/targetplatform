@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.10.20.qualifier"
+      version="1.10.21.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1532,13 +1532,6 @@
 
    <plugin
          id="com.dexels.index.api"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.scala-lang.modules.scala-async"
          download-size="0"
          install-size="0"
          version="0.0.0"
