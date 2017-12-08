@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1437">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1441">
     <locations>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/bouncycastle" type="Directory"/>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/james" type="Directory"/>
@@ -62,6 +62,7 @@
         <plugin id="com.dexels.hazelcast"/>
         <plugin id="com.dexels.index.api"/>
         <plugin id="com.dexels.kafka.impl"/>
+        <plugin id="com.dexels.kafka.impl.rx2"/>
         <plugin id="com.dexels.log4j.httpappender"/>
         <plugin id="com.dexels.log4j.server"/>
         <plugin id="com.dexels.logback.redis" version="2.2.2.201711221509"/>
@@ -72,6 +73,7 @@
         <plugin id="com.dexels.oauth.web" version="3.0.4.201711211222"/>
         <plugin id="com.dexels.osgi.bundlesync"/>
         <plugin id="com.dexels.pubsub.api"/>
+        <plugin id="com.dexels.pubsub.rx2.api"/>
         <plugin id="com.dexels.replication.api" version="9.1.0.201709150845"/>
         <plugin id="com.dexels.replication.impl"/>
         <plugin id="com.dexels.replication.impl.json"/>
@@ -303,8 +305,8 @@
         <plugin id="org.ops4j.base.net"/>
         <plugin id="org.ops4j.base.spi"/>
         <plugin id="org.ops4j.base.util.property"/>
-        <plugin id="org.ops4j.pax.configmanager" version="0.2.2"/>
         <plugin id="org.ops4j.pax.configmanager" version="1.0.0"/>
+        <plugin id="org.ops4j.pax.configmanager" version="0.2.2"/>
         <plugin id="org.ops4j.pax.logging.pax-logging-api"/>
         <plugin id="org.ops4j.pax.logging.pax-logging-service"/>
         <plugin id="org.ops4j.pax.swissbox.bnd"/>

@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.11.0.qualifier"
+      version="1.11.1.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1686,6 +1686,20 @@
 
    <plugin
          id="io.jsonwebtoken.jjwt"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.kafka.impl.rx2"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.pubsub.rx2.api"
          download-size="0"
          install-size="0"
          version="0.0.0"
