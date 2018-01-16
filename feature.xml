@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.11.10.qualifier"
+      version="1.11.11.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1685,13 +1685,6 @@
          unpack="false"/>
 
    <plugin
-         id="io.jsonwebtoken.jjwt"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="com.dexels.kafka.impl.rx2"
          download-size="0"
          install-size="0"
@@ -1714,6 +1707,34 @@
 
    <plugin
          id="com.dexels.immutable.impl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.nimbusds.nimbus-jose-jwt"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.minidev.accessors-smart"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.minidev.json-smart"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.jcip-annotations"
          download-size="0"
          install-size="0"
          version="0.0.0"
