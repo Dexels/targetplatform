@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.11.17.qualifier"
+      version="1.11.25.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -131,13 +131,6 @@
 
    <plugin
          id="org.h2"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.mysql.jdbc"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1735,6 +1728,27 @@
 
    <plugin
          id="org.apache.servicemix.bundles.jcip-annotations"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.okhttp"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.okio"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.mysql.jdbc"
          download-size="0"
          install-size="0"
          version="0.0.0"

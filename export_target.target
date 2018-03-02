@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1453">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1478">
     <locations>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/bouncycastle" type="Directory"/>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/james" type="Directory"/>
@@ -44,6 +44,7 @@
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/dexels.repository" type="Directory"/>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/jgit" type="Directory"/>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/jackson2" type="Directory"/>
+        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/okHttp" type="Directory"/>
     </locations>
     <includeBundles>
         <plugin id="apache-mailet-2.4"/>
@@ -89,12 +90,12 @@
         <plugin id="com.dexels.server.mgmt.impl"/>
         <plugin id="com.dexels.sharedconfigstore"/>
         <plugin id="com.fasterxml.aalto-xml"/>
-        <plugin id="com.fasterxml.jackson.core.jackson-annotations" version="2.9.2"/>
-        <plugin id="com.fasterxml.jackson.core.jackson-core" version="2.9.2"/>
-        <plugin id="com.fasterxml.jackson.core.jackson-databind" version="2.9.2"/>
-        <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-xml" version="2.9.2"/>
-        <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml" version="2.9.2"/>
-        <plugin id="com.fasterxml.jackson.module.jackson-module-jaxb-annotations" version="2.9.2"/>
+        <plugin id="com.fasterxml.jackson.core.jackson-annotations" version="2.9.4"/>
+        <plugin id="com.fasterxml.jackson.core.jackson-core" version="2.9.4"/>
+        <plugin id="com.fasterxml.jackson.core.jackson-databind" version="2.9.4"/>
+        <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-xml" version="2.9.4"/>
+        <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml" version="2.9.4"/>
+        <plugin id="com.fasterxml.jackson.module.jackson-module-jaxb-annotations" version="2.9.4"/>
         <plugin id="com.fasterxml.woodstox.woodstox-core" version="5.0.3"/>
         <plugin id="com.github.akarnokd.rxjava2-interop"/>
         <plugin id="com.google.gson" version="2.2.4.v201311231704"/>
@@ -127,10 +128,10 @@
         <plugin id="io.netty.resolver-dns"/>
         <plugin id="io.netty.transport"/>
         <plugin id="io.netty.transport-native-epoll"/>
-        <plugin id="io.reactivex.rxjava" version="1.3.4"/>
+        <plugin id="io.reactivex.rxjava"/>
         <plugin id="io.reactivex.rxjava-joins"/>
         <plugin id="io.reactivex.rxjava-string"/>
-        <plugin id="io.reactivex.rxjava2.rxjava" version="2.1.7"/>
+        <plugin id="io.reactivex.rxjava2.rxjava"/>
         <plugin id="io.reactivex.rxnetty-common"/>
         <plugin id="io.reactivex.rxnetty-http"/>
         <plugin id="io.reactivex.rxnetty-tcp"/>
@@ -155,18 +156,19 @@
         <plugin id="org.apache.aries.proxy.impl"/>
         <plugin id="org.apache.aries.quiesce.api"/>
         <plugin id="org.apache.aries.util"/>
-        <plugin id="org.apache.commons.beanutils"/>
+        <plugin id="org.apache.commons.beanutils" version="1.9.3"/>
         <plugin id="org.apache.commons.codec" version="1.10.0"/>
         <plugin id="org.apache.commons.collections"/>
         <plugin id="org.apache.commons.compress" version="1.9.0"/>
         <plugin id="org.apache.commons.dbcp"/>
-        <plugin id="org.apache.commons.email"/>
-        <plugin id="org.apache.commons.fileupload"/>
+        <plugin id="org.apache.commons.dbcp2" version="2.2.0"/>
+        <plugin id="org.apache.commons.email" version="1.5.0"/>
+        <plugin id="org.apache.commons.fileupload" version="1.3.3"/>
         <plugin id="org.apache.commons.httpclient"/>
         <plugin id="org.apache.commons.io" version="2.5.0"/>
         <plugin id="org.apache.commons.lang"/>
+        <plugin id="org.apache.commons.lang3" version="3.6.0"/>
         <plugin id="org.apache.commons.logging" version="1.2.0"/>
-        <plugin id="org.apache.commons.logging" version="1.1.1.v201101211721"/>
         <plugin id="org.apache.commons.net" version="3.3.0"/>
         <plugin id="org.apache.commons.pool" version="1.6.0"/>
         <plugin id="org.apache.commons.pool2"/>
@@ -194,7 +196,7 @@
         <plugin id="org.apache.felix.shell"/>
         <plugin id="org.apache.felix.shell.remote"/>
         <plugin id="org.apache.felix.shell.tui"/>
-        <plugin id="org.apache.felix.webconsole"/>
+        <plugin id="org.apache.felix.webconsole" version="4.3.4.all"/>
         <plugin id="org.apache.felix.webconsole.plugins.ds"/>
         <plugin id="org.apache.felix.webconsole.plugins.event"/>
         <plugin id="org.apache.felix.webconsole.plugins.memoryusage"/>
@@ -223,6 +225,8 @@
         <plugin id="org.apache.servicemix.bundles.junit"/>
         <plugin id="org.apache.servicemix.bundles.jzlib"/>
         <plugin id="org.apache.servicemix.bundles.lucene"/>
+        <plugin id="org.apache.servicemix.bundles.okhttp"/>
+        <plugin id="org.apache.servicemix.bundles.okio"/>
         <plugin id="org.apache.servicemix.bundles.saaj-impl"/>
         <plugin id="org.apache.servicemix.bundles.xalan"/>
         <plugin id="org.apache.servicemix.bundles.xerces"/>
@@ -343,7 +347,7 @@
         <plugin id="org.osgi.service.obr"/>
         <plugin id="org.postgresql.jdbc3" version="9.1.901"/>
         <plugin id="org.postgresql.jdbc4" version="9.1.901"/>
-        <plugin id="org.reactivestreams.reactive-streams" version="1.0.1"/>
+        <plugin id="org.reactivestreams.reactive-streams"/>
         <plugin id="org.scala-lang.modules.scala-xml"/>
         <plugin id="org.scala-lang.scala-compiler"/>
         <plugin id="org.scala-lang.scala-library"/>
@@ -357,8 +361,8 @@
         <plugin id="saaj.3rdpartywrap"/>
         <plugin id="slf4j.api"/>
         <plugin id="slf4j.simple"/>
-        <plugin id="stax2-api" version="3.1.4"/>
         <plugin id="stax2-api" version="4.0.0"/>
+        <plugin id="stax2-api" version="3.1.4"/>
         <plugin id="tidy.3rdpartywrap"/>
         <plugin id="woodstox-core-asl"/>
         <plugin id="wsdl4j.3rdpartywrap"/>
