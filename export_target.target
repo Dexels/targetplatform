@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1570">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1575">
     <locations>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/bouncycastle" type="Directory"/>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/james" type="Directory"/>
@@ -46,6 +46,7 @@
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/dexels.repository" type="Directory"/>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/pax-web-8" type="Directory"/>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/pax-web-7" type="Directory"/>
+        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/jetty" type="Directory"/>
     </locations>
     <includeBundles>
         <plugin id="apache-mailet-2.4"/>
@@ -280,6 +281,7 @@
         <plugin id="org.eclipse.jetty.continuation"/>
         <plugin id="org.eclipse.jetty.http"/>
         <plugin id="org.eclipse.jetty.io"/>
+        <plugin id="org.eclipse.jetty.reactive.client"/>
         <plugin id="org.eclipse.jetty.security"/>
         <plugin id="org.eclipse.jetty.server"/>
         <plugin id="org.eclipse.jetty.servlet"/>
@@ -316,8 +318,8 @@
         <plugin id="org.ops4j.base.net"/>
         <plugin id="org.ops4j.base.spi"/>
         <plugin id="org.ops4j.base.util.property"/>
-        <plugin id="org.ops4j.pax.configmanager" version="0.2.2"/>
         <plugin id="org.ops4j.pax.configmanager" version="1.0.0"/>
+        <plugin id="org.ops4j.pax.configmanager" version="0.2.2"/>
         <plugin id="org.ops4j.pax.logging.pax-logging-api"/>
         <plugin id="org.ops4j.pax.logging.pax-logging-service"/>
         <plugin id="org.ops4j.pax.swissbox.bnd"/>
@@ -373,8 +375,8 @@
         <plugin id="saaj.3rdpartywrap"/>
         <plugin id="slf4j.api"/>
         <plugin id="slf4j.simple"/>
-        <plugin id="stax2-api" version="3.1.4"/>
         <plugin id="stax2-api" version="4.0.0"/>
+        <plugin id="stax2-api" version="3.1.4"/>
         <plugin id="tidy.3rdpartywrap"/>
         <plugin id="woodstox-core-asl"/>
         <plugin id="wsdl4j.3rdpartywrap"/>
