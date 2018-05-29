@@ -8,8 +8,8 @@
 	<echo message="ssh: ${user}@${host}:/var/www/html/repo/eclipse/3rdparty_${feature_version}/"/>
 	<echo message="scp export ${dest}"/>
 	<target name="feature_upload">
-	<!--	<sshexec knownhosts="${user.home}/.ssh/known_hosts" host="${host}" trust="true" username="${user}" keyfile="${user.home}/.ssh/id_rsa" command="mkdir -p /var/www/html/repo/eclipse/3rdparty_${feature_version}/"/>
--->		<scp knownhosts="${user.home}/.ssh/known_hosts"  verbose="TRUE" todir="${dest}"  keyfile="${user.home}/.ssh/id_rsa">
+		<sshexec knownhosts="${user.home}/.ssh/known_hosts" host="${host}" trust="true" username="${user}" keyfile="${user.home}/.ssh/id_rsa" command="mkdir -p /var/www/html/repo/eclipse/3rdparty_${feature_version}/"/>
+		<scp knownhosts="${user.home}/.ssh/known_hosts"  verbose="TRUE" todir="${dest}"  keyfile="${user.home}/.ssh/id_rsa">
 			<fileset dir="export">
 				<include name="**/*"/>
 			</fileset>
