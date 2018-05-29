@@ -1,385 +1,386 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1575">
-    <locations>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/bouncycastle" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/james" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/reactive" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/tools" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/enterprise" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/scala" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/other" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/ant" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/wrap" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/okHttp" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/mongodb" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/apachecxf" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/felix" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/aries" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/pax-swissbox" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/pax-web-6-release" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/core" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/jackson2" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/google" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/mail" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/batik" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/netty" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/rxnetty" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/restlet_dependency" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/pax-logging" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/jsonwebtoken" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/pi4j" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/ops4j" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/httpclient" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/jgit" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/logback" type="Directory"/>
-        <location path="${eclipse_home}" type="Profile"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/osgi" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/lucene" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/ecj" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/kafka" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/vaadin" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/openstreetmap" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/cluster" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/pax-url" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/postgres" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/saaj" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/dexels.repository" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/pax-web-8" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/pax-web-7" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/jetty" type="Directory"/>
-    </locations>
-    <includeBundles>
-        <plugin id="apache-mailet-2.4"/>
-        <plugin id="bcmail"/>
-        <plugin id="bcpg"/>
-        <plugin id="bcpkix"/>
-        <plugin id="bcprov"/>
-        <plugin id="bcprov-ext"/>
-        <plugin id="ch.qos.logback.classic" version="1.2.3"/>
-        <plugin id="ch.qos.logback.core" version="1.2.3"/>
-        <plugin id="com.dexels.appstore.ant"/>
-        <plugin id="com.dexels.appstore.core"/>
-        <plugin id="com.dexels.appstore.server"/>
-        <plugin id="com.dexels.consul.repositoryloader"/>
-        <plugin id="com.dexels.hazelcast"/>
-        <plugin id="com.dexels.immutable.api"/>
-        <plugin id="com.dexels.immutable.impl"/>
-        <plugin id="com.dexels.index.api"/>
-        <plugin id="com.dexels.kafka.impl"/>
-        <plugin id="com.dexels.kafka.impl.rx2"/>
-        <plugin id="com.dexels.log4j.httpappender"/>
-        <plugin id="com.dexels.log4j.server"/>
-        <plugin id="com.dexels.logback.redis"/>
-        <plugin id="com.dexels.monitor.rackermon"/>
-        <plugin id="com.dexels.mqtt.impl"/>
-        <plugin id="com.dexels.oauth.api"/>
-        <plugin id="com.dexels.oauth.impl"/>
-        <plugin id="com.dexels.oauth.web"/>
-        <plugin id="com.dexels.osgi.bundlesync"/>
-        <plugin id="com.dexels.pubsub.api"/>
-        <plugin id="com.dexels.pubsub.rx2.api"/>
-        <plugin id="com.dexels.replication.api"/>
-        <plugin id="com.dexels.replication.impl"/>
-        <plugin id="com.dexels.replication.impl.json"/>
-        <plugin id="com.dexels.replication.impl.protobuf"/>
-        <plugin id="com.dexels.repository.api"/>
-        <plugin id="com.dexels.repository.file"/>
-        <plugin id="com.dexels.repository.git"/>
-        <plugin id="com.dexels.repository.git.api"/>
-        <plugin id="com.dexels.resourcebundle"/>
-        <plugin id="com.dexels.server.mgmt.api"/>
-        <plugin id="com.dexels.server.mgmt.impl"/>
-        <plugin id="com.dexels.sharedconfigstore"/>
-        <plugin id="com.fasterxml.aalto-xml"/>
-        <plugin id="com.fasterxml.jackson.core.jackson-annotations"/>
-        <plugin id="com.fasterxml.jackson.core.jackson-core"/>
-        <plugin id="com.fasterxml.jackson.core.jackson-databind"/>
-        <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-xml"/>
-        <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"/>
-        <plugin id="com.fasterxml.jackson.module.jackson-module-jaxb-annotations"/>
-        <plugin id="com.fasterxml.woodstox.woodstox-core"/>
-        <plugin id="com.github.akarnokd.rxjava2-interop"/>
-        <plugin id="com.google.gson" version="2.2.4.v201311231704"/>
-        <plugin id="com.google.guava" version="20.0.0"/>
-        <plugin id="com.google.inject" version="3.0.0.v201312141243"/>
-        <plugin id="com.google.protobuf"/>
-        <plugin id="com.googlecode.javaewah.JavaEWAH" version="1.1.6"/>
-        <plugin id="com.hazelcast"/>
-        <plugin id="com.ibm.icu"/>
-        <plugin id="com.jcraft.jsch"/>
-        <plugin id="com.mysql.jdbc"/>
-        <plugin id="com.nimbusds.nimbus-jose-jwt"/>
-        <plugin id="com.oracle.jdbc.driver"/>
-        <plugin id="com.springsource.javax.transaction"/>
-        <plugin id="com.springsource.org.apache.commons.io"/>
-        <plugin id="com.springsource.org.json"/>
-        <plugin id="com.sun.dummy"/>
-        <plugin id="com.typesafe.config"/>
-        <plugin id="com.vaadin"/>
-        <plugin id="dnsjava"/>
-        <plugin id="edtftpj.3rdpartywrap"/>
-        <plugin id="ical4j.3rdpartywrap"/>
-        <plugin id="io.netty.buffer"/>
-        <plugin id="io.netty.codec"/>
-        <plugin id="io.netty.codec-http"/>
-        <plugin id="io.netty.codec-http2"/>
-        <plugin id="io.netty.common"/>
-        <plugin id="io.netty.handler"/>
-        <plugin id="io.netty.resolver"/>
-        <plugin id="io.netty.resolver-dns"/>
-        <plugin id="io.netty.transport"/>
-        <plugin id="io.netty.transport-native-epoll"/>
-        <plugin id="io.reactivex.rxjava"/>
-        <plugin id="io.reactivex.rxjava-joins"/>
-        <plugin id="io.reactivex.rxjava-string"/>
-        <plugin id="io.reactivex.rxjava2.rxjava"/>
-        <plugin id="io.reactivex.rxnetty-common"/>
-        <plugin id="io.reactivex.rxnetty-http"/>
-        <plugin id="io.reactivex.rxnetty-tcp"/>
-        <plugin id="javax.activation"/>
-        <plugin id="javax.el-api"/>
-        <plugin id="javax.inject"/>
-        <plugin id="javax.mail" version="1.4.0.v201005080615"/>
-        <plugin id="javax.servlet"/>
-        <plugin id="javax.servlet.jsp"/>
-        <plugin id="javax.ws.rs.javax.ws.rs-api"/>
-        <plugin id="javax.xml"/>
-        <plugin id="javax.xml.stream"/>
-        <plugin id="lz4-java"/>
-        <plugin id="net.minidev.accessors-smart"/>
-        <plugin id="net.minidev.json-smart"/>
-        <plugin id="org.apache.aries.blueprint"/>
-        <plugin id="org.apache.aries.jmx"/>
-        <plugin id="org.apache.aries.jmx.api"/>
-        <plugin id="org.apache.aries.jmx.core"/>
-        <plugin id="org.apache.aries.jmx.whiteboard"/>
-        <plugin id="org.apache.aries.proxy.api"/>
-        <plugin id="org.apache.aries.proxy.impl"/>
-        <plugin id="org.apache.aries.quiesce.api"/>
-        <plugin id="org.apache.aries.spifly.dynamic.bundle"/>
-        <plugin id="org.apache.aries.util"/>
-        <plugin id="org.apache.commons.beanutils" version="1.9.3"/>
-        <plugin id="org.apache.commons.codec" version="1.10.0"/>
-        <plugin id="org.apache.commons.collections"/>
-        <plugin id="org.apache.commons.compress" version="1.9.0"/>
-        <plugin id="org.apache.commons.dbcp"/>
-        <plugin id="org.apache.commons.dbcp2" version="2.2.0"/>
-        <plugin id="org.apache.commons.email" version="1.5.0"/>
-        <plugin id="org.apache.commons.fileupload" version="1.3.3"/>
-        <plugin id="org.apache.commons.httpclient"/>
-        <plugin id="org.apache.commons.io" version="2.5.0"/>
-        <plugin id="org.apache.commons.lang"/>
-        <plugin id="org.apache.commons.lang3" version="3.6.0"/>
-        <plugin id="org.apache.commons.logging" version="1.2.0"/>
-        <plugin id="org.apache.commons.net" version="3.3.0"/>
-        <plugin id="org.apache.commons.pool" version="1.6.0"/>
-        <plugin id="org.apache.commons.pool2"/>
-        <plugin id="org.apache.cxf.cxf-api"/>
-        <plugin id="org.apache.cxf.cxf-rt-bindings-xml"/>
-        <plugin id="org.apache.cxf.cxf-rt-core"/>
-        <plugin id="org.apache.cxf.cxf-rt-frontend-jaxrs"/>
-        <plugin id="org.apache.cxf.cxf-rt-rs-security-oauth2"/>
-        <plugin id="org.apache.cxf.cxf-rt-transports-http"/>
-        <plugin id="org.apache.felix.bundlerepository"/>
-        <plugin id="org.apache.felix.configadmin"/>
-        <plugin id="org.apache.felix.eventadmin"/>
-        <plugin id="org.apache.felix.fileinstall"/>
-        <plugin id="org.apache.felix.framework"/>
-        <plugin id="org.apache.felix.gogo.command" version="1.0.2"/>
-        <plugin id="org.apache.felix.gogo.runtime" version="1.0.6"/>
-        <plugin id="org.apache.felix.gogo.shell" version="1.0.0"/>
-        <plugin id="org.apache.felix.inventory"/>
-        <plugin id="org.apache.felix.log"/>
-        <plugin id="org.apache.felix.metatype"/>
-        <plugin id="org.apache.felix.prefs"/>
-        <plugin id="org.apache.felix.resolver"/>
-        <plugin id="org.apache.felix.scr"/>
-        <plugin id="org.apache.felix.servicediagnostics.plugin"/>
-        <plugin id="org.apache.felix.shell"/>
-        <plugin id="org.apache.felix.shell.remote"/>
-        <plugin id="org.apache.felix.shell.tui"/>
-        <plugin id="org.apache.felix.webconsole" version="4.3.4.all"/>
-        <plugin id="org.apache.felix.webconsole.plugins.ds"/>
-        <plugin id="org.apache.felix.webconsole.plugins.event"/>
-        <plugin id="org.apache.felix.webconsole.plugins.memoryusage"/>
-        <plugin id="org.apache.felix.webconsole.plugins.obr"/>
-        <plugin id="org.apache.felix.webconsole.plugins.packageadmin"/>
-        <plugin id="org.apache.felix.webconsole.plugins.scriptconsole"/>
-        <plugin id="org.apache.felix.webconsole.plugins.upnp"/>
-        <plugin id="org.apache.geronimo.specs.geronimo-javamail_1.4_spec"/>
-        <plugin id="org.apache.httpcomponents.httpasyncclient"/>
-        <plugin id="org.apache.httpcomponents.httpclient" version="4.5.3"/>
-        <plugin id="org.apache.httpcomponents.httpcore" version="4.4.6"/>
-        <plugin id="org.apache.james.protocols.api"/>
-        <plugin id="org.apache.james.protocols.netty"/>
-        <plugin id="org.apache.james.protocols.smtp"/>
-        <plugin id="org.apache.log4j" version="1.2.15.v201012070815"/>
-        <plugin id="org.apache.pdfbox"/>
-        <plugin id="org.apache.pdfbox.fontbox"/>
-        <plugin id="org.apache.pdfbox.jempbox"/>
-        <plugin id="org.apache.servicemix.bundles.ant"/>
-        <plugin id="org.apache.servicemix.bundles.aopalliance"/>
-        <plugin id="org.apache.servicemix.bundles.batik"/>
-        <plugin id="org.apache.servicemix.bundles.bcel"/>
-        <plugin id="org.apache.servicemix.bundles.geronimo-javamail_1.4_provider"/>
-        <plugin id="org.apache.servicemix.bundles.javax-websocket-api"/>
-        <plugin id="org.apache.servicemix.bundles.javax.mail"/>
-        <plugin id="org.apache.servicemix.bundles.jcip-annotations"/>
-        <plugin id="org.apache.servicemix.bundles.junit"/>
-        <plugin id="org.apache.servicemix.bundles.jzlib"/>
-        <plugin id="org.apache.servicemix.bundles.lucene"/>
-        <plugin id="org.apache.servicemix.bundles.okhttp"/>
-        <plugin id="org.apache.servicemix.bundles.okio"/>
-        <plugin id="org.apache.servicemix.bundles.saaj-impl"/>
-        <plugin id="org.apache.servicemix.bundles.xalan"/>
-        <plugin id="org.apache.servicemix.bundles.xerces"/>
-        <plugin id="org.apache.servicemix.bundles.xmlresolver"/>
-        <plugin id="org.apache.servicemix.specs.activation-api-1.1" version="2.7.0"/>
-        <plugin id="org.apache.servicemix.specs.saaj-api-1.3"/>
-        <plugin id="org.apache.tika.bundle"/>
-        <plugin id="org.apache.tika.core"/>
-        <plugin id="org.apache.tika.parsers"/>
-        <plugin id="org.apache.ws.commons.util"/>
-        <plugin id="org.apache.ws.xmlschema.core"/>
-        <plugin id="org.apache.xbean.asm5-shaded"/>
-        <plugin id="org.apache.xbean.bundleutils" version="4.4.0"/>
-        <plugin id="org.apache.xbean.finder" version="4.4.0"/>
-        <plugin id="org.apache.xerces"/>
-        <plugin id="org.apache.xml.resolver"/>
-        <plugin id="org.apache.xml.serializer"/>
-        <plugin id="org.apache.xmlrpc"/>
-        <plugin id="org.eclipse.ant.core"/>
-        <plugin id="org.eclipse.ant.launching"/>
-        <plugin id="org.eclipse.ant.ui"/>
-        <plugin id="org.eclipse.compare"/>
-        <plugin id="org.eclipse.compare.core"/>
-        <plugin id="org.eclipse.core.commands"/>
-        <plugin id="org.eclipse.core.contenttype"/>
-        <plugin id="org.eclipse.core.databinding"/>
-        <plugin id="org.eclipse.core.databinding.beans"/>
-        <plugin id="org.eclipse.core.databinding.observable"/>
-        <plugin id="org.eclipse.core.databinding.property"/>
-        <plugin id="org.eclipse.core.expressions"/>
-        <plugin id="org.eclipse.core.externaltools"/>
-        <plugin id="org.eclipse.core.filebuffers"/>
-        <plugin id="org.eclipse.core.filesystem"/>
-        <plugin id="org.eclipse.core.jobs"/>
-        <plugin id="org.eclipse.core.net"/>
-        <plugin id="org.eclipse.core.resources"/>
-        <plugin id="org.eclipse.core.runtime"/>
-        <plugin id="org.eclipse.core.runtime.compatibility"/>
-        <plugin id="org.eclipse.core.runtime.compatibility.registry"/>
-        <plugin id="org.eclipse.core.variables"/>
-        <plugin id="org.eclipse.debug.core"/>
-        <plugin id="org.eclipse.debug.ui"/>
-        <plugin id="org.eclipse.draw2d"/>
-        <plugin id="org.eclipse.equinox.common"/>
-        <plugin id="org.eclipse.equinox.event"/>
-        <plugin id="org.eclipse.equinox.http.jetty"/>
-        <plugin id="org.eclipse.equinox.preferences"/>
-        <plugin id="org.eclipse.jdt.core.compiler.batch" version="3.10.0.v20140604-1726"/>
-        <plugin id="org.eclipse.jetty.continuation"/>
-        <plugin id="org.eclipse.jetty.http"/>
-        <plugin id="org.eclipse.jetty.io"/>
-        <plugin id="org.eclipse.jetty.reactive.client"/>
-        <plugin id="org.eclipse.jetty.security"/>
-        <plugin id="org.eclipse.jetty.server"/>
-        <plugin id="org.eclipse.jetty.servlet"/>
-        <plugin id="org.eclipse.jetty.util"/>
-        <plugin id="org.eclipse.jetty.webapp"/>
-        <plugin id="org.eclipse.jetty.xml"/>
-        <plugin id="org.eclipse.jgit" version="4.9.1.201712030800-r"/>
-        <plugin id="org.eclipse.jgit.http.apache"/>
-        <plugin id="org.eclipse.jgit.http.server"/>
-        <plugin id="org.eclipse.osgi"/>
-        <plugin id="org.eclipse.osgi.services"/>
-        <plugin id="org.eclipse.paho.client.mqttv3"/>
-        <plugin id="org.freemarker.freemarker"/>
-        <plugin id="org.h2"/>
-        <plugin id="org.hamcrest.core"/>
-        <plugin id="org.igniterealtime.smack"/>
-        <plugin id="org.igniterealtime.smackx"/>
-        <plugin id="org.jboss.netty"/>
-        <plugin id="org.jctools.core"/>
-        <plugin id="org.jdom"/>
-        <plugin id="org.jvnet.mimepull"/>
-        <plugin id="org.jvnet.staxex.stax-ex"/>
-        <plugin id="org.mongodb.driver-async"/>
-        <plugin id="org.mongodb.driver-reactivestreams"/>
-        <plugin id="org.mongodb.mongo-java-driver"/>
-        <plugin id="org.objectweb.asm" version="5.0.3"/>
-        <plugin id="org.objectweb.asm.commons"/>
-        <plugin id="org.objectweb.asm.tree" version="5.0.3"/>
-        <plugin id="org.openstreetmap.jmapviewer"/>
-        <plugin id="org.ops4j.base" version="1.5.0"/>
-        <plugin id="org.ops4j.base.io"/>
-        <plugin id="org.ops4j.base.lang"/>
-        <plugin id="org.ops4j.base.monitors"/>
-        <plugin id="org.ops4j.base.net"/>
-        <plugin id="org.ops4j.base.spi"/>
-        <plugin id="org.ops4j.base.util.property"/>
-        <plugin id="org.ops4j.pax.configmanager" version="1.0.0"/>
-        <plugin id="org.ops4j.pax.configmanager" version="0.2.2"/>
-        <plugin id="org.ops4j.pax.logging.pax-logging-api"/>
-        <plugin id="org.ops4j.pax.logging.pax-logging-service"/>
-        <plugin id="org.ops4j.pax.swissbox.bnd"/>
-        <plugin id="org.ops4j.pax.swissbox.converter"/>
-        <plugin id="org.ops4j.pax.swissbox.core"/>
-        <plugin id="org.ops4j.pax.swissbox.extender"/>
-        <plugin id="org.ops4j.pax.swissbox.framework"/>
-        <plugin id="org.ops4j.pax.swissbox.lifecycle"/>
-        <plugin id="org.ops4j.pax.swissbox.optional.jcl"/>
-        <plugin id="org.ops4j.pax.swissbox.property"/>
-        <plugin id="org.ops4j.pax.swissbox.tracker"/>
-        <plugin id="org.ops4j.pax.url.assembly"/>
-        <plugin id="org.ops4j.pax.url.cache"/>
-        <plugin id="org.ops4j.pax.url.classpath"/>
-        <plugin id="org.ops4j.pax.url.commons"/>
-        <plugin id="org.ops4j.pax.url.link"/>
-        <plugin id="org.ops4j.pax.url.mvn"/>
-        <plugin id="org.ops4j.pax.url.obr"/>
-        <plugin id="org.ops4j.pax.url.reference"/>
-        <plugin id="org.ops4j.pax.url.war"/>
-        <plugin id="org.ops4j.pax.url.wrap"/>
-        <plugin id="org.ops4j.pax.web.pax-web-api" version="7.0.0"/>
-        <plugin id="org.ops4j.pax.web.pax-web-api" version="6.0.6"/>
-        <plugin id="org.ops4j.pax.web.pax-web-deployer" version="7.0.0"/>
-        <plugin id="org.ops4j.pax.web.pax-web-descriptor" version="7.0.0"/>
-        <plugin id="org.ops4j.pax.web.pax-web-extender-war" version="7.0.0"/>
-        <plugin id="org.ops4j.pax.web.pax-web-extender-whiteboard" version="7.0.0"/>
-        <plugin id="org.ops4j.pax.web.pax-web-jaas" version="7.0.0"/>
-        <plugin id="org.ops4j.pax.web.pax-web-jetty" version="7.0.0"/>
-        <plugin id="org.ops4j.pax.web.pax-web-jetty-bundle" version="7.0.0"/>
-        <plugin id="org.ops4j.pax.web.pax-web-jsp" version="7.0.0"/>
-        <plugin id="org.ops4j.pax.web.pax-web-resources-api"/>
-        <plugin id="org.ops4j.pax.web.pax-web-resources-extender"/>
-        <plugin id="org.ops4j.pax.web.pax-web-runtime" version="7.0.0"/>
-        <plugin id="org.ops4j.pax.web.pax-web-spi" version="7.0.0"/>
-        <plugin id="org.ops4j.pax.web.pax-web-tomcat-bundle" version="7.0.0"/>
-        <plugin id="org.ops4j.pax.web.pax-web-undertow" version="7.0.0"/>
-        <plugin id="org.osgi.service.component.annotations"/>
-        <plugin id="org.osgi.service.obr"/>
-        <plugin id="org.postgresql.jdbc3" version="9.1.901"/>
-        <plugin id="org.postgresql.jdbc4" version="9.1.901"/>
-        <plugin id="org.reactivestreams.reactive-streams"/>
-        <plugin id="org.scala-lang.modules.scala-xml"/>
-        <plugin id="org.scala-lang.scala-compiler"/>
-        <plugin id="org.scala-lang.scala-library"/>
-        <plugin id="org.scala-lang.scala-reflect"/>
-        <plugin id="org.w3c.dom.svg" version="1.1.0.v201011041433"/>
-        <plugin id="org.yaml.snakeyaml"/>
-        <plugin id="pi4j-core"/>
-        <plugin id="pi4j-service"/>
-        <plugin id="redis.clients.jedis"/>
-        <plugin id="rssutils.3rdpartywrap"/>
-        <plugin id="saaj.3rdpartywrap"/>
-        <plugin id="slf4j.api"/>
-        <plugin id="slf4j.simple"/>
-        <plugin id="stax2-api" version="4.0.0"/>
-        <plugin id="stax2-api" version="3.1.4"/>
-        <plugin id="tidy.3rdpartywrap"/>
-        <plugin id="woodstox-core-asl"/>
-        <plugin id="wsdl4j.3rdpartywrap"/>
-    </includeBundles>
-    <targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1599">
+<locations>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/bouncycastle" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/james" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/reactive" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/tools" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/enterprise" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/scala" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/other" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/ant" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/wrap" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/okHttp" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/mongodb" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/apachecxf" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/felix" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/aries" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/pax-swissbox" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/pax-web-6-release" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/core" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/jackson2" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/google" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/mail" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/batik" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/netty" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/rxnetty" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/restlet_dependency" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/pax-logging" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/jsonwebtoken" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/pi4j" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/ops4j" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/httpclient" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/jgit" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/logback" type="Directory"/>
+<location path="${eclipse_home}" type="Profile"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/osgi" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/lucene" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/ecj" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/kafka" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/vaadin" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/openstreetmap" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/cluster" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/pax-url" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/postgres" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/saaj" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/dexels.repository" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/pax-web-8" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/pax-web-7" type="Directory"/>
+<location path="${project_loc:com.dexels.thirdparty.feature}/lib/jetty" type="Directory"/>
+</locations>
+<includeBundles>
+<plugin id="apache-mailet-2.4"/>
+<plugin id="bcmail"/>
+<plugin id="bcpg"/>
+<plugin id="bcpkix"/>
+<plugin id="bcprov"/>
+<plugin id="bcprov-ext"/>
+<plugin id="ch.qos.logback.classic" version="1.2.3"/>
+<plugin id="ch.qos.logback.core" version="1.2.3"/>
+<plugin id="com.dexels.appstore.ant"/>
+<plugin id="com.dexels.appstore.core"/>
+<plugin id="com.dexels.appstore.server"/>
+<plugin id="com.dexels.consul.repositoryloader"/>
+<plugin id="com.dexels.hazelcast"/>
+<plugin id="com.dexels.immutable.api"/>
+<plugin id="com.dexels.immutable.impl"/>
+<plugin id="com.dexels.index.api"/>
+<plugin id="com.dexels.kafka.impl"/>
+<plugin id="com.dexels.kafka.impl.rx2"/>
+<plugin id="com.dexels.log4j.httpappender"/>
+<plugin id="com.dexels.log4j.server"/>
+<plugin id="com.dexels.logback.redis"/>
+<plugin id="com.dexels.monitor.rackermon"/>
+<plugin id="com.dexels.mqtt.impl"/>
+<plugin id="com.dexels.oauth.api"/>
+<plugin id="com.dexels.oauth.impl"/>
+<plugin id="com.dexels.oauth.web"/>
+<plugin id="com.dexels.osgi.bundlesync"/>
+<plugin id="com.dexels.pubsub.api"/>
+<plugin id="com.dexels.pubsub.rx2.api"/>
+<plugin id="com.dexels.replication.api"/>
+<plugin id="com.dexels.replication.impl"/>
+<plugin id="com.dexels.replication.impl.json"/>
+<plugin id="com.dexels.replication.impl.protobuf"/>
+<plugin id="com.dexels.repository.api"/>
+<plugin id="com.dexels.repository.file"/>
+<plugin id="com.dexels.repository.git"/>
+<plugin id="com.dexels.repository.git.api"/>
+<plugin id="com.dexels.resourcebundle"/>
+<plugin id="com.dexels.server.mgmt.api"/>
+<plugin id="com.dexels.server.mgmt.impl"/>
+<plugin id="com.dexels.sharedconfigstore"/>
+<plugin id="com.fasterxml.aalto-xml"/>
+<plugin id="com.fasterxml.jackson.core.jackson-annotations"/>
+<plugin id="com.fasterxml.jackson.core.jackson-core"/>
+<plugin id="com.fasterxml.jackson.core.jackson-databind"/>
+<plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-xml"/>
+<plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"/>
+<plugin id="com.fasterxml.jackson.module.jackson-module-jaxb-annotations"/>
+<plugin id="com.fasterxml.woodstox.woodstox-core"/>
+<plugin id="com.github.akarnokd.rxjava2-interop"/>
+<plugin id="com.google.gson" version="2.2.4"/>
+<plugin id="com.google.guava" version="20.0.0"/>
+<plugin id="com.google.inject" version="3.0.0.v201312141243"/>
+<plugin id="com.google.protobuf" version="3.3.1"/>
+<plugin id="com.googlecode.javaewah.JavaEWAH" version="1.1.6"/>
+<plugin id="com.hazelcast"/>
+<plugin id="com.ibm.icu"/>
+<plugin id="com.jcraft.jsch"/>
+<plugin id="com.mysql.jdbc"/>
+<plugin id="com.nimbusds.nimbus-jose-jwt"/>
+<plugin id="com.oracle.jdbc.driver"/>
+<plugin id="com.springsource.javax.transaction"/>
+<plugin id="com.springsource.org.apache.commons.io"/>
+<plugin id="com.springsource.org.json"/>
+<plugin id="com.sun.dummy"/>
+<plugin id="com.typesafe.config"/>
+<plugin id="com.vaadin"/>
+<plugin id="dnsjava"/>
+<plugin id="edtftpj.3rdpartywrap"/>
+<plugin id="ical4j.3rdpartywrap"/>
+<plugin id="io.netty.buffer"/>
+<plugin id="io.netty.codec"/>
+<plugin id="io.netty.codec-http"/>
+<plugin id="io.netty.codec-http2"/>
+<plugin id="io.netty.common"/>
+<plugin id="io.netty.handler"/>
+<plugin id="io.netty.resolver"/>
+<plugin id="io.netty.resolver-dns"/>
+<plugin id="io.netty.transport"/>
+<plugin id="io.netty.transport-native-epoll"/>
+<plugin id="io.reactivex.rxjava"/>
+<plugin id="io.reactivex.rxjava-joins"/>
+<plugin id="io.reactivex.rxjava-string"/>
+<plugin id="io.reactivex.rxjava2.rxjava"/>
+<plugin id="io.reactivex.rxnetty-common"/>
+<plugin id="io.reactivex.rxnetty-http"/>
+<plugin id="io.reactivex.rxnetty-tcp"/>
+<plugin id="javax.activation"/>
+<plugin id="javax.el-api"/>
+<plugin id="javax.inject"/>
+<plugin id="javax.mail" version="1.4.0.v201005080615"/>
+<plugin id="javax.servlet"/>
+<plugin id="javax.servlet.jsp"/>
+<plugin id="javax.ws.rs.javax.ws.rs-api"/>
+<plugin id="javax.xml"/>
+<plugin id="javax.xml.stream"/>
+<plugin id="lz4-java"/>
+<plugin id="net.minidev.accessors-smart"/>
+<plugin id="net.minidev.json-smart"/>
+<plugin id="org.apache.aries.blueprint"/>
+<plugin id="org.apache.aries.jmx"/>
+<plugin id="org.apache.aries.jmx.api"/>
+<plugin id="org.apache.aries.jmx.core"/>
+<plugin id="org.apache.aries.jmx.whiteboard"/>
+<plugin id="org.apache.aries.proxy.api"/>
+<plugin id="org.apache.aries.proxy.impl"/>
+<plugin id="org.apache.aries.quiesce.api"/>
+<plugin id="org.apache.aries.spifly.dynamic.bundle"/>
+<plugin id="org.apache.aries.util"/>
+<plugin id="org.apache.commons.beanutils" version="1.9.3"/>
+<plugin id="org.apache.commons.codec" version="1.10.0"/>
+<plugin id="org.apache.commons.collections"/>
+<plugin id="org.apache.commons.compress" version="1.9.0"/>
+<plugin id="org.apache.commons.dbcp"/>
+<plugin id="org.apache.commons.dbcp2" version="2.2.0"/>
+<plugin id="org.apache.commons.email" version="1.5.0"/>
+<plugin id="org.apache.commons.fileupload" version="1.3.3"/>
+<plugin id="org.apache.commons.httpclient"/>
+<plugin id="org.apache.commons.io" version="2.5.0"/>
+<plugin id="org.apache.commons.lang"/>
+<plugin id="org.apache.commons.lang3" version="3.6.0"/>
+<plugin id="org.apache.commons.logging" version="1.2.0"/>
+<plugin id="org.apache.commons.net" version="3.3.0"/>
+<plugin id="org.apache.commons.pool" version="1.6.0"/>
+<plugin id="org.apache.commons.pool2"/>
+<plugin id="org.apache.cxf.cxf-api"/>
+<plugin id="org.apache.cxf.cxf-rt-bindings-xml"/>
+<plugin id="org.apache.cxf.cxf-rt-core"/>
+<plugin id="org.apache.cxf.cxf-rt-frontend-jaxrs"/>
+<plugin id="org.apache.cxf.cxf-rt-rs-security-oauth2"/>
+<plugin id="org.apache.cxf.cxf-rt-transports-http"/>
+<plugin id="org.apache.felix.bundlerepository"/>
+<plugin id="org.apache.felix.configadmin"/>
+<plugin id="org.apache.felix.eventadmin"/>
+<plugin id="org.apache.felix.fileinstall"/>
+<plugin id="org.apache.felix.framework"/>
+<plugin id="org.apache.felix.gogo.command" version="1.0.2"/>
+<plugin id="org.apache.felix.gogo.runtime" version="1.0.6"/>
+<plugin id="org.apache.felix.gogo.shell" version="1.0.0"/>
+<plugin id="org.apache.felix.inventory"/>
+<plugin id="org.apache.felix.log"/>
+<plugin id="org.apache.felix.metatype"/>
+<plugin id="org.apache.felix.prefs"/>
+<plugin id="org.apache.felix.resolver"/>
+<plugin id="org.apache.felix.scr" version="2.1.0"/>
+<plugin id="org.apache.felix.servicediagnostics.plugin"/>
+<plugin id="org.apache.felix.shell"/>
+<plugin id="org.apache.felix.shell.remote"/>
+<plugin id="org.apache.felix.shell.tui"/>
+<plugin id="org.apache.felix.webconsole" version="4.3.4.all"/>
+<plugin id="org.apache.felix.webconsole.plugins.ds"/>
+<plugin id="org.apache.felix.webconsole.plugins.event"/>
+<plugin id="org.apache.felix.webconsole.plugins.memoryusage"/>
+<plugin id="org.apache.felix.webconsole.plugins.obr"/>
+<plugin id="org.apache.felix.webconsole.plugins.packageadmin"/>
+<plugin id="org.apache.felix.webconsole.plugins.scriptconsole"/>
+<plugin id="org.apache.felix.webconsole.plugins.upnp"/>
+<plugin id="org.apache.geronimo.specs.geronimo-javamail_1.4_spec"/>
+<plugin id="org.apache.httpcomponents.httpasyncclient"/>
+<plugin id="org.apache.httpcomponents.httpclient" version="4.5.3"/>
+<plugin id="org.apache.httpcomponents.httpcore" version="4.4.6"/>
+<plugin id="org.apache.james.protocols.api"/>
+<plugin id="org.apache.james.protocols.netty"/>
+<plugin id="org.apache.james.protocols.smtp"/>
+<plugin id="org.apache.log4j" version="1.2.15.v201012070815"/>
+<plugin id="org.apache.pdfbox"/>
+<plugin id="org.apache.pdfbox.fontbox"/>
+<plugin id="org.apache.pdfbox.jempbox"/>
+<plugin id="org.apache.servicemix.bundles.ant"/>
+<plugin id="org.apache.servicemix.bundles.aopalliance"/>
+<plugin id="org.apache.servicemix.bundles.batik"/>
+<plugin id="org.apache.servicemix.bundles.bcel"/>
+<plugin id="org.apache.servicemix.bundles.geronimo-javamail_1.4_provider"/>
+<plugin id="org.apache.servicemix.bundles.javax-websocket-api"/>
+<plugin id="org.apache.servicemix.bundles.javax.mail"/>
+<plugin id="org.apache.servicemix.bundles.jcip-annotations"/>
+<plugin id="org.apache.servicemix.bundles.junit"/>
+<plugin id="org.apache.servicemix.bundles.jzlib"/>
+<plugin id="org.apache.servicemix.bundles.lucene"/>
+<plugin id="org.apache.servicemix.bundles.okhttp"/>
+<plugin id="org.apache.servicemix.bundles.okio"/>
+<plugin id="org.apache.servicemix.bundles.saaj-impl"/>
+<plugin id="org.apache.servicemix.bundles.xalan"/>
+<plugin id="org.apache.servicemix.bundles.xerces"/>
+<plugin id="org.apache.servicemix.bundles.xmlresolver"/>
+<plugin id="org.apache.servicemix.specs.activation-api-1.1" version="2.7.0"/>
+<plugin id="org.apache.servicemix.specs.saaj-api-1.3"/>
+<plugin id="org.apache.tika.bundle"/>
+<plugin id="org.apache.tika.core"/>
+<plugin id="org.apache.tika.parsers"/>
+<plugin id="org.apache.ws.commons.util"/>
+<plugin id="org.apache.ws.xmlschema.core"/>
+<plugin id="org.apache.xbean.asm5-shaded"/>
+<plugin id="org.apache.xbean.bundleutils" version="4.8.0"/>
+<plugin id="org.apache.xbean.finder" version="4.8.0"/>
+<plugin id="org.apache.xerces"/>
+<plugin id="org.apache.xml.resolver"/>
+<plugin id="org.apache.xml.serializer"/>
+<plugin id="org.apache.xmlrpc"/>
+<plugin id="org.eclipse.ant.core"/>
+<plugin id="org.eclipse.ant.launching"/>
+<plugin id="org.eclipse.ant.ui"/>
+<plugin id="org.eclipse.compare"/>
+<plugin id="org.eclipse.compare.core"/>
+<plugin id="org.eclipse.core.commands"/>
+<plugin id="org.eclipse.core.contenttype"/>
+<plugin id="org.eclipse.core.databinding"/>
+<plugin id="org.eclipse.core.databinding.beans"/>
+<plugin id="org.eclipse.core.databinding.observable"/>
+<plugin id="org.eclipse.core.databinding.property"/>
+<plugin id="org.eclipse.core.expressions"/>
+<plugin id="org.eclipse.core.externaltools"/>
+<plugin id="org.eclipse.core.filebuffers"/>
+<plugin id="org.eclipse.core.filesystem"/>
+<plugin id="org.eclipse.core.jobs"/>
+<plugin id="org.eclipse.core.net"/>
+<plugin id="org.eclipse.core.resources"/>
+<plugin id="org.eclipse.core.runtime"/>
+<plugin id="org.eclipse.core.variables"/>
+<plugin id="org.eclipse.debug.core"/>
+<plugin id="org.eclipse.debug.ui"/>
+<plugin id="org.eclipse.draw2d"/>
+<plugin id="org.eclipse.equinox.common"/>
+<plugin id="org.eclipse.equinox.event"/>
+<plugin id="org.eclipse.equinox.http.jetty"/>
+<plugin id="org.eclipse.equinox.preferences"/>
+<plugin id="org.eclipse.jdt.core.compiler.batch" version="3.10.0.v20140604-1726"/>
+<plugin id="org.eclipse.jetty.continuation"/>
+<plugin id="org.eclipse.jetty.http"/>
+<plugin id="org.eclipse.jetty.io"/>
+<plugin id="org.eclipse.jetty.reactive.client"/>
+<plugin id="org.eclipse.jetty.security"/>
+<plugin id="org.eclipse.jetty.server"/>
+<plugin id="org.eclipse.jetty.servlet"/>
+<plugin id="org.eclipse.jetty.util"/>
+<plugin id="org.eclipse.jetty.webapp"/>
+<plugin id="org.eclipse.jetty.xml"/>
+<plugin id="org.eclipse.jgit" version="4.9.1.201712030800-r"/>
+<plugin id="org.eclipse.jgit.http.apache"/>
+<plugin id="org.eclipse.jgit.http.server"/>
+<plugin id="org.eclipse.osgi"/>
+<plugin id="org.eclipse.osgi.services"/>
+<plugin id="org.eclipse.paho.client.mqttv3"/>
+<plugin id="org.freemarker.freemarker"/>
+<plugin id="org.h2"/>
+<plugin id="org.hamcrest.core"/>
+<plugin id="org.igniterealtime.smack"/>
+<plugin id="org.igniterealtime.smackx"/>
+<plugin id="org.jboss.netty"/>
+<plugin id="org.jctools.core"/>
+<plugin id="org.jdom"/>
+<plugin id="org.jvnet.mimepull"/>
+<plugin id="org.jvnet.staxex.stax-ex"/>
+<plugin id="org.mongodb.driver-async"/>
+<plugin id="org.mongodb.driver-reactivestreams"/>
+<plugin id="org.mongodb.mongo-java-driver"/>
+<plugin id="org.objectweb.asm" version="5.0.3"/>
+<plugin id="org.objectweb.asm" version="6.0.0.v20180116-1719"/>
+<plugin id="org.objectweb.asm.commons" version="5.0.3"/>
+<plugin id="org.objectweb.asm.commons" version="6.0.0.v20180116-1719"/>
+<plugin id="org.objectweb.asm.tree" version="6.0.0.v20180116-1719"/>
+<plugin id="org.objectweb.asm.tree" version="5.0.3"/>
+<plugin id="org.openstreetmap.jmapviewer"/>
+<plugin id="org.ops4j.base" version="1.5.0"/>
+<plugin id="org.ops4j.base.io"/>
+<plugin id="org.ops4j.base.lang"/>
+<plugin id="org.ops4j.base.monitors"/>
+<plugin id="org.ops4j.base.net"/>
+<plugin id="org.ops4j.base.spi"/>
+<plugin id="org.ops4j.base.util.property"/>
+<plugin id="org.ops4j.pax.configmanager" version="1.0.0"/>
+<plugin id="org.ops4j.pax.configmanager" version="0.2.2"/>
+<plugin id="org.ops4j.pax.logging.pax-logging-api"/>
+<plugin id="org.ops4j.pax.logging.pax-logging-service"/>
+<plugin id="org.ops4j.pax.swissbox.bnd"/>
+<plugin id="org.ops4j.pax.swissbox.converter"/>
+<plugin id="org.ops4j.pax.swissbox.core"/>
+<plugin id="org.ops4j.pax.swissbox.extender"/>
+<plugin id="org.ops4j.pax.swissbox.framework"/>
+<plugin id="org.ops4j.pax.swissbox.lifecycle"/>
+<plugin id="org.ops4j.pax.swissbox.optional.jcl"/>
+<plugin id="org.ops4j.pax.swissbox.property"/>
+<plugin id="org.ops4j.pax.swissbox.tracker"/>
+<plugin id="org.ops4j.pax.url.assembly"/>
+<plugin id="org.ops4j.pax.url.cache"/>
+<plugin id="org.ops4j.pax.url.classpath"/>
+<plugin id="org.ops4j.pax.url.commons"/>
+<plugin id="org.ops4j.pax.url.link"/>
+<plugin id="org.ops4j.pax.url.mvn"/>
+<plugin id="org.ops4j.pax.url.obr"/>
+<plugin id="org.ops4j.pax.url.reference"/>
+<plugin id="org.ops4j.pax.url.war"/>
+<plugin id="org.ops4j.pax.url.wrap"/>
+<plugin id="org.ops4j.pax.web.pax-web-api" version="7.0.0"/>
+<plugin id="org.ops4j.pax.web.pax-web-api" version="6.0.6"/>
+<plugin id="org.ops4j.pax.web.pax-web-deployer" version="7.0.0"/>
+<plugin id="org.ops4j.pax.web.pax-web-descriptor" version="7.0.0"/>
+<plugin id="org.ops4j.pax.web.pax-web-extender-war" version="7.0.0"/>
+<plugin id="org.ops4j.pax.web.pax-web-extender-whiteboard" version="7.0.0"/>
+<plugin id="org.ops4j.pax.web.pax-web-jaas" version="7.0.0"/>
+<plugin id="org.ops4j.pax.web.pax-web-jetty" version="7.0.0"/>
+<plugin id="org.ops4j.pax.web.pax-web-jetty-bundle" version="7.0.0"/>
+<plugin id="org.ops4j.pax.web.pax-web-jsp" version="7.0.0"/>
+<plugin id="org.ops4j.pax.web.pax-web-resources-api"/>
+<plugin id="org.ops4j.pax.web.pax-web-resources-extender"/>
+<plugin id="org.ops4j.pax.web.pax-web-runtime" version="7.0.0"/>
+<plugin id="org.ops4j.pax.web.pax-web-spi" version="7.0.0"/>
+<plugin id="org.ops4j.pax.web.pax-web-tomcat-bundle" version="7.0.0"/>
+<plugin id="org.ops4j.pax.web.pax-web-undertow" version="7.0.0"/>
+<plugin id="org.osgi.service.component.annotations"/>
+<plugin id="org.osgi.service.obr"/>
+<plugin id="org.postgresql.jdbc3" version="9.1.901"/>
+<plugin id="org.postgresql.jdbc4" version="9.1.901"/>
+<plugin id="org.reactivestreams.reactive-streams"/>
+<plugin id="org.scala-lang.modules.scala-xml"/>
+<plugin id="org.scala-lang.scala-compiler"/>
+<plugin id="org.scala-lang.scala-library"/>
+<plugin id="org.scala-lang.scala-reflect"/>
+<plugin id="org.w3c.dom.svg" version="1.1.0.v201011041433"/>
+<plugin id="org.yaml.snakeyaml"/>
+<plugin id="pi4j-core"/>
+<plugin id="pi4j-service"/>
+<plugin id="redis.clients.jedis"/>
+<plugin id="rssutils.3rdpartywrap"/>
+<plugin id="saaj.3rdpartywrap"/>
+<plugin id="slf4j.api"/>
+<plugin id="slf4j.simple"/>
+<plugin id="stax2-api" version="3.1.4"/>
+<plugin id="stax2-api" version="4.0.0"/>
+<plugin id="tidy.3rdpartywrap"/>
+<plugin id="woodstox-core-asl"/>
+<plugin id="wsdl4j.3rdpartywrap"/>
+</includeBundles>
+<targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 </target>

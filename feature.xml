@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.12.5.qualifier"
+      version="1.12.6.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -960,7 +960,14 @@
          id="org.objectweb.asm"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="6.0.0.v20180116-1719"
+         unpack="false"/>
+         
+   <plugin
+         id="org.objectweb.asm"
+         download-size="0"
+         install-size="0"
+         version="5.0.3"
          unpack="false"/>
 
    <plugin
