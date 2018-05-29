@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1599">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1603">
 <locations>
 <location path="${project_loc:com.dexels.thirdparty.feature}/lib/bouncycastle" type="Directory"/>
 <location path="${project_loc:com.dexels.thirdparty.feature}/lib/james" type="Directory"/>
@@ -305,8 +305,8 @@
 <plugin id="org.mongodb.driver-async"/>
 <plugin id="org.mongodb.driver-reactivestreams"/>
 <plugin id="org.mongodb.mongo-java-driver"/>
-<plugin id="org.objectweb.asm" version="5.0.3"/>
 <plugin id="org.objectweb.asm" version="6.0.0.v20180116-1719"/>
+<plugin id="org.objectweb.asm" version="5.0.3"/>
 <plugin id="org.objectweb.asm.commons" version="5.0.3"/>
 <plugin id="org.objectweb.asm.commons" version="6.0.0.v20180116-1719"/>
 <plugin id="org.objectweb.asm.tree" version="6.0.0.v20180116-1719"/>
@@ -319,8 +319,8 @@
 <plugin id="org.ops4j.base.net"/>
 <plugin id="org.ops4j.base.spi"/>
 <plugin id="org.ops4j.base.util.property"/>
-<plugin id="org.ops4j.pax.configmanager" version="1.0.0"/>
 <plugin id="org.ops4j.pax.configmanager" version="0.2.2"/>
+<plugin id="org.ops4j.pax.configmanager" version="1.0.0"/>
 <plugin id="org.ops4j.pax.logging.pax-logging-api"/>
 <plugin id="org.ops4j.pax.logging.pax-logging-service"/>
 <plugin id="org.ops4j.pax.swissbox.bnd"/>
@@ -342,8 +342,8 @@
 <plugin id="org.ops4j.pax.url.reference"/>
 <plugin id="org.ops4j.pax.url.war"/>
 <plugin id="org.ops4j.pax.url.wrap"/>
-<plugin id="org.ops4j.pax.web.pax-web-api" version="7.0.0"/>
 <plugin id="org.ops4j.pax.web.pax-web-api" version="6.0.6"/>
+<plugin id="org.ops4j.pax.web.pax-web-api" version="7.0.0"/>
 <plugin id="org.ops4j.pax.web.pax-web-deployer" version="7.0.0"/>
 <plugin id="org.ops4j.pax.web.pax-web-descriptor" version="7.0.0"/>
 <plugin id="org.ops4j.pax.web.pax-web-extender-war" version="7.0.0"/>
@@ -358,6 +358,7 @@
 <plugin id="org.ops4j.pax.web.pax-web-spi" version="7.0.0"/>
 <plugin id="org.ops4j.pax.web.pax-web-tomcat-bundle" version="7.0.0"/>
 <plugin id="org.ops4j.pax.web.pax-web-undertow" version="7.0.0"/>
+<plugin id="org.osgi.service.cm"/>
 <plugin id="org.osgi.service.component.annotations"/>
 <plugin id="org.osgi.service.obr"/>
 <plugin id="org.postgresql.jdbc3" version="9.1.901"/>
