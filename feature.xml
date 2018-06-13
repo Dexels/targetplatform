@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.12.6.qualifier"
+      version="1.13.4.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -960,11 +960,32 @@
          id="org.objectweb.asm"
          download-size="0"
          install-size="0"
-         version="6.0.0.v20180116-1719"
+         version="5.0.3"
          unpack="false"/>
 
    <plugin
          id="org.objectweb.asm"
+         download-size="0"
+         install-size="0"
+         version="6.1.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.util"
+         download-size="0"
+         install-size="0"
+         version="5.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.util"
+         download-size="0"
+         install-size="0"
+         version="6.1.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.commons"
          download-size="0"
          install-size="0"
          version="5.0.3"
@@ -974,14 +995,21 @@
          id="org.objectweb.asm.commons"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="6.1.1"
          unpack="false"/>
 
    <plugin
          id="org.objectweb.asm.tree"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="5.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.tree"
+         download-size="0"
+         install-size="0"
+         version="6.1.1"
          unpack="false"/>
 
    <plugin
@@ -1226,7 +1254,14 @@
          id="stax2-api"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="3.1.4"
+         unpack="false"/>
+
+   <plugin
+         id="stax2-api"
+         download-size="0"
+         install-size="0"
+         version="4.0.0"
          unpack="false"/>
 
    <plugin
