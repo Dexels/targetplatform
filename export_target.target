@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <?pde version="3.8"?><target name="Export platform" sequenceNumber="1609">
+=======
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1633">
+>>>>>>> Target platform for TraxYZ
 <locations>
 <location path="${project_loc:com.dexels.thirdparty.feature}/lib/bouncycastle" type="Directory"/>
 <location path="${project_loc:com.dexels.thirdparty.feature}/lib/james" type="Directory"/>
@@ -143,6 +147,7 @@
 <plugin id="javax.mail" version="1.4.0.v201005080615"/>
 <plugin id="javax.servlet"/>
 <plugin id="javax.servlet.jsp"/>
+<plugin id="javax.websocket-api"/>
 <plugin id="javax.ws.rs.javax.ws.rs-api"/>
 <plugin id="javax.xml"/>
 <plugin id="javax.xml.stream"/>
@@ -170,7 +175,7 @@
 <plugin id="org.apache.commons.httpclient"/>
 <plugin id="org.apache.commons.io" version="2.5.0"/>
 <plugin id="org.apache.commons.lang"/>
-<plugin id="org.apache.commons.lang3" version="3.6.0"/>
+<plugin id="org.apache.commons.lang3" version="3.7.0"/>
 <plugin id="org.apache.commons.logging" version="1.2.0"/>
 <plugin id="org.apache.commons.net" version="3.3.0"/>
 <plugin id="org.apache.commons.pool" version="1.6.0"/>
@@ -194,7 +199,7 @@
 <plugin id="org.apache.felix.metatype"/>
 <plugin id="org.apache.felix.prefs"/>
 <plugin id="org.apache.felix.resolver"/>
-<plugin id="org.apache.felix.scr" version="2.1.0"/>
+<plugin id="org.apache.felix.scr"/>
 <plugin id="org.apache.felix.servicediagnostics.plugin"/>
 <plugin id="org.apache.felix.shell"/>
 <plugin id="org.apache.felix.shell.remote"/>
@@ -223,7 +228,6 @@
 <plugin id="org.apache.servicemix.bundles.batik"/>
 <plugin id="org.apache.servicemix.bundles.bcel"/>
 <plugin id="org.apache.servicemix.bundles.geronimo-javamail_1.4_provider"/>
-<plugin id="org.apache.servicemix.bundles.javax-websocket-api"/>
 <plugin id="org.apache.servicemix.bundles.javax.mail"/>
 <plugin id="org.apache.servicemix.bundles.jcip-annotations"/>
 <plugin id="org.apache.servicemix.bundles.junit"/>
@@ -245,6 +249,7 @@
 <plugin id="org.apache.xbean.asm5-shaded" version="4.1.0"/>
 <plugin id="org.apache.xbean.bundleutils" version="4.8.0"/>
 <plugin id="org.apache.xbean.bundleutils" version="4.4.0"/>
+<plugin id="org.apache.xbean.bundleutils" version="4.8.0"/>
 <plugin id="org.apache.xbean.finder" version="4.8.0"/>
 <plugin id="org.apache.xerces"/>
 <plugin id="org.apache.xml.resolver"/>
@@ -277,6 +282,7 @@
 <plugin id="org.eclipse.equinox.event"/>
 <plugin id="org.eclipse.equinox.http.jetty"/>
 <plugin id="org.eclipse.equinox.preferences"/>
+<plugin id="org.eclipse.equinox.util"/>
 <plugin id="org.eclipse.jdt.core.compiler.batch" version="3.10.0.v20140604-1726"/>
 <plugin id="org.eclipse.jetty.continuation"/>
 <plugin id="org.eclipse.jetty.http"/>
@@ -347,23 +353,19 @@
 <plugin id="org.ops4j.pax.url.reference"/>
 <plugin id="org.ops4j.pax.url.war"/>
 <plugin id="org.ops4j.pax.url.wrap"/>
+<plugin id="org.ops4j.pax.web.pax-web-api" version="7.1.1"/>
 <plugin id="org.ops4j.pax.web.pax-web-api" version="6.0.6"/>
-<plugin id="org.ops4j.pax.web.pax-web-api" version="7.0.0"/>
 <plugin id="org.ops4j.pax.web.pax-web-deployer" version="7.0.0"/>
 <plugin id="org.ops4j.pax.web.pax-web-descriptor" version="7.0.0"/>
-<plugin id="org.ops4j.pax.web.pax-web-extender-war" version="7.0.0"/>
-<plugin id="org.ops4j.pax.web.pax-web-extender-whiteboard" version="7.0.0"/>
-<plugin id="org.ops4j.pax.web.pax-web-jaas" version="7.0.0"/>
-<plugin id="org.ops4j.pax.web.pax-web-jetty" version="7.0.0"/>
-<plugin id="org.ops4j.pax.web.pax-web-jetty-bundle" version="7.0.0"/>
-<plugin id="org.ops4j.pax.web.pax-web-jsp" version="7.0.0"/>
-<plugin id="org.ops4j.pax.web.pax-web-resources-api"/>
-<plugin id="org.ops4j.pax.web.pax-web-resources-extender"/>
-<plugin id="org.ops4j.pax.web.pax-web-runtime" version="7.0.0"/>
-<plugin id="org.ops4j.pax.web.pax-web-spi" version="7.0.0"/>
-<plugin id="org.ops4j.pax.web.pax-web-tomcat-bundle" version="7.0.0"/>
-<plugin id="org.ops4j.pax.web.pax-web-undertow" version="7.0.0"/>
+<plugin id="org.ops4j.pax.web.pax-web-extender-whiteboard" version="7.1.1"/>
 <plugin id="org.osgi.service.cm"/>
+<plugin id="org.ops4j.pax.web.pax-web-jaas" version="7.1.1"/>
+<plugin id="org.ops4j.pax.web.pax-web-jetty" version="7.1.1"/>
+<plugin id="org.ops4j.pax.web.pax-web-jetty-bundle" version="7.1.1"/>
+<plugin id="org.ops4j.pax.web.pax-web-resources-api" version="7.1.1"/>
+<plugin id="org.ops4j.pax.web.pax-web-resources-extender" version="7.1.1"/>
+<plugin id="org.ops4j.pax.web.pax-web-runtime" version="7.1.1"/>
+<plugin id="org.ops4j.pax.web.pax-web-spi" version="7.1.1"/>
 <plugin id="org.osgi.service.component.annotations"/>
 <plugin id="org.osgi.service.obr"/>
 <plugin id="org.postgresql.jdbc3" version="9.1.901"/>

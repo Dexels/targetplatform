@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.13.9.qualifier"
+      version="1.13.10.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1790,13 +1790,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.ops4j.pax.web.pax-web-extender-war"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.ops4j.pax.web.pax-web-jaas"
          download-size="0"
          install-size="0"
@@ -1812,20 +1805,6 @@
 
    <plugin
          id="org.apache.aries.spifly.dynamic.bundle"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.web.pax-web-jetty-bundle"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.web.pax-web-jsp"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1867,7 +1846,14 @@
          unpack="false"/>
 
    <plugin
-         id="org.osgi.service.cm"
+         id="org.apache.commons.lang3"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="javax.websocket-api"
          download-size="0"
          install-size="0"
          version="0.0.0"
