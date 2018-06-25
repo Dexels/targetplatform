@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.13.10.qualifier"
+      version="1.13.11.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1261,7 +1261,7 @@
          id="stax2-api"
          download-size="0"
          install-size="0"
-         version="4.0.0"
+         version="4.1.0"
          unpack="false"/>
 
    <plugin

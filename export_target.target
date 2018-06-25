@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1609">
-=======
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1633">
->>>>>>> Target platform for TraxYZ
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1641">
 <locations>
 <location path="${project_loc:com.dexels.thirdparty.feature}/lib/bouncycastle" type="Directory"/>
 <location path="${project_loc:com.dexels.thirdparty.feature}/lib/james" type="Directory"/>
@@ -91,7 +87,7 @@
 <plugin id="com.dexels.repository.file"/>
 <plugin id="com.dexels.repository.git"/>
 <plugin id="com.dexels.repository.git.api"/>
-<plugin id="com.dexels.resourcebundle"/>
+<plugin id="com.dexels.resourcebundle" version="2.0.3"/>
 <plugin id="com.dexels.server.mgmt.api"/>
 <plugin id="com.dexels.server.mgmt.impl"/>
 <plugin id="com.dexels.sharedconfigstore"/>
@@ -249,7 +245,6 @@
 <plugin id="org.apache.xbean.asm5-shaded" version="4.1.0"/>
 <plugin id="org.apache.xbean.bundleutils" version="4.8.0"/>
 <plugin id="org.apache.xbean.bundleutils" version="4.4.0"/>
-<plugin id="org.apache.xbean.bundleutils" version="4.8.0"/>
 <plugin id="org.apache.xbean.finder" version="4.8.0"/>
 <plugin id="org.apache.xerces"/>
 <plugin id="org.apache.xml.resolver"/>
@@ -313,15 +308,15 @@
 <plugin id="org.mongodb.driver-async"/>
 <plugin id="org.mongodb.driver-reactivestreams"/>
 <plugin id="org.mongodb.mongo-java-driver"/>
-<plugin id="org.objectweb.asm" version="6.1.1"/>
 <plugin id="org.objectweb.asm" version="5.0.3"/>
+<plugin id="org.objectweb.asm" version="6.1.1"/>
 <plugin id="org.objectweb.asm.commons" version="6.1.1"/>
 <plugin id="org.objectweb.asm.commons" version="5.0.3"/>
 <plugin id="org.objectweb.asm.tree" version="5.0.3"/>
 <plugin id="org.objectweb.asm.tree" version="6.1.1"/>
 <plugin id="org.objectweb.asm.tree.analysis"/>
-<plugin id="org.objectweb.asm.util" version="5.0.3"/>
 <plugin id="org.objectweb.asm.util" version="6.1.1"/>
+<plugin id="org.objectweb.asm.util" version="5.0.3"/>
 <plugin id="org.openstreetmap.jmapviewer"/>
 <plugin id="org.ops4j.base" version="1.5.0"/>
 <plugin id="org.ops4j.base.io"/>
@@ -330,8 +325,8 @@
 <plugin id="org.ops4j.base.net"/>
 <plugin id="org.ops4j.base.spi"/>
 <plugin id="org.ops4j.base.util.property"/>
-<plugin id="org.ops4j.pax.configmanager" version="1.0.0"/>
 <plugin id="org.ops4j.pax.configmanager" version="0.2.2"/>
+<plugin id="org.ops4j.pax.configmanager" version="1.0.0"/>
 <plugin id="org.ops4j.pax.logging.pax-logging-api"/>
 <plugin id="org.ops4j.pax.logging.pax-logging-service"/>
 <plugin id="org.ops4j.pax.swissbox.bnd"/>
@@ -353,12 +348,11 @@
 <plugin id="org.ops4j.pax.url.reference"/>
 <plugin id="org.ops4j.pax.url.war"/>
 <plugin id="org.ops4j.pax.url.wrap"/>
-<plugin id="org.ops4j.pax.web.pax-web-api" version="7.1.1"/>
 <plugin id="org.ops4j.pax.web.pax-web-api" version="6.0.6"/>
+<plugin id="org.ops4j.pax.web.pax-web-api" version="7.1.1"/>
 <plugin id="org.ops4j.pax.web.pax-web-deployer" version="7.0.0"/>
 <plugin id="org.ops4j.pax.web.pax-web-descriptor" version="7.0.0"/>
 <plugin id="org.ops4j.pax.web.pax-web-extender-whiteboard" version="7.1.1"/>
-<plugin id="org.osgi.service.cm"/>
 <plugin id="org.ops4j.pax.web.pax-web-jaas" version="7.1.1"/>
 <plugin id="org.ops4j.pax.web.pax-web-jetty" version="7.1.1"/>
 <plugin id="org.ops4j.pax.web.pax-web-jetty-bundle" version="7.1.1"/>
@@ -366,6 +360,7 @@
 <plugin id="org.ops4j.pax.web.pax-web-resources-extender" version="7.1.1"/>
 <plugin id="org.ops4j.pax.web.pax-web-runtime" version="7.1.1"/>
 <plugin id="org.ops4j.pax.web.pax-web-spi" version="7.1.1"/>
+<plugin id="org.osgi.service.cm"/>
 <plugin id="org.osgi.service.component.annotations"/>
 <plugin id="org.osgi.service.obr"/>
 <plugin id="org.postgresql.jdbc3" version="9.1.901"/>
@@ -384,8 +379,8 @@
 <plugin id="saaj.3rdpartywrap"/>
 <plugin id="slf4j.api"/>
 <plugin id="slf4j.simple"/>
+<plugin id="stax2-api" version="4.1.0"/>
 <plugin id="stax2-api" version="3.1.4"/>
-<plugin id="stax2-api" version="4.0.0"/>
 <plugin id="tidy.3rdpartywrap"/>
 <plugin id="woodstox-core-asl"/>
 <plugin id="wsdl4j.3rdpartywrap"/>
