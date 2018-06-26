@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1641">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1645">
 <locations>
 <location path="${project_loc:com.dexels.thirdparty.feature}/lib/bouncycastle" type="Directory"/>
 <location path="${project_loc:com.dexels.thirdparty.feature}/lib/james" type="Directory"/>
@@ -91,7 +91,7 @@
 <plugin id="com.dexels.server.mgmt.api"/>
 <plugin id="com.dexels.server.mgmt.impl"/>
 <plugin id="com.dexels.sharedconfigstore"/>
-<plugin id="com.fasterxml.aalto-xml"/>
+<plugin id="com.fasterxml.aalto-xml-dexels"/>
 <plugin id="com.fasterxml.jackson.core.jackson-annotations"/>
 <plugin id="com.fasterxml.jackson.core.jackson-core"/>
 <plugin id="com.fasterxml.jackson.core.jackson-databind"/>
@@ -243,8 +243,8 @@
 <plugin id="org.apache.ws.commons.util"/>
 <plugin id="org.apache.ws.xmlschema.core"/>
 <plugin id="org.apache.xbean.asm5-shaded" version="4.1.0"/>
-<plugin id="org.apache.xbean.bundleutils" version="4.8.0"/>
 <plugin id="org.apache.xbean.bundleutils" version="4.4.0"/>
+<plugin id="org.apache.xbean.bundleutils" version="4.8.0"/>
 <plugin id="org.apache.xbean.finder" version="4.8.0"/>
 <plugin id="org.apache.xerces"/>
 <plugin id="org.apache.xml.resolver"/>
@@ -312,11 +312,11 @@
 <plugin id="org.objectweb.asm" version="6.1.1"/>
 <plugin id="org.objectweb.asm.commons" version="6.1.1"/>
 <plugin id="org.objectweb.asm.commons" version="5.0.3"/>
-<plugin id="org.objectweb.asm.tree" version="5.0.3"/>
 <plugin id="org.objectweb.asm.tree" version="6.1.1"/>
+<plugin id="org.objectweb.asm.tree" version="5.0.3"/>
 <plugin id="org.objectweb.asm.tree.analysis"/>
-<plugin id="org.objectweb.asm.util" version="6.1.1"/>
 <plugin id="org.objectweb.asm.util" version="5.0.3"/>
+<plugin id="org.objectweb.asm.util" version="6.1.1"/>
 <plugin id="org.openstreetmap.jmapviewer"/>
 <plugin id="org.ops4j.base" version="1.5.0"/>
 <plugin id="org.ops4j.base.io"/>
@@ -325,8 +325,8 @@
 <plugin id="org.ops4j.base.net"/>
 <plugin id="org.ops4j.base.spi"/>
 <plugin id="org.ops4j.base.util.property"/>
-<plugin id="org.ops4j.pax.configmanager" version="0.2.2"/>
 <plugin id="org.ops4j.pax.configmanager" version="1.0.0"/>
+<plugin id="org.ops4j.pax.configmanager" version="0.2.2"/>
 <plugin id="org.ops4j.pax.logging.pax-logging-api"/>
 <plugin id="org.ops4j.pax.logging.pax-logging-service"/>
 <plugin id="org.ops4j.pax.swissbox.bnd"/>
@@ -379,8 +379,8 @@
 <plugin id="saaj.3rdpartywrap"/>
 <plugin id="slf4j.api"/>
 <plugin id="slf4j.simple"/>
-<plugin id="stax2-api" version="4.1.0"/>
 <plugin id="stax2-api" version="3.1.4"/>
+<plugin id="stax2-api" version="4.1.0"/>
 <plugin id="tidy.3rdpartywrap"/>
 <plugin id="woodstox-core-asl"/>
 <plugin id="wsdl4j.3rdpartywrap"/>

@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.13.11.qualifier"
+      version="1.13.12.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1244,13 +1244,6 @@
          unpack="false"/>
 
    <plugin
-         id="com.fasterxml.aalto-xml"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="stax2-api"
          download-size="0"
          install-size="0"
@@ -1854,6 +1847,13 @@
 
    <plugin
          id="javax.websocket-api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.aalto-xml-dexels"
          download-size="0"
          install-size="0"
          version="0.0.0"
