@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1645">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1649">
 <locations>
 <location path="${project_loc:com.dexels.thirdparty.feature}/lib/bouncycastle" type="Directory"/>
 <location path="${project_loc:com.dexels.thirdparty.feature}/lib/james" type="Directory"/>
@@ -87,7 +87,7 @@
 <plugin id="com.dexels.repository.file"/>
 <plugin id="com.dexels.repository.git"/>
 <plugin id="com.dexels.repository.git.api"/>
-<plugin id="com.dexels.resourcebundle"/>
+<plugin id="com.dexels.resourcebundle" version="2.0.3"/>
 <plugin id="com.dexels.server.mgmt.api"/>
 <plugin id="com.dexels.server.mgmt.impl"/>
 <plugin id="com.dexels.sharedconfigstore"/>
@@ -173,6 +173,7 @@
 <plugin id="org.apache.commons.lang"/>
 <plugin id="org.apache.commons.lang3" version="3.7.0"/>
 <plugin id="org.apache.commons.logging" version="1.2.0"/>
+<plugin id="org.apache.commons.math3"/>
 <plugin id="org.apache.commons.net" version="3.3.0"/>
 <plugin id="org.apache.commons.pool" version="1.6.0"/>
 <plugin id="org.apache.commons.pool2"/>
@@ -195,7 +196,7 @@
 <plugin id="org.apache.felix.metatype"/>
 <plugin id="org.apache.felix.prefs"/>
 <plugin id="org.apache.felix.resolver"/>
-<plugin id="org.apache.felix.scr" version="2.1.0"/>
+<plugin id="org.apache.felix.scr"/>
 <plugin id="org.apache.felix.servicediagnostics.plugin"/>
 <plugin id="org.apache.felix.shell"/>
 <plugin id="org.apache.felix.shell.remote"/>
@@ -310,11 +311,10 @@
 <plugin id="org.mongodb.mongo-java-driver"/>
 <plugin id="org.objectweb.asm" version="6.1.1"/>
 <plugin id="org.objectweb.asm" version="5.0.3"/>
-<plugin id="org.objectweb.asm.commons" version="5.0.3"/>
 <plugin id="org.objectweb.asm.commons" version="6.1.1"/>
+<plugin id="org.objectweb.asm.commons" version="5.0.3"/>
 <plugin id="org.objectweb.asm.tree" version="5.0.3"/>
 <plugin id="org.objectweb.asm.tree" version="6.1.1"/>
-<plugin id="org.objectweb.asm.tree" version="5.0.3"/>
 <plugin id="org.objectweb.asm.tree.analysis"/>
 <plugin id="org.objectweb.asm.util" version="5.0.3"/>
 <plugin id="org.objectweb.asm.util" version="6.1.1"/>
@@ -326,8 +326,8 @@
 <plugin id="org.ops4j.base.net"/>
 <plugin id="org.ops4j.base.spi"/>
 <plugin id="org.ops4j.base.util.property"/>
-<plugin id="org.ops4j.pax.configmanager" version="1.0.0"/>
 <plugin id="org.ops4j.pax.configmanager" version="0.2.2"/>
+<plugin id="org.ops4j.pax.configmanager" version="1.0.0"/>
 <plugin id="org.ops4j.pax.logging.pax-logging-api"/>
 <plugin id="org.ops4j.pax.logging.pax-logging-service"/>
 <plugin id="org.ops4j.pax.swissbox.bnd"/>
@@ -381,8 +381,8 @@
 <plugin id="saaj.3rdpartywrap"/>
 <plugin id="slf4j.api"/>
 <plugin id="slf4j.simple"/>
-<plugin id="stax2-api" version="3.1.4"/>
 <plugin id="stax2-api" version="4.1.0"/>
+<plugin id="stax2-api" version="3.1.4"/>
 <plugin id="tidy.3rdpartywrap"/>
 <plugin id="woodstox-core-asl"/>
 <plugin id="wsdl4j.3rdpartywrap"/>
