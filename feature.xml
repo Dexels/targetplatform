@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.13.18.qualifier"
+      version="1.13.20.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
