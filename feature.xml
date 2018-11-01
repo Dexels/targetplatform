@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.14.1.qualifier"
+      version="1.16.5.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -131,13 +131,6 @@
 
    <plugin
          id="org.h2"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.configmanager"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -363,13 +356,6 @@
 
    <plugin
          id="org.ops4j.pax.url.assembly"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.postgresql.jdbc4"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -817,13 +803,6 @@
          unpack="false"/>
 
    <plugin
-         id="com.springsource.javax.transaction"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.apache.commons.io"
          download-size="0"
          install-size="0"
@@ -894,20 +873,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.equinox.event"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.equinox.preferences"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.eclipse.equinox.common"
          download-size="0"
          install-size="0"
@@ -935,13 +900,6 @@
          version="0.0.0"
          unpack="false"/>
 
-   <plugin
-         id="org.apache.commons.dbcp"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-         
    <plugin
          id="json"
          download-size="0"
@@ -1251,20 +1209,6 @@
          unpack="false"/>
 
    <plugin
-         id="stax2-api"
-         download-size="0"
-         install-size="0"
-         version="3.1.4"
-         unpack="false"/>
-
-   <plugin
-         id="stax2-api"
-         download-size="0"
-         install-size="0"
-         version="4.1.0"
-         unpack="false"/>
-
-   <plugin
          id="io.reactivex.rxjava-joins"
          download-size="0"
          install-size="0"
@@ -1342,13 +1286,6 @@
          unpack="false"/>
 
    <plugin
-         id="com.dexels.kafka.impl"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="com.dexels.resourcebundle"
          download-size="0"
          install-size="0"
@@ -1364,13 +1301,6 @@
 
    <plugin
          id="com.dexels.server.mgmt.impl"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.dexels.pubsub.api"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1399,13 +1329,6 @@
 
    <plugin
          id="io.netty.codec-http2"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.dexels.mqtt.impl"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1545,13 +1468,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.commons.pool2"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="com.dexels.index.api"
          download-size="0"
          install-size="0"
@@ -1567,13 +1483,6 @@
 
    <plugin
          id="org.yaml.snakeyaml"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.fasterxml.woodstox.woodstox-core"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1783,13 +1692,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.ops4j.pax.web.pax-web-descriptor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.ops4j.pax.web.pax-web-jaas"
          download-size="0"
          install-size="0"
@@ -1826,13 +1728,6 @@
 
    <plugin
          id="javax.el-api"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.ops4j.pax.web.pax-web-deployer"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1902,52 +1797,70 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.core.resources"
+         id="org.apache.commons.commons-pool2"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.jdt.compiler.apt"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.jdt.compiler.tool"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.jdt.core"
+         id="stax2-api"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.core.runtime"
+         id="javax.enterprise.cdi-api"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.text"
+         id="javax.interceptor-api"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.core.filesystem"
->>>>>>> update jdt
+         id="javax.activation"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.postgresql.jdbc42"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.osgi.util.tracker"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.dbcp"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="javax.transaction-api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.ibm.icu"
          download-size="0"
          install-size="0"
          version="0.0.0"
