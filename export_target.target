@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="1874">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="1938">
     <locations>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/bouncycastle" type="Directory"/>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/reactive" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/james" type="Directory"/>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/tools" type="Directory"/>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/enterprise" type="Directory"/>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/scala" type="Directory"/>
@@ -22,8 +21,6 @@
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/jackson2" type="Directory"/>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/google" type="Directory"/>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/mail" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/netty" type="Directory"/>
-        <location path="${project_loc:com.dexels.thirdparty.feature}/lib/rxnetty" type="Directory"/>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/restlet_dependency" type="Directory"/>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/pax-logging" type="Directory"/>
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/jsonwebtoken" type="Directory"/>
@@ -49,7 +46,6 @@
         <location path="${project_loc:com.dexels.thirdparty.feature}/lib/dexels.repository" type="Directory"/>
     </locations>
     <includeBundles>
-        <plugin id="apache-mailet-2.4"/>
         <plugin id="bcmail"/>
         <plugin id="bcpg"/>
         <plugin id="bcpkix"/>
@@ -95,7 +91,6 @@
         <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-xml"/>
         <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"/>
         <plugin id="com.fasterxml.jackson.module.jackson-module-jaxb-annotations"/>
-        <plugin id="com.github.akarnokd.rxjava2-interop"/>
         <plugin id="com.google.api.client.googleapis"/>
         <plugin id="com.google.gson" version="2.2.4"/>
         <plugin id="com.google.guava" version="20.0.0"/>
@@ -110,25 +105,11 @@
         <plugin id="com.oracle.jdbc.driver"/>
         <plugin id="com.springsource.org.apache.commons.io"/>
         <plugin id="com.springsource.org.json"/>
-        <plugin id="com.sun.dummy" version="1.0.0.201509071110"/>
+        <plugin id="com.sun.dummy"/>
         <plugin id="com.typesafe.config"/>
         <plugin id="com.vaadin"/>
-        <plugin id="dnsjava"/>
         <plugin id="edtftpj.3rdpartywrap"/>
         <plugin id="ical4j.3rdpartywrap"/>
-        <plugin id="io.netty.buffer"/>
-        <plugin id="io.netty.codec"/>
-        <plugin id="io.netty.codec-http"/>
-        <plugin id="io.netty.codec-http2"/>
-        <plugin id="io.netty.common"/>
-        <plugin id="io.netty.handler"/>
-        <plugin id="io.netty.resolver"/>
-        <plugin id="io.netty.resolver-dns"/>
-        <plugin id="io.netty.transport"/>
-        <plugin id="io.netty.transport-native-epoll"/>
-        <plugin id="io.reactivex.rxjava"/>
-        <plugin id="io.reactivex.rxjava-joins"/>
-        <plugin id="io.reactivex.rxjava-string"/>
         <plugin id="io.reactivex.rxjava2.rxjava"/>
         <plugin id="javax.activation"/>
         <plugin id="javax.el-api" version="3.0.0"/>
@@ -206,9 +187,6 @@
         <plugin id="org.apache.httpcomponents.httpasyncclient"/>
         <plugin id="org.apache.httpcomponents.httpclient" version="4.5.3"/>
         <plugin id="org.apache.httpcomponents.httpcore" version="4.4.6"/>
-        <plugin id="org.apache.james.protocols.api"/>
-        <plugin id="org.apache.james.protocols.netty"/>
-        <plugin id="org.apache.james.protocols.smtp"/>
         <plugin id="org.apache.log4j" version="1.2.15.v201012070815"/>
         <plugin id="org.apache.pdfbox"/>
         <plugin id="org.apache.pdfbox.fontbox"/>
@@ -224,13 +202,12 @@
         <plugin id="org.apache.servicemix.bundles.okhttp"/>
         <plugin id="org.apache.servicemix.bundles.okio"/>
         <plugin id="org.apache.servicemix.bundles.saaj-impl"/>
-        <plugin id="org.apache.servicemix.specs.activation-api-1.1" version="2.7.0"/>
+        <plugin id="org.apache.servicemix.specs.activation-api-1.1"/>
         <plugin id="org.apache.servicemix.specs.saaj-api-1.3"/>
         <plugin id="org.apache.tika.bundle"/>
         <plugin id="org.apache.tika.core"/>
         <plugin id="org.apache.tika.parsers"/>
         <plugin id="org.apache.ws.commons.util"/>
-        <plugin id="org.apache.ws.xmlschema.core"/>
         <plugin id="org.apache.xbean.asm5-shaded" version="4.1.0"/>
         <plugin id="org.apache.xbean.bundleutils" version="4.8.0"/>
         <plugin id="org.apache.xbean.finder" version="4.8.0"/>
@@ -257,33 +234,20 @@
         <plugin id="org.eclipse.core.variables"/>
         <plugin id="org.eclipse.equinox.common"/>
         <plugin id="org.eclipse.equinox.event"/>
-        <plugin id="org.eclipse.equinox.http.jetty"/>
         <plugin id="org.eclipse.equinox.preferences"/>
         <plugin id="org.eclipse.equinox.util"/>
         <plugin id="org.eclipse.jdt.core.compiler.batch" version="3.10.0.v20140604-1726"/>
-        <plugin id="org.eclipse.jetty.continuation"/>
-        <plugin id="org.eclipse.jetty.http"/>
-        <plugin id="org.eclipse.jetty.io"/>
         <plugin id="org.eclipse.jetty.reactive.client"/>
-        <plugin id="org.eclipse.jetty.security"/>
-        <plugin id="org.eclipse.jetty.server"/>
-        <plugin id="org.eclipse.jetty.servlet"/>
-        <plugin id="org.eclipse.jetty.util"/>
-        <plugin id="org.eclipse.jetty.webapp"/>
-        <plugin id="org.eclipse.jetty.xml"/>
         <plugin id="org.eclipse.jgit" version="4.11.4.201810060650-r"/>
         <plugin id="org.eclipse.jgit.http.apache"/>
         <plugin id="org.eclipse.jgit.http.server"/>
         <plugin id="org.eclipse.osgi"/>
         <plugin id="org.eclipse.osgi.services"/>
-        <plugin id="org.eclipse.paho.client.mqttv3"/>
+        <plugin id="org.eclipse.paho.client.mqttv3" version="1.2.0"/>
         <plugin id="org.everit.osgi.bundles.org.scream3r.jssc"/>
         <plugin id="org.freemarker.freemarker"/>
         <plugin id="org.h2"/>
         <plugin id="org.hamcrest.core"/>
-        <plugin id="org.igniterealtime.smack"/>
-        <plugin id="org.igniterealtime.smackx"/>
-        <plugin id="org.jboss.netty"/>
         <plugin id="org.jctools.core"/>
         <plugin id="org.jdom"/>
         <plugin id="org.jvnet.mimepull"/>
@@ -292,14 +256,14 @@
         <plugin id="org.mongodb.driver-reactivestreams"/>
         <plugin id="org.mongodb.mongo-java-driver"/>
         <plugin id="org.objectweb.asm" version="6.1.1"/>
-        <plugin id="org.objectweb.asm" version="5.0.3"/>
-        <plugin id="org.objectweb.asm.commons" version="5.0.3"/>
+        <plugin id="org.objectweb.asm.all"/>
         <plugin id="org.objectweb.asm.commons" version="6.1.1"/>
-        <plugin id="org.objectweb.asm.tree" version="5.0.3"/>
+        <plugin id="org.objectweb.asm.commons" version="5.0.3"/>
         <plugin id="org.objectweb.asm.tree" version="6.1.1"/>
+        <plugin id="org.objectweb.asm.tree" version="5.0.3"/>
         <plugin id="org.objectweb.asm.tree.analysis"/>
-        <plugin id="org.objectweb.asm.util" version="6.1.1"/>
         <plugin id="org.objectweb.asm.util" version="5.0.3"/>
+        <plugin id="org.objectweb.asm.util" version="6.1.1"/>
         <plugin id="org.openstreetmap.jmapviewer"/>
         <plugin id="org.ops4j.base" version="1.5.0"/>
         <plugin id="org.ops4j.base.io"/>
@@ -334,6 +298,7 @@
         <plugin id="org.ops4j.pax.web.pax-web-extender-whiteboard"/>
         <plugin id="org.ops4j.pax.web.pax-web-jaas"/>
         <plugin id="org.ops4j.pax.web.pax-web-jetty"/>
+        <plugin id="org.ops4j.pax.web.pax-web-jetty-bundle"/>
         <plugin id="org.ops4j.pax.web.pax-web-resources-api"/>
         <plugin id="org.ops4j.pax.web.pax-web-resources-extender"/>
         <plugin id="org.ops4j.pax.web.pax-web-runtime"/>
