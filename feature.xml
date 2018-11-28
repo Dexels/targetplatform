@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.16.8.qualifier"
+      version="1.17.0.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -838,62 +838,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.xbean.asm5-shaded"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.objectweb.asm"
-         download-size="0"
-         install-size="0"
-         version="6.1.1"
-         unpack="false"/>
-
-   <plugin
-         id="org.objectweb.asm.util"
-         download-size="0"
-         install-size="0"
-         version="5.0.3"
-         unpack="false"/>
-
-   <plugin
-         id="org.objectweb.asm.util"
-         download-size="0"
-         install-size="0"
-         version="6.1.1"
-         unpack="false"/>
-
-   <plugin
-         id="org.objectweb.asm.commons"
-         download-size="0"
-         install-size="0"
-         version="5.0.3"
-         unpack="false"/>
-
-   <plugin
-         id="org.objectweb.asm.commons"
-         download-size="0"
-         install-size="0"
-         version="6.1.1"
-         unpack="false"/>
-
-   <plugin
-         id="org.objectweb.asm.tree"
-         download-size="0"
-         install-size="0"
-         version="5.0.3"
-         unpack="false"/>
-
-   <plugin
-         id="org.objectweb.asm.tree"
-         download-size="0"
-         install-size="0"
-         version="6.1.1"
-         unpack="false"/>
-
-   <plugin
          id="org.ops4j.pax.logging.pax-logging-api"
          download-size="0"
          install-size="0"
@@ -1595,6 +1539,62 @@
 
    <plugin
          id="org.eclipse.jetty.reactive.client"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xbean.finder-shaded"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.tree.analysis"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.commons"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.tree"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.util"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xbean.asm7-shaded"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xbean.reflect"
          download-size="0"
          install-size="0"
          version="0.0.0"
