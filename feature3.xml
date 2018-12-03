@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="2.0.4.qualifier"
+      version="1.17.4.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -54,6 +54,13 @@
 
    <plugin
          id="org.apache.felix.gogo.runtime"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.log"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -439,7 +446,7 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.commons.lang3"
+         id="org.apache.commons.lang"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -461,6 +468,13 @@
 
    <plugin
          id="com.vaadin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.httpclient"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -684,6 +698,20 @@
          unpack="false"/>
 
    <plugin
+         id="com.jcraft.jsch"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xerces"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
          id="org.apache.servicemix.bundles.junit"
          download-size="0"
          install-size="0"
@@ -699,6 +727,13 @@
 
    <plugin
          id="org.apache.commons.io"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.collections"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -747,7 +782,21 @@
          unpack="false"/>
 
    <plugin
+         id="javax.inject"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
          id="org.apache.servicemix.bundles.aopalliance"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.common"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -852,6 +901,13 @@
          unpack="false"/>
 
    <plugin
+         id="com.dexels.osgi.bundlesync"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
          id="com.dexels.repository.api"
          download-size="0"
          install-size="0"
@@ -867,6 +923,13 @@
 
    <plugin
          id="com.dexels.repository.file"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.hazelcast"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1412,6 +1475,13 @@
          unpack="false"/>
 
    <plugin
+         id="javax.activation"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
          id="org.postgresql.jdbc42"
          download-size="0"
          install-size="0"
@@ -1559,70 +1629,7 @@
          unpack="false"/>
 
    <plugin
-         id="osgi.cmpn"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="osgi.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.osgi"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.dexels.osgi.bundlesync"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.dexels.hazelcast"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="com.dexels.appstore.ant"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.dexels.keystoreprovider"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.commons.lang"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.servicemix.bundles.javax-inject"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.commons.collections"
          download-size="0"
          install-size="0"
          version="0.0.0"
