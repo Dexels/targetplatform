@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="2.0.4.qualifier"
+      version="2.0.9.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -1014,13 +1014,6 @@
 
    <plugin
          id="org.apache.servicemix.bundles.javax.mail"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.servicemix.specs.activation-api-1.1"
          download-size="0"
          install-size="0"
          version="0.0.0"
