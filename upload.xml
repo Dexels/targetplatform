@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="feature_upload" name="build" basedir=".">
-	<property name="feature_version" value="2.0.9"/>
+	<property name="feature_version" value="2.0.18"/>
 	<property name="user" value="navajo"/>
 	<property name="host" value="repo.dexels.com"/>
 	
 	<property name="dest" value="${user}@${host}:/var/www/html/repo/eclipse/3rdparty_${feature_version}/"/>
+	<echo message="User home: ${user.home}"/>
 	<echo message="ssh: ${user}@${host}:/var/www/html/repo/eclipse/3rdparty_${feature_version}/"/>
 	<echo message="cd ${basedir}/export &amp;&amp; scp -r . ${dest}"/>
 	<target name="feature_upload">
 		<sshexec knownhosts="${user.home}/.ssh/known_hosts" host="${host}" trust="true" username="${user}" keyfile="${user.home}/.ssh/id_rsa" command="mkdir -p /var/www/html/repo/eclipse/3rdparty_${feature_version}/"/>
-		<scp knownhosts="${user.home}/.ssh/known_hosts"  verbose="TRUE" todir="${dest}"  keyfile="${user.home}/.ssh/id_rsa">
+		<scp trust="true" knownhosts="${user.home}/.ssh/known_hosts"  verbose="TRUE" todir="${dest}"  keyfile="${user.home}/.ssh/id_rsa">
 			<fileset dir="export">
 				<include name="**/*"/>
 			</fileset>

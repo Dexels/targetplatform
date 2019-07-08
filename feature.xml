@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="2.0.9.qualifier"
+      version="2.0.18.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -124,20 +124,6 @@
 
    <plugin
          id="org.h2"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.tika.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.tika.parsers"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -579,21 +565,7 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.tika.bundle"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.apache.commons.email"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.servicemix.bundles.lucene"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1524,13 +1496,6 @@
          unpack="false"/>
 
    <plugin
-         id="com.sun.activation.javax.activation"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="jaxb-api"
          download-size="0"
          install-size="0"
@@ -1616,6 +1581,27 @@
 
    <plugin
          id="org.apache.commons.collections"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="javax.activation"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sun.activation.javax.activation"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.oauth.generic.web"
          download-size="0"
          install-size="0"
          version="0.0.0"
