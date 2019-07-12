@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.thirdparty.feature"
       label="Thirdparty libraries feature"
-      version="1.8.2.qualifier"
+      version="1.8.7.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -255,12 +255,6 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
-   <plugin
-         id="org.junitlegacy"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
 
    <plugin
          id="com.mysql.jdbc"
@@ -873,21 +867,7 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.camel.camel-http"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.apache.camel.camel-jdbc"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.camel.camel-jetty"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -930,13 +910,6 @@
 
    <plugin
          id="org.apache.commons.logging"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="aQute.xray.plugin"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1041,13 +1014,6 @@
 
    <plugin
          id="org.ops4j.pax.web.pax-web-spi"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.glassfish.javax.jms"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1184,20 +1150,6 @@
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.jogamp.jogl"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
-
-   <plugin
-         id="com.jogamp.jogl-macosx-universal"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
          unpack="false"/>
 
    <plugin
@@ -1461,13 +1413,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.jboss.netty"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.apache.karaf.deployer.blueprint"
          download-size="0"
          install-size="0"
@@ -1510,7 +1455,34 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.james.protocols.netty"
+         id="org.apache.geronimo.specs.geronimo-servlet_3.0_spec"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.junit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.junit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.hamcrest"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.commons-fileupload"
          download-size="0"
          install-size="0"
          version="0.0.0"
